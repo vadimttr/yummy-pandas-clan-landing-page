@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Introduction from '../components/Introduction'
 import Pandaprice from '../components/Pandaprice'
+import Trailer from '../components/Trailer'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
         <Navbar />
         <Introduction/>
         <Pandaprice />
+        <Trailer />
+        <Footer />
     </div>
   )
 }

@@ -31,9 +31,7 @@ const Introduction = () => {
                             Ethereum, BSC, Polygon, and Chronos Networks. We develop startup projects by creating stunning Dapps, through the use of the leading technology and Web3. We support you step-by-step of blockchain adoption, design thinking, evaluation, and assessment of blockchain solutions to accelerate your enterprise blockchain deployments.
                             </IntroP>
 
-                            <BtnContainer>
-                                <ButtonMoto>Contact Us</ButtonMoto>
-                            </BtnContainer>
+                           
                             
 
                         </ColumnContent>

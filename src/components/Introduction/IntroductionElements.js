@@ -161,49 +161,6 @@ export const IntroP = styled.p`
     }
 `
 
-export const BtnContainer = styled.div`
-    display: flex;
-
-    @media screen and (max-width:1024px){
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    @media screen and (max-width:768px){
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-`
-
-export const ButtonMoto = styled.div`
-    
-    
-    margin-top: 3vh;
-    padding: 1.5vh;
-    cursor: pointer;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    background-color: #1fc7d4;
-    border: 0px solid #197d91;
-    border-bottom: 3px solid #197d91;
-    border-radius: 10px;
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: bold;
-    justify-content: flex-start;
-    color: white;
-    
-    &:hover{
-        background-color: #67d8e3;
-    }
-
-    
-`
 
 export const Img = styled.img`
     position: relative;
