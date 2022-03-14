@@ -2,6 +2,7 @@ import React from 'react'
 import { PandaContainer, PandaBg, PandaContent, PandaRow,
     PandaColumn, FlexboxPandaContainer, ColumnContent, ColumnContent2,
     PandaH1, PandaP, } from './PandapriceElements'
+
 const Pandaprice = () => {
   return (
     <PandaContainer>
@@ -53,6 +54,8 @@ const Pandaprice = () => {
                                 alskdjlaksjdkajsdlkajsdlkajsdlkaj
                                 alskdjlaksjdkajsdlkajsdlkajsdlkaj
                             </PandaP>
+
+                           
                         </ColumnContent2>
                     </FlexboxPandaContainer>
                 </PandaColumn>
