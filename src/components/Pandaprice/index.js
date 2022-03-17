@@ -1,8 +1,8 @@
 import React from 'react'
 import { PandaContainer, PandaBg, PandaContent, PandaRow,
     PandaColumn, FlexboxPandaContainer, ColumnContent, ColumnContent2,
-    PandaH1, PandaP, } from './PandapriceElements'
-
+    PandaH1, PandaP, PandaFlexContainer,PandaColumnContent, Img} from './PandapriceElements'
+import img from '../../image/xxx.jpg'
 const Pandaprice = () => {
   return (
     <PandaContainer>
@@ -58,6 +58,14 @@ const Pandaprice = () => {
                            
                         </ColumnContent2>
                     </FlexboxPandaContainer>
+
+                    <PandaFlexContainer>
+                        <PandaColumnContent>
+                            <Img src={img}/>
+                        </PandaColumnContent>
+                    </PandaFlexContainer>
+
+                    
                 </PandaColumn>
             </PandaRow>
         </PandaContent>

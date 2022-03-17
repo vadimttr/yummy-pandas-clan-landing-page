@@ -12,7 +12,7 @@ const Home = () => {
         <Navbar />
         <Introduction/>
         <Pandaprice />
-        <Trailer />
+        
         <Footer />
     </div>
   )

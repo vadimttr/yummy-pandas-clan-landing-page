@@ -101,3 +101,25 @@ export const PandaP = styled.p`
     font-size: 2vh;
     color: white;
 `
+
+export const PandaFlexContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+`
+
+export const PandaColumnContent = styled.div`
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+`
+
+export const Img = styled.img`
+    position: relative;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+`

@@ -3,7 +3,7 @@ import { IntroductionContainer, IntroBg,
     IntroContent, IntroRow, IntroColumn, FlexboxIntroContainer, ColumnContent,
     ColumnContent2, IntroH1, IntroP, Img, ButtonMoto, BtnContainer }
 from './IntroductionElements'
-import img from '../../image/blockchain.png'
+import img from '../../image/500x500.jpg'
 
 const Introduction = () => {
   return (

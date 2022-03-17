@@ -164,7 +164,8 @@ export const IntroP = styled.p`
 
 export const Img = styled.img`
     position: relative;
-    height: 40vw;
+    height: 500px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-self: center;
