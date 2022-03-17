@@ -1,7 +1,8 @@
 import styled from "styled-components"
+import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 
-export const PandaContainer = styled.div`
+export const MintafterContainer = styled.div`
     background: #1b1919;
     display: flex;
     justify-content: center;
@@ -11,7 +12,10 @@ export const PandaContainer = styled.div`
     z-index: 1;
     align-items: center;
 
-    
+    @font-face {
+        font-family: orbitron;
+        src: url(${orbitron});
+    }
 
     @font-face {
         font-family: roboto;
@@ -19,7 +23,7 @@ export const PandaContainer = styled.div`
     }
 `
 
-export const PandaBg = styled.div`
+export const MintafterBg = styled.div`
     position: absolute;
     top: 0;
     right: 0;
@@ -30,8 +34,7 @@ export const PandaBg = styled.div`
     z-index: 0;
 `
 
-export const PandaContent = styled.div`
-    z-index: 0;
+export const MintafterContent = styled.div`
     max-width: 1200px;
     position: relative;
     padding: 2vh;
@@ -42,28 +45,27 @@ export const PandaContent = styled.div`
     align-items: center;
     justify-content: center;
     top: 4vh;
+
+    @media screen and (max-width:468px){
+        padding: 0vh;
+    }
 `
 
-export const PandaRow = styled.div`
+export const MintafterRow = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
 `
 
-export const PandaColumn = styled.div`
+export const MintafterColumn = styled.div`
     padding: 5vh;
 `
 
-export const FlexboxPandaContainer = styled.div`
+export const FlexboxMintafterContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
-    background-color: red;
-    padding: 5vh;
-    padding-right: 25vh;
-    padding-left: 25vh;
-    width: 100vw;
     
 
     @media screen and (max-width:1024px){
@@ -79,54 +81,34 @@ export const FlexboxPandaContainer = styled.div`
         justify-content: space-around;
         align-items: center;
         align-content: space-between;
-        width: 100%;
     }
-    
+`
+
+export const MintafterH1 = styled.h1`
+    text-align: center;
+    font-family: roboto;
+    font-size: 3vh;
+    color: white;
 `
 
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 2vh;
 `
 
-export const ColumnContent2 = styled.div`
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0vh;
-`
-
-export const PandaH1 = styled.h1`
+export const MintAfterH2 = styled.h1`
+   
     font-family: roboto;
     font-size: 3vh;
     color: white;
+    text-align: center;
 `
 
-export const PandaP = styled.p`
+export const MintAfterP = styled.p`
     font-family: roboto;
     font-size: 2vh;
     color: white;
-`
-
-export const PandaFlexContainer = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
-`
-
-export const PandaColumnContent = styled.div`
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-`
-
-export const Img = styled.img`
-    position: relative;
-    height: 500px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    text-align: center;
 `

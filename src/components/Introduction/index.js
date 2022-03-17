@@ -27,9 +27,7 @@ const Introduction = () => {
                                 The leading expert in developing Blockchain Dapps 
                             </IntroH1>
                             <IntroP>
-                            Skyshare Systems is a blockchain company that specializes in creating Smart Contracts on the 
-                            Ethereum, BSC, Polygon, and Chronos Networks. We develop startup projects by creating stunning Dapps, through the use of the leading technology and Web3. We support you step-by-step of blockchain adoption, design thinking, evaluation, and assessment of blockchain solutions to accelerate your enterprise blockchain deployments.
-                            </IntroP>
+                             </IntroP>
 
                            
                             
