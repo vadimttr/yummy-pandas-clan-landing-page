@@ -19,14 +19,7 @@ const Pandaprice = () => {
                                 Why should you acquire panda?
                             </PandaH1>
                             <PandaP>
-                                loremasdadasdasdlaksjdlajsdlkasjd
-                                laksdjlaksjdlkajsdlkasjdlkasdjlak
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
+                            Cool Panda is a fun and interactive Community focused NFT project which gets you a bamboo load of perks and benefits like an awesome profile pic, participation in community events, and exclusive access to breeding and raising Baby Cool Pandas through an interactive experience – where you determine the final outcome of your NFT. Staking a Panda will earn $PND based on its rarity.
                             </PandaP>
                         </ColumnContent>
 
@@ -42,7 +35,7 @@ const Pandaprice = () => {
                                 alskdjlaksjdkajsdlkajsdlkajsdlkaj
                             </PandaP>
                             <PandaH1>
-                                Prices
+                                What’s in it for me to buy a Cool Panda?
                             </PandaH1>
                             <PandaP>
                                 loremasdadasdasdlaksjdlajsdlkasjd
