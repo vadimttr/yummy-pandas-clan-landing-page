@@ -88,13 +88,14 @@ export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 50%;
 `
 
 export const ColumnContent2 = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0vh;
+    padding: 2vh;
 `
 
 export const PandaH1 = styled.h1`
