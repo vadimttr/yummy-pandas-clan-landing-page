@@ -104,4 +104,6 @@ export const Img = styled.img`
     display: flex;
     justify-content: center;
     align-self: center;
+
+   
 `

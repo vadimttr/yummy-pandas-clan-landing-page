@@ -2,7 +2,7 @@ import React from 'react'
 import { TeamContainer, TeamBg, TeamContent,
     TeamRow, TeamColumn, FlexboxTeamContainer,
     ColumnContent, Img, TeamH1 } from './TeamElements'
-import img from '../../image/500x500.jpg'
+import img from '../../image/asd.jpeg'
 const Team = () => {
   return (
     <TeamContainer>
@@ -15,7 +15,10 @@ const Team = () => {
                 <TeamColumn>
                     <FlexboxTeamContainer>
                         <ColumnContent>
-                            <Img src={img} />
+                        
+                            <Img src={img} className="teamImg" />
+                       
+                           
                             <TeamH1>Name</TeamH1>
                         </ColumnContent>
 

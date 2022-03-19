@@ -58,3 +58,18 @@ body{
     100% { transform: translateY(-20px); }
 } */
   
+.image-wrapper-2{
+  border-radius: 32px;
+}
+
+.teamImg{
+  will-change: transform;
+  transform:  translate3d(0px, 0px, 0px) scale3d(0.97, 0.97, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.teamImg:hover{
+    will-change: transform;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
