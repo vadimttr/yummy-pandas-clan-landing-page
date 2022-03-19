@@ -24,28 +24,12 @@ const Pandaprice = () => {
                         </ColumnContent>
 
                         <ColumnContent2>
-                            <PandaP>
-                                loremasdadasdasdlaksjdlajsdlkasjd
-                                laksdjlaksjdlkajsdlkasjdlkasdjlak
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                            </PandaP>
+                        
                             <PandaH1>
-                                What’s in it for me to buy a Cool Panda?
+                            What’s in it for me to buy a Cool Panda?
                             </PandaH1>
                             <PandaP>
-                                loremasdadasdasdlaksjdlajsdlkasjd
-                                laksdjlaksjdlkajsdlkasjdlkasdjlak
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
-                                alskdjlaksjdkajsdlkajsdlkajsdlkaj
+                            Cool OG 0.05 ETH, Cool WL 0.06 ETH, Public 0.08 ETH.
                             </PandaP>
 
                            

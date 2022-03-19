@@ -94,6 +94,11 @@ export const ColumnContent2 = styled.div`
     justify-content: center;
     padding: 0vh;
 `
+export const RarityH1 = styled.h1`
+    font-family: roboto;
+    font-size: 3vh;
+    color: white;
+`
 
 export const RarityP = styled.p`
     font-family: roboto;
