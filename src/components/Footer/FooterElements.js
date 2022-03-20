@@ -97,6 +97,10 @@ export const Socials = styled.div`
     padding: 2vh;
     
 `
+export const SocialLinks = styled.a`
+    cursor: pointer;
+`
+
 export const SocialImg = styled.img`
     
     display: flex;

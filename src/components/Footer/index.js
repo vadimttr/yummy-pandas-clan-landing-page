@@ -2,7 +2,7 @@ import React from 'react'
 import { FooterContainer, FooterBg, FooterContent,
     FooterRow, FooterColumn, FlexboxContainer,
     FlexboxContent, FlexboxContent2, Socials, SocialImg,
-    FooterH1 } from './FooterElements'
+    FooterH1, SocialLinks } from './FooterElements'
 
 import twitter from '../../image/Twitter.png'
 import discord from '../../image/discord.png'
@@ -31,10 +31,30 @@ const Footer = () => {
                             <FlexboxContent>
                                 <Socials>
                                 
-                                <SocialImg src={OpenSea} />
-                                <SocialImg src={twitter} />
-                                <SocialImg src={discord} />
-                                <SocialImg src={instagram} />
+                                <SocialLinks href="/"  rel="noopener">
+                                    <SocialImg src={OpenSea} />
+                                </SocialLinks>
+                                
+                                
+                                <SocialLinks href="/"  rel="noopener">
+                                    <SocialImg src={twitter} />
+                                </SocialLinks>
+                                
+                                
+                                <SocialLinks href="/"  rel="noopener">
+                                    <SocialImg src={discord} />
+                                </SocialLinks>
+                                
+                                
+                                <SocialLinks href="/"  rel="noopener">
+                                    <SocialImg src={instagram} />
+                                </SocialLinks>
+                                
+                                
+
+                                
+                                
+                                
                                 
                                 </Socials>
                             </FlexboxContent>
