@@ -63,12 +63,23 @@ export const FooterColumn = styled.div`
 `
 
 export const FlexboxContainer = styled.div`
-    display: flex;
+    flex: wrap;
     justify-content: center;
+    align-items: center;
 `
 
 export const FlexboxContent = styled.div`
     display: flex;
+    align-items: center;
+    padding: 0vh;
+    color: #fff;
+    font-family: para;
+    padding-right: 1vh;
+`
+
+export const FlexboxContent2 = styled.div`
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 0vh;
     color: #fff;

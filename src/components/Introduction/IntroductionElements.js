@@ -164,22 +164,26 @@ export const IntroP = styled.p`
 
 export const Img = styled.img`
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: 20vw;
+    width: auto;
     display: flex;
     justify-content: center;
     align-self: center;
 
     @media screen and (max-width:1629px){
-        height: 20vw;
+        height: 40vw;
     }
 
     @media screen and (max-width:1366px){
-        height: 20vw;
+        height: 40vw;
     }
 
     @media screen and (max-width:1024px){
-        height: 30vw;
+        height: 40vw;
+    }
+
+    @media screen and (max-width:768px){
+        height: 50vw;
     }
 
     @media screen and (max-width:468px){

@@ -1,12 +1,12 @@
 import React from 'react'
 import { FooterContainer, FooterBg, FooterContent,
     FooterRow, FooterColumn, FlexboxContainer,
-    FlexboxContent, Socials, SocialImg,
+    FlexboxContent, FlexboxContent2, Socials, SocialImg,
     FooterH1 } from './FooterElements'
 
 import twitter from '../../image/Twitter.png'
 import discord from '../../image/discord.png'
-import facebook from '../../image/facebook.png'
+import OpenSea from '../../image/opensea.png'
 import instagram from '../../image/instagram.png'
 const Footer = () => {
   return (
@@ -19,10 +19,19 @@ const Footer = () => {
                 <FooterRow>
                     <FooterColumn>
                         <FlexboxContainer>
+
+                            <FlexboxContent2>
+                          
+                                
+                                <FooterH1>Contact Us</FooterH1>
+                            
+                          
+                            </FlexboxContent2>
+
                             <FlexboxContent>
                                 <Socials>
-                                <FooterH1>Contact US</FooterH1>
-                                <FooterH1>OpenSea</FooterH1>
+                                
+                                <SocialImg src={OpenSea} />
                                 <SocialImg src={twitter} />
                                 <SocialImg src={discord} />
                                 <SocialImg src={instagram} />

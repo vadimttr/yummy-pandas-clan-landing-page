@@ -71,6 +71,9 @@ export const FlexboxPandaContainer = styled.div`
         justify-content: space-around;
         align-items: center;
         align-content: space-between;
+        padding: 5vh;
+        padding-right: 15vh;
+        padding-left: 15vh;
         
     }
     
@@ -79,7 +82,22 @@ export const FlexboxPandaContainer = styled.div`
         justify-content: space-around;
         align-items: center;
         align-content: space-between;
+        
+        padding: 5vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
+   
+    }
+
+    @media screen and (max-width:464px){
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
         width: 100%;
+        padding: 5vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
     }
     
 `
@@ -89,13 +107,38 @@ export const ColumnContent = styled.div`
     justify-content: center;
     align-items: center;
     width: 50%;
+    
+
+    @media screen and (max-width:1024px){
+        width: 100%;
+    }
+
+    @media screen and (max-width:768px){
+        width: 100%;
+    }
+
+    @media screen and (max-width:468px){
+        width: 100%;
+    }
 `
 
 export const ColumnContent2 = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2vh;
+    width: 50%;
+
+    @media screen and (max-width:1024px){
+        width: 100%;
+    }
+
+    @media screen and (max-width:768px){
+        width: 100%;
+    }
+
+    @media screen and (max-width:468px){
+        width: 100%;
+    }
 `
 
 export const PandaH1 = styled.h1`
