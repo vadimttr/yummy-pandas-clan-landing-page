@@ -2,6 +2,8 @@ import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 
+import img from '../../image/asd.jpeg'
+
 export const TeamContainer = styled.div`
     background: #1b1919;
     display: flex;
@@ -62,10 +64,11 @@ export const TeamColumn = styled.div`
 `
 
 export const FlexboxTeamContainer = styled.div`
-     display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
+    height: 50vh;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
@@ -98,12 +101,13 @@ export const TeamH1 = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    height: 300px;
-    width: 300px;
-    padding: 2vh;
+    height: auto;
+    width: 17vw;
+    padding: 0vh;
     display: flex;
     justify-content: center;
     align-self: center;
-
-   
+    background: linear-gradient(#67d1e9 10%, #006a7b, 50%, #00404e 100%);
+    
+  -webkit-clip-path: circle(50% at 50% 50%);
 `
