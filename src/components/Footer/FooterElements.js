@@ -90,7 +90,6 @@ export const FlexboxContent2 = styled.div`
 
 export const Socials = styled.div`
     display: flex;
-    
     justify-content: space-around;
     width: auto;
     height: auto;
@@ -99,6 +98,8 @@ export const Socials = styled.div`
 `
 export const SocialLinks = styled.a`
     cursor: pointer;
+    padding-left: 1vh;
+    padding-right: 1vh;
 `
 
 export const SocialImg = styled.img`

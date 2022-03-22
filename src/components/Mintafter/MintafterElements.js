@@ -7,7 +7,7 @@ export const MintafterContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: 100vh;
+    height: auto;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -37,14 +37,14 @@ export const MintafterBg = styled.div`
 export const MintafterContent = styled.div`
     max-width: 1200px;
     position: relative;
-    padding: 2vh;
+    padding: 5vh;
     padding-top: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4vh;
+
 
     @media screen and (max-width:468px){
         padding: 0vh;

@@ -4,10 +4,10 @@ import { FooterContainer, FooterBg, FooterContent,
     FlexboxContent, FlexboxContent2, Socials, SocialImg,
     FooterH1, SocialLinks } from './FooterElements'
 
-import twitter from '../../image/Twitter.png'
-import discord from '../../image/discord.png'
+import twitter from '../../image/twitterCircle.png'
+import discord from '../../image/discordCircle.png'
 import OpenSea from '../../image/opensea.png'
-import instagram from '../../image/instagram.png'
+import instagram from '../../image/instagramCircle.png'
 const Footer = () => {
   return (
         <FooterContainer>

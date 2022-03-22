@@ -1,7 +1,7 @@
 import React from 'react'
 import { TeamContainer, TeamBg, TeamContent,
     TeamRow, TeamColumn, FlexboxTeamContainer,
-    ColumnContent, Img, TeamH1 } from './TeamElements'
+    ColumnContent, Img, TeamH1, TeamH2, TeamP } from './TeamElements'
 import img from '../../image/elite.JPG'
 const Team = () => {
   return (
@@ -38,7 +38,9 @@ const Team = () => {
                                 
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -63,7 +65,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -88,7 +92,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -113,7 +119,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -140,7 +148,9 @@ const Team = () => {
                                 
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -165,7 +175,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -190,7 +202,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                         
@@ -215,7 +229,9 @@ const Team = () => {
                                 </div>
                             </div>
                             
-                            <TeamH1>Name</TeamH1>
+                            <TeamH1>Lelouch</TeamH1>
+                            <TeamH2>CO-FOUNDER</TeamH2>
+                            <TeamP>asdasdasd</TeamP>
                        
                         </ColumnContent>
                     </FlexboxTeamContainer>

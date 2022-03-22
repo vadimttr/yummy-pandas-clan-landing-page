@@ -9,6 +9,7 @@ import Roadmap from '../components/Roadmap'
 import Mintafter from '../components/Mintafter'
 import Rarity from '../components/Rarity'
 import Team from '../components/Team'
+import RarityScale from '../components/RarityScale'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <Roadmap />
         <Pandaprice />
         <Rarity />
+        <RarityScale />
         <Mintafter />
         <Team />
         <Footer />

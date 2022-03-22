@@ -112,10 +112,9 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(Link)`
-  border-radius: 4px;
-  background: #256ce1;
-  padding: 10px 22px;
-  color: #fff;
+  
+
+  
   outline: none;
   border: none;
   cursor: pointer;
@@ -125,9 +124,19 @@ export const NavBtnLink = styled(Link)`
   /* Second Nav */
   margin-left: 24px;
 
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-  }
+  
 `;
+
+
+export const SocialImg = styled.img`
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+`
