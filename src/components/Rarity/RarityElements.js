@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
+import indigo from '../../font/IndigoRegular.otf'
+import league from '../../font/LeagueSpartan-Bold.otf'
 
 export const RarityContainer = styled.div`
-    background: #000;
+    background: #fff;
     display: flex;
     justify-content: center;
     padding: 0 0px;
@@ -20,6 +22,16 @@ export const RarityContainer = styled.div`
     @font-face {
         font-family: roboto;
         src: url(${roboto});
+    }
+
+    @font-face {
+        font-family: indigos;
+        src: url(${indigo});
+    }
+
+    @font-face {
+        font-family: league;
+        src: url(${league});
     }
 `
 
@@ -89,7 +101,11 @@ export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 50%;
+
+    @media screen and (max-width:1024px){
+        width: auto;
+    }
 `
 
 export const ColumnContent2 = styled.div`
@@ -98,20 +114,26 @@ export const ColumnContent2 = styled.div`
     padding: 0vh;
 `
 export const RarityH1 = styled.h1`
-    font-family: roboto;
-    font-size: 3vh;
-    color: white;
+    font-family: league;
+    font-size: 3vw;
+    color: #000;
     margin-bottom: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2vh;
+    @media screen and (max-width:1024px){
+        font-size: 4vw;
+    }
 `
 
 export const RarityP = styled.p`
     font-family: roboto;
-    color: white;
+    color: #000;
     display: flex;
     justify-content: flex-start;
-    font-size: 1.7vh;
+    font-size: 2.5vh;
     letter-spacing: .2vh;
-    line-height: 2.5vh;
+    line-height: 3vh;
 `
 export const FlexContainer = styled.div`
     display: flex;
@@ -133,7 +155,6 @@ export const ImgWrapper = styled.div`
     
     height: auto;
 
-    background: red;
 
     
 `
@@ -152,7 +173,7 @@ export const Img = styled.img`
     }
 
     @media screen and (max-width:768px){
-        height: 30vw;
+        height: 60vw;
     }
 
     @media screen and (max-width:468px){
