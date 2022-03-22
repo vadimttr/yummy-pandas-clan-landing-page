@@ -56,7 +56,7 @@ export const RarityScaleContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4vh;
+
 
     @media screen and (max-width:468px){
         padding: 0vh;
@@ -94,4 +94,9 @@ export const RarityScaleH1 = styled.h1`
     font-size: 2vh;
     font-family: league;
     width: 15vh;
+    
+    @media screen and (max-width:468px){
+        width: 10vh;
+        font-size: 1.5vh;
+    }
 `
