@@ -140,6 +140,7 @@ export const FlexContainer = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     width: 90vw;
+    padding: 5vh;
 
     @media screen and (max-width:1024px){
         width: auto;
@@ -152,16 +153,14 @@ export const FlexContainer = styled.div`
 
 
 export const ImgWrapper = styled.div`
-    
+   
     height: auto;
-
-
     
 `
 
 export const Img = styled.img`
 
-    height: 20vw;
+    height: 30vw;
     width: auto;
     padding: 2vh;
     display: flex;
@@ -183,7 +182,7 @@ export const Img = styled.img`
 
 export const ImgAnim = styled.img`
     position: relative;
-    height: 55vh;
+    height: 30vw;
     width: auto;
     padding: 5vh;
     display: flex;
@@ -191,7 +190,7 @@ export const ImgAnim = styled.img`
     align-items: center;
 
     @media screen and (max-width:1024px){
-        height: 30vh;
+        height: 40vh;
     }
 `
 

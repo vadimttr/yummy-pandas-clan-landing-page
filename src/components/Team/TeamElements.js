@@ -2,7 +2,6 @@ import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 
-import img from '../../image/asd.jpeg'
 
 export const TeamContainer = styled.div`
     background: #1b1919;
@@ -65,31 +64,22 @@ export const TeamColumn = styled.div`
 
 export const FlexboxTeamContainer = styled.div`
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
-    height: 50vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 5vh;
 
     @media screen and (max-width:1024px){
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: space-between;
-        
+        width: auto;
     }
-    
+
     @media screen and (max-width:768px){
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: space-between;
+        width: auto;
     }
 `
 
 export const ColumnContent = styled.div`
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0vh;
+    height: auto;
 `
 
 export const TeamH1 = styled.div`
@@ -108,6 +98,13 @@ export const Img = styled.img`
     justify-content: center;
     align-self: center;
     background: linear-gradient(#67d1e9 10%, #006a7b, 50%, #00404e 100%);
-    
-  -webkit-clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+
+    @media screen and (max-width:768px){
+        width: 40vw;
+    }
+
+    @media screen and (max-width:468px){
+        width: 70vw;
+    }
 `

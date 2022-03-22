@@ -4,7 +4,14 @@ import { RarityContainer, RarityBg, RarityContent,
     ColumnContent, ColumnContent2, RarityP, Img, RarityH1,
     ImgAnim, FlexContainer, ImgWrapper,
      } from './RarityElements'
-import img from '../../image/500x500.jpg'
+import img1 from '../../image/rarity/1.png'
+import img2 from '../../image/rarity/2.png'
+import img3 from '../../image/rarity/3.JPG'
+import img4 from '../../image/rarity/4.JPG'
+import img5 from '../../image/rarity/5.JPG'
+import img6 from '../../image/rarity/6.JPG'
+import img7 from '../../image/rarity/7.JPG'
+import img8 from '../../image/rarity/8.JPG'
 import gif from '../../image/svganimation.GIF'
 
 const Rarity = () => {
@@ -36,37 +43,42 @@ const Rarity = () => {
                     
                     <FlexContainer>
                         
+                    
                         <ImgWrapper>
-                            <Img src={img} />
+                            <Img src={img1} />
                         </ImgWrapper>
 
                         <ImgWrapper>
-                            <Img src={img} />
+                            <Img src={img2} />
+                        </ImgWrapper>
+                    
+                        <ImgWrapper>
+                            <Img src={img1} />
                         </ImgWrapper>
 
                         <ImgWrapper>
-                            <Img src={img} />
+                            <Img src={img2} />
+                        </ImgWrapper>
+                    
+                        <ImgWrapper>
+                            <Img src={img1} />
                         </ImgWrapper>
 
                         <ImgWrapper>
-                            <Img src={img} />
+                            <Img src={img2} />
+                        </ImgWrapper>
+                    
+                        <ImgWrapper>
+                            <Img src={img1} />
                         </ImgWrapper>
 
                         <ImgWrapper>
-                            <Img src={img} />
+                            <Img src={img2} />
                         </ImgWrapper>
-
-                        <ImgWrapper>
-                            <Img src={img} />
-                        </ImgWrapper>
-
-                        <ImgWrapper>
-                            <Img src={img} />
-                        </ImgWrapper>
-
-                        <ImgWrapper>
-                            <Img src={img} />
-                        </ImgWrapper>
+                    
+                     
+                        
+                        
                     </FlexContainer>
 
 

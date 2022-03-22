@@ -32,6 +32,10 @@ const Pandaprice = () => {
                             Cool OG 0.05 ETH, Cool WL 0.06 ETH, Public 0.08 ETH.
                             </PandaP>
 
+                            <PandaP>
+                            Cool Monkes are priced to help make minting fun and accessible to everyone. Two Cool Monkes are required to participate in breeding, which will take place shortly after minting.
+                            </PandaP>
+
                            
                         </ColumnContent2>
                     </FlexboxPandaContainer>

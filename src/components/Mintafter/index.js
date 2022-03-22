@@ -29,7 +29,7 @@ const Mintafter = () => {
 
                         <ColumnContent>
                             <MintAfterH2>
-                                Staking
+                                Game
                             </MintAfterH2>
 
                             <MintAfterP>
@@ -39,7 +39,7 @@ const Mintafter = () => {
                         
                         <ColumnContent>
                             <MintAfterH2>
-                                Staking
+                                Breeding
                             </MintAfterH2>
 
                             <MintAfterP>

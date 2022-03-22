@@ -1,11 +1,11 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
-
+import league from '../../font/LeagueSpartan-Bold.otf'
 
 
 export const IntroductionContainer = styled.div`
-    background: #1b1919;
+    background: white;
     display: flex;
     justify-content: center;
     padding: 0 0px;
@@ -22,6 +22,11 @@ export const IntroductionContainer = styled.div`
     @font-face {
         font-family: roboto;
         src: url(${roboto});
+    }
+
+    @font-face {
+        font-family: league;
+        src: url(${league});
     }
     
 `
@@ -120,19 +125,20 @@ export const ColumnContent2 = styled.div`
 `
 
 export const IntroH1 = styled.h1`
-    font-family: roboto;
-    color: white;
+    font-family: league;
+    color: #000;
     display: flex;
     justify-content: flex-start;
-    font-size: 2vh;
+    font-size: 5vh;
     letter-spacing: .2vh;
     margin-bottom: 4vh;
     z-index: 1;
+    text-transform: uppercase;
 
     @media screen and (max-width:1024px){
         text-align: center;
         justify-content: center;
-        font-size: 1.5vh;
+        font-size: 4vh;
     }
 
     @media screen and (max-width:768px){
@@ -142,17 +148,17 @@ export const IntroH1 = styled.h1`
 `
 export const IntroP = styled.p`
     font-family: roboto;
-    color: white;
+    color: #000;
     display: flex;
     justify-content: flex-start;
-    font-size: 1.7vh;
+    font-size: 2vh;
     letter-spacing: .2vh;
     line-height: 2.5vh;
 
     @media screen and (max-width:1024px){
         text-align: center;
         justify-content: center;
-        font-size: 1.2vh;
+        font-size: 2vh;
     }
 
     @media screen and (max-width:768px){

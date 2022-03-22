@@ -1,10 +1,12 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
+
 import styled from 'styled-components';
+import league from '../../font/LeagueSpartan-Bold.otf'
 
 export const Nav = styled.nav`
-  position: fixed;
-  background: #000;
+  position: absolute;
+  background: transparent;
   width: 100%;
   height: 80px;
   display: flex;
@@ -14,12 +16,39 @@ export const Nav = styled.nav`
 
   /* Third Nav */
   /* justify-content: flex-start; */
+
+  @font-face {
+    font-family: league;
+    src: url(${league});
+  }
 `;
 
+
+export const NavLogo = styled(Link)`
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: league;
+    font-weight: bold;
+    text-decoration: none;
+`;
+
+export const ImgLogo = styled.img`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+
+`
+
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
-  
+  font-family: league;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -50,7 +79,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-right: 50vh;
+  margin-right: 20vh;
 
   /* Second Nav */
   /* margin-right: 24px; */

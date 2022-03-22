@@ -66,7 +66,7 @@ export const FlexboxMintafterContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
-    
+    width: 80vw;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
@@ -87,8 +87,10 @@ export const FlexboxMintafterContainer = styled.div`
 export const MintafterH1 = styled.h1`
     text-align: center;
     font-family: roboto;
-    font-size: 3vh;
+    font-size: 2vw;
     color: white;
+    text-transform: uppercase;
+    padding-bottom: 5vh;
 `
 
 export const ColumnContent = styled.div`
@@ -101,9 +103,11 @@ export const ColumnContent = styled.div`
 export const MintAfterH2 = styled.h1`
    
     font-family: roboto;
-    font-size: 3vh;
-    color: white;
+    font-size: 4vh;
+    color: #f7d020;
     text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2vh;
 `
 
 export const MintAfterP = styled.p`

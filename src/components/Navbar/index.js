@@ -5,29 +5,29 @@ import {
   Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  NavLogo,
+  ImgLogo
 } from './NavbarElements';
-
+import imglogo from '../../image/logopanda.png'
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
-          <img src={require('../../image/logo.svg')} alt='logo' />
-        </NavLink>
+        <NavLogo to='/'>
+          <ImgLogo src={imglogo} /> Yummy Panda's Clan
+        </NavLogo>
         <Bars />
         <NavMenu>
-          <NavLink to='/services' activeStyle>
-            Story
+          <NavLink to='/story' activeStyle>
+            STORY
           </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Roadmap
+          <NavLink to='/roadmap' activeStyle>
+            ROADMAP
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Rarity
+          <NavLink to='/rarity' activeStyle>
+            RARITY
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
           <NavBtnLink to='/signin'>Discord</NavBtnLink>
