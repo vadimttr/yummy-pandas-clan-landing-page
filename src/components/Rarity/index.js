@@ -1,9 +1,12 @@
 import React from 'react'
 import { RarityContainer, RarityBg, RarityContent,
     RarityRow, RarityColumn, FlexboxRarityContainer,
-    ColumnContent, ColumnContent2, RarityP, Img, RarityH1
+    ColumnContent, ColumnContent2, RarityP, Img, RarityH1,
+    ImgAnim, FlexContainer, ImgWrapper,
      } from './RarityElements'
 import img from '../../image/500x500.jpg'
+import gif from '../../image/svganimation.GIF'
+
 const Rarity = () => {
   return (
     <RarityContainer>
@@ -26,51 +29,45 @@ const Rarity = () => {
                         </ColumnContent>
                             
                         <ColumnContent2>
-                            <Img src={img} />
+                            <ImgAnim src={gif} />
                         </ColumnContent2>
                     </FlexboxRarityContainer>
                     
-                    <FlexboxRarityContainer>
-                   
-                        <ColumnContent2>
+                    <FlexContainer>
+                        
+                        <ImgWrapper>
                             <Img src={img} />
-                        </ColumnContent2>
-                   
-                        <ColumnContent2>
-                            <Img src={img} />
-                        </ColumnContent2>
-                   
-                        <ColumnContent2>
-                            <Img src={img} />
-                        </ColumnContent2>
-                   
-                        <ColumnContent2>
-                            <Img src={img} />
-                        </ColumnContent2>
-                   
-                      
-                    </FlexboxRarityContainer>
+                        </ImgWrapper>
 
-                    <FlexboxRarityContainer>
-                   
-                        <ColumnContent2>
+                        <ImgWrapper>
                             <Img src={img} />
-                        </ColumnContent2>
-                    
-                        <ColumnContent2>
+                        </ImgWrapper>
+
+                        <ImgWrapper>
                             <Img src={img} />
-                        </ColumnContent2>
-                    
-                        <ColumnContent2>
+                        </ImgWrapper>
+
+                        <ImgWrapper>
                             <Img src={img} />
-                        </ColumnContent2>
-                    
-                        <ColumnContent2>
+                        </ImgWrapper>
+
+                        <ImgWrapper>
                             <Img src={img} />
-                        </ColumnContent2>
-              
-                 
-                    </FlexboxRarityContainer>
+                        </ImgWrapper>
+
+                        <ImgWrapper>
+                            <Img src={img} />
+                        </ImgWrapper>
+
+                        <ImgWrapper>
+                            <Img src={img} />
+                        </ImgWrapper>
+
+                        <ImgWrapper>
+                            <Img src={img} />
+                        </ImgWrapper>
+                    </FlexContainer>
+
 
                 </RarityColumn>
             </RarityRow>

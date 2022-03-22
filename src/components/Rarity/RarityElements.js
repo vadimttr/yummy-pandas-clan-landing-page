@@ -66,6 +66,8 @@ export const FlexboxRarityContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
@@ -87,6 +89,7 @@ export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 40vw;
 `
 
 export const ColumnContent2 = styled.div`
@@ -98,6 +101,7 @@ export const RarityH1 = styled.h1`
     font-family: roboto;
     font-size: 3vh;
     color: white;
+    margin-bottom: 2vh;
 `
 
 export const RarityP = styled.p`
@@ -109,13 +113,64 @@ export const RarityP = styled.p`
     letter-spacing: .2vh;
     line-height: 2.5vh;
 `
+export const FlexContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+
+    @media screen and (max-width:1024px){
+        width: auto;
+    }
+
+    @media screen and (max-width:768px){
+        width: auto;
+    }
+`
+
+
+export const ImgWrapper = styled.div`
+    
+    height: auto;
+
+    background: red;
+
+    
+`
 
 export const Img = styled.img`
-    position: relative;
-    height: 300px;
-    width: 300px;
-    padding: 5vh;
+
+    height: 20vw;
+    width: auto;
+    padding: 2vh;
     display: flex;
     justify-content: center;
     align-self: center;
+
+    @media screen and (max-width:1024px){
+        height: 25vw;
+    }
+
+    @media screen and (max-width:768px){
+        height: 30vw;
+    }
+
+    @media screen and (max-width:468px){
+        height: 80vw;
+    }
 `
+
+export const ImgAnim = styled.img`
+    position: relative;
+    height: 55vh;
+    width: auto;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width:1024px){
+        height: 30vh;
+    }
+`
+
