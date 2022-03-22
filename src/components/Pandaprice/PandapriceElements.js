@@ -7,7 +7,7 @@ export const PandaContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: 100vh;
+    height: auto;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -40,14 +40,14 @@ export const PandaContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-    padding: 2vh;
+    padding: 0vh;
     padding-top: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4vh;
+    
 `
 
 export const PandaRow = styled.div`
@@ -57,7 +57,8 @@ export const PandaRow = styled.div`
 `
 
 export const PandaColumn = styled.div`
-    padding: 5vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
 `
 
 export const FlexboxPandaContainer = styled.div`
@@ -150,6 +151,21 @@ export const PandaH1 = styled.h1`
     font-family: league;
     font-size: 2vw;
     color: white;
+    padding-bottom: 2vh;
+
+    @media screen and (max-width:1024px){
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width:768px){
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 5vw;
+    }
+
+
 `
 
 export const PandaP = styled.p`
