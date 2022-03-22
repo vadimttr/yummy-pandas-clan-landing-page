@@ -63,7 +63,7 @@ export const PandaColumn = styled.div`
 export const FlexboxPandaContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
     align-content: space-between;
     padding: 5vh;
     padding-right: 25vh;
@@ -110,7 +110,7 @@ export const FlexboxPandaContainer = styled.div`
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+   
     width: 50%;
     padding: 5vh;
 
@@ -130,7 +130,7 @@ export const ColumnContent = styled.div`
 export const ColumnContent2 = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+   
     width: 50%;
     padding: 5vh;
     @media screen and (max-width:1024px){
