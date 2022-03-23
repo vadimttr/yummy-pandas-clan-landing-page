@@ -2,7 +2,7 @@ import React from 'react'
 import { PandaContainer, PandaBg, PandaContent, PandaRow,
     PandaColumn, FlexboxPandaContainer, ColumnContent, ColumnContent2,
     PandaH1, PandaP, PandaFlexContainer,PandaColumnContent, Img} from './PandapriceElements'
-import img from '../../image/xxx.jpg'
+import img from '../../image/acquirepanda2.png'
 const Pandaprice = () => {
   return (
     <PandaContainer>

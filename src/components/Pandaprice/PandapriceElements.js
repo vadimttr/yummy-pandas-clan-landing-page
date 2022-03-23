@@ -3,7 +3,7 @@ import roboto from '../../font/Roboto-Light.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 
 export const PandaContainer = styled.div`
-    background: #1b1919;
+    background: #faffd7;
     display: flex;
     justify-content: center;
     padding: 0 0px;
@@ -150,7 +150,7 @@ export const ColumnContent2 = styled.div`
 export const PandaH1 = styled.h1`
     font-family: league;
     font-size: 2vw;
-    color: white;
+    color: #534741;
     padding-bottom: 2vh;
 
     @media screen and (max-width:1024px){
@@ -171,7 +171,7 @@ export const PandaH1 = styled.h1`
 export const PandaP = styled.p`
     font-family: roboto;
     font-size: 2vh;
-    color: white;
+    color: #534741;
 `
 
 export const PandaFlexContainer = styled.div`
@@ -189,8 +189,8 @@ export const PandaColumnContent = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-self: center;
