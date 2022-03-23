@@ -192,9 +192,13 @@ export const PandaColumnContent = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    height: auto;
-    width: 70vw;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 `
