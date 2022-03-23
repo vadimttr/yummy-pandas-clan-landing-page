@@ -179,7 +179,7 @@ export const PandaP = styled.p`
 
 export const PandaFlexContainer = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: space-between;
 `
@@ -192,13 +192,12 @@ export const PandaColumnContent = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    width: 70vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width:468px){
+        width: 50vh;
+    }
 `

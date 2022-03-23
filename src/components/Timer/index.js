@@ -12,7 +12,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () =>{
-    const countdownDate = new Date('May 23, 2022 00:00:00').getTime();
+    const countdownDate = new Date().getTime();
 
     interval = setInterval (() => {
       const now = new Date().getTime();
