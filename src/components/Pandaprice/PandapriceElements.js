@@ -95,16 +95,19 @@ export const FlexboxPandaContainer = styled.div`
    
     }
 
-    @media screen and (max-width:464px){
+    @media screen and (max-width:468px){
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         align-content: space-between;
-        width: 100%;
+        
         padding: 5vh;
-        padding-right: 5vh;
-        padding-left: 5vh;
+        padding-right: 0vh;
+        padding-left: 0vh;
+   
     }
+
+
     
 `
 
