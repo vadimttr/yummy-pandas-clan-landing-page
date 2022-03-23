@@ -20,8 +20,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Cool
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value"></div>
+                            <div className="progress">
+                            <div className="progress-value"></div>
                             </div>
                             <RarityScaleH1>
                                 2400 Pandas
@@ -34,8 +34,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Cooler
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value2"></div>
+                            <div className="progress">
+                            <div className="progress-value2"></div>
                             </div>
                             <RarityScaleH1>
                                 2000 Pandas
@@ -48,8 +48,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Wild
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value3"></div>
+                            <div className="progress">
+                            <div className="progress-value3"></div>
                             </div>
                             <RarityScaleH1>
                                 1700 Pandas
@@ -62,8 +62,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Exotic
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value4"></div>
+                            <div className="progress">
+                            <div className="progress-value4"></div>
                             </div>
                             <RarityScaleH1>
                                 1400 Pandas
@@ -76,8 +76,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Epic
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value5"></div>
+                            <div className="progress">
+                            <div className="progress-value5"></div>
                             </div>
                             <RarityScaleH1>
                                 1100 Pandas
@@ -90,8 +90,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Elite
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value6"></div>
+                            <div className="progress">
+                            <div className="progress-value6"></div>
                             </div>
                             <RarityScaleH1>
                                 800 Pandas
@@ -104,8 +104,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Legendary
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value7"></div>
+                            <div className="progress">
+                            <div className="progress-value7"></div>
                             </div>
                             <RarityScaleH1>
                                 500 Pandas
@@ -118,8 +118,8 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Pandas
                             </RarityScaleH1>
-                            <div class="progress">
-                            <div class="progress-value8"></div>
+                            <div className="progress">
+                            <div className="progress-value8"></div>
                             </div>
                             <RarityScaleH1>
                                 100 Pandas

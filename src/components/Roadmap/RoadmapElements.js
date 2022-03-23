@@ -72,6 +72,10 @@ export const ColumnContent = styled.div`
     align-items: center;
     padding: 5vh;
     width: 30vw;
+
+    @media screen and (max-width:468px){
+        width: 50vw;
+    }
 `
 
 export const ColumnContent2 = styled.div`
@@ -80,18 +84,24 @@ export const ColumnContent2 = styled.div`
     padding: 0vh;
     width: 70vw;
     height: 5vw;
+
+    @media screen and (max-width:468px){
+        width: 30vw;
+    }
 `
 
 export const RoadmapH1 = styled.h1`
-    font-size: 2vh;
+    font-size: 5vh;
     color: white;
+    font-family: league;
+    padding: 5vh;
 `
 
 
 export const Img = styled.img`
     position: relative;
-    height: 500px;
-    width: 1500px;
+    height: 60vh;
+    width: auto;
     display: flex;
     justify-content: center;
     align-self: center;

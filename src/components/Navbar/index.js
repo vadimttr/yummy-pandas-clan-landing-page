@@ -25,13 +25,13 @@ const Navbar = () => {
         </NavLogo>
         <Bars />
         <NavMenu>
-          <NavLink to='/story' activeStyle>
+          <NavLink to='/story'>
             STORY
           </NavLink>
-          <NavLink to='/roadmap' activeStyle>
+          <NavLink to='/roadmap'>
             ROADMAP
           </NavLink>
-          <NavLink to='/rarity' activeStyle>
+          <NavLink to='/rarity'>
             RARITY
           </NavLink>
         </NavMenu>
