@@ -13,6 +13,7 @@ import img6 from '../../image/rarity/6.png'
 import img7 from '../../image/rarity/7.png'
 import img8 from '../../image/rarity/8.png'
 import gif from '../../image/svganimation.GIF'
+import Flip from 'react-reveal/Flip';
 
 const Rarity = () => {
   return (
@@ -43,41 +44,59 @@ const Rarity = () => {
                     
                     <FlexContainer>
                         
-                    
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img8} />
                         </ImgWrapper>
+                        </Flip>
 
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img7} />
                         </ImgWrapper>
+                        </Flip>
+                        
                     
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img6} />
                         </ImgWrapper>
+                        </Flip>
+                        
 
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img5} />
                         </ImgWrapper>
+                        </Flip>
+                       
                     
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img4} />
                         </ImgWrapper>
+                        </Flip>
+                       
 
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img3} />
                         </ImgWrapper>
+                        </Flip>
+                        
                     
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img2} />
                         </ImgWrapper>
+                        </Flip>
+                        
 
+                        <Flip top>
                         <ImgWrapper>
                             <Img src={img1} />
                         </ImgWrapper>
-                    
-                     
-                        
+                        </Flip>
                         
                     </FlexContainer>
 
