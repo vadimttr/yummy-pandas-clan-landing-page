@@ -17,7 +17,6 @@ const RarityScale = () => {
                 <RarityScaleColumn>
                     <FlexboxRarityScaleContainer>
 
-                        <Bounce left>
                         <ColumnContent>
                             <RarityScaleH1>
                                 Cool
@@ -29,9 +28,7 @@ const RarityScale = () => {
                                 2400 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Cooler
@@ -43,9 +40,7 @@ const RarityScale = () => {
                                 2000 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Wild
@@ -57,9 +52,7 @@ const RarityScale = () => {
                                 1700 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Exotic
@@ -71,9 +64,7 @@ const RarityScale = () => {
                                 1400 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Epic
@@ -85,9 +76,7 @@ const RarityScale = () => {
                                 1100 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Elite
@@ -99,9 +88,8 @@ const RarityScale = () => {
                                 800 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
+                        
 
-                        <Bounce left>
                         <ColumnContent>
                             <RarityScaleH1>
                                 Legendary
@@ -113,9 +101,7 @@ const RarityScale = () => {
                                 500 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
-
-                        <Bounce left>
+                        
                         <ColumnContent>
                             <RarityScaleH1>
                                 Pandas
@@ -127,7 +113,7 @@ const RarityScale = () => {
                                 100 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        </Bounce>
+                        
                         
 
 

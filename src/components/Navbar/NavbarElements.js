@@ -28,12 +28,13 @@ export const NavLogo = styled(Link)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    color: black;
     display: flex;
     align-items: center;
     font-family: league;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2vh;
 `;
 
 export const ImgLogo = styled.img`
@@ -46,7 +47,7 @@ export const ImgLogo = styled.img`
 `
 
 export const NavLink = styled(Link)`
-  color: #000;
+  color: #fff;
   display: flex;
   font-family: league;
   align-items: center;
@@ -54,6 +55,7 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  text-shadow: 1px 1px 8px #000;
 
   &.active {
     color: #15cdfc;

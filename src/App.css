@@ -209,14 +209,14 @@ body{
 }
 
 .progress {
- 
+  background: lightgray;
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
   position: relative;
   padding: 0 0px;
   display: flex;
-  height: 40px;
+  height: 30px;
   width: 50vw;
   margin-right: 5vh;
 }
@@ -230,7 +230,7 @@ body{
     position: relative;
     padding: 0 0px;
     display: flex;
-    height: 40px;
+    height: 30px;
     width: 30vw;
     margin-right: 5vh;
   }
@@ -245,7 +245,7 @@ body{
     position: relative;
     padding: 0 0px;
     display: flex;
-    height: 40px;
+    height: 30px;
     width: 30vw;
     margin-right: 5vh;
   }
@@ -260,14 +260,14 @@ body{
     position: relative;
     padding: 0 0px;
     display: flex;
-    height: 40px;
+    height: 30px;
     width: 30vw;
     margin-right: 5vh;
   }
 }
 
 .progress-value {
-  animation: load1 3s normal forwards;
+  animation: load1 20s normal forwards;
  
   border-radius: 100px;
   background: #ffc278;
@@ -283,7 +283,7 @@ body{
 
 
 .progress-value2 {
-  animation: load2 3s normal forwards;
+  animation: load2 20s normal forwards;
 
   border-radius: 100px;
   background: #7aa2ff;
@@ -297,7 +297,7 @@ body{
 }
 
 .progress-value3 {
-  animation: load3 3s normal forwards;
+  animation: load3 20s normal forwards;
   
   border-radius: 100px;
   background: #33f380;
@@ -311,7 +311,7 @@ body{
 }
 
 .progress-value4 {
-  animation: load4 3s normal forwards;
+  animation: load4 20s normal forwards;
   
   border-radius: 100px;
   background: #ff831e;
@@ -325,7 +325,7 @@ body{
 }
 
 .progress-value5 {
-  animation: load5 3s normal forwards;
+  animation: load5 20s normal forwards;
 
   border-radius: 100px;
   background: #ff7bc8;
@@ -339,7 +339,7 @@ body{
 }
 
 .progress-value6 {
-  animation: load6 3s normal forwards;
+  animation: load6 20s normal forwards;
  
   border-radius: 100px;
   background: #ff2a5f;
@@ -353,7 +353,7 @@ body{
 }
 
 .progress-value7 {
-  animation: load7 3s normal forwards;
+  animation: load7 20s normal forwards;
   
   border-radius: 100px;
   background: #903bff;
@@ -367,7 +367,7 @@ body{
 }
 
 .progress-value8 {
-  animation: load8 3s normal forwards;
+  animation: load8 20s normal forwards;
   
   border-radius: 100px;
   background: #fbda00;
