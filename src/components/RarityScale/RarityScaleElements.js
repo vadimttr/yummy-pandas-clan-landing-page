@@ -57,7 +57,7 @@ export const RarityScaleContent = styled.div`
     align-items: center;
     justify-content: center;
 
-
+    padding-bottom: 0;
     @media screen and (max-width:468px){
         padding: 0vh;
     }
@@ -71,6 +71,7 @@ export const RarityScaleRow = styled.div`
 
 export const RarityScaleColumn = styled.div`
     padding: 5vh;
+    padding-bottom: 0vh;
 `
 
 export const FlexboxRarityScaleContainer = styled.div`
@@ -86,7 +87,7 @@ export const ColumnContent = styled.div`
     justify-content: space-around;
     align-items: center;
     width: auto;
-    margin-bottom: 2.5vh;
+    margin-bottom: 1vh;
    
 `
 
@@ -98,5 +99,31 @@ export const RarityScaleH1 = styled.h1`
     @media screen and (max-width:468px){
         width: 10vh;
         font-size: 1.5vh;
+    }
+`
+
+export const RarityFlexContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+export const RarityColumnContent = styled.div`
+    flex-wrap: wrap;
+    justify-content: center;
+`
+
+export const Img = styled.img`
+    position: relative;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width:768px){
+        width: 80vw;
+    }
+
+    @media screen and (max-width:468px){
+        width: 50vh;
     }
 `

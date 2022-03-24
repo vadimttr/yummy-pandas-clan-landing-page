@@ -1,8 +1,10 @@
 import React from 'react'
 import { RarityScaleContainer, RarityScaleBg, RarityScaleContent, RarityScaleRow,
         RarityScaleColumn, ColumnContent, RarityScaleH1, FlexboxRarityScaleContainer,
-        Progress, ProgressValue } from './RarityScaleElements'
+        Progress, ProgressValue, RarityFlexContainer, RarityColumnContent, Img } from './RarityScaleElements'
 import Bounce from 'react-reveal/Bounce';
+import img from '../../image/filler.png'
+
 const RarityScale = () => {
   return (
     <RarityScaleContainer>
@@ -131,6 +133,12 @@ const RarityScale = () => {
 
                         
                     </FlexboxRarityScaleContainer>
+
+                    <RarityFlexContainer>
+                        <RarityColumnContent>
+                            <Img src={img}/>
+                        </RarityColumnContent>
+                    </RarityFlexContainer>
                 </RarityScaleColumn>
             </RarityScaleRow>
         </RarityScaleContent>
