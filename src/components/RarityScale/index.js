@@ -2,8 +2,8 @@ import React from 'react'
 import { RarityScaleContainer, RarityScaleBg, RarityScaleContent, RarityScaleRow,
         RarityScaleColumn, ColumnContent, RarityScaleH1, FlexboxRarityScaleContainer,
         Progress, ProgressValue, RarityFlexContainer, RarityColumnContent, Img } from './RarityScaleElements'
-import Bounce from 'react-reveal/Bounce';
-import img from '../../image/filler.png'
+
+import img from '../../image/acquirepanda3.PNG'
 
 const RarityScale = () => {
   return (

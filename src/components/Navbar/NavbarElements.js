@@ -1,6 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
-
+import { Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
 import league from '../../font/LeagueSpartan-Bold.otf'
 
@@ -46,7 +46,7 @@ export const ImgLogo = styled.img`
 
 `
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(LinkS)`
   color: #fff;
   display: flex;
   font-family: league;

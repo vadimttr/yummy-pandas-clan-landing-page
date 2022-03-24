@@ -71,6 +71,17 @@ export const FlexboxPandaContainer = styled.div`
     padding-left: 25vh;
     width: 100vw;
     
+    @media screen and (max-width:1366px){
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        padding: 5vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
+        
+    }
+
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
@@ -78,8 +89,8 @@ export const FlexboxPandaContainer = styled.div`
         align-items: center;
         align-content: space-between;
         padding: 5vh;
-        padding-right: 15vh;
-        padding-left: 15vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
         
     }
     
@@ -171,6 +182,21 @@ export const PandaH1 = styled.h1`
 
 `
 
+export const MintH1 = styled.h1`
+    font-family: league;
+    font-size: 2vh;
+    color: #fff;
+    text-align: center;
+`
+
+export const MintDetails = styled.h1`
+    font-family: league;
+    font-size: 2.5vh;
+    color: #fff;
+   
+    text-align: center;
+`
+
 export const PandaP = styled.p`
     font-family: roboto;
     font-size: 2vh;
@@ -192,12 +218,49 @@ export const PandaColumnContent = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    width: 70vw;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 
-    @media screen and (max-width:468px){
-        width: 50vh;
+    
+`
+
+export const PandaPFlexContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+
+    @media screen and (max-width:1024px){
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        
     }
+    
+    @media screen and (max-width:768px){
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    @media screen and (max-width:468px){
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+    }
+`
+
+export const PandaPContent = styled.div`
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #534741;
+    padding: 2vh;
+    border-radius: 10px;
+    margin: 1vh;
 `

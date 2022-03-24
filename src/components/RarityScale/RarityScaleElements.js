@@ -11,7 +11,7 @@ export const RarityScaleContainer = styled.div`
     padding: 0 0px;
     height: auto;
     position: relative;
-    z-index: 1;
+    z-index: 999;
     align-items: center;
 
     @font-face {
@@ -114,16 +114,10 @@ export const RarityColumnContent = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    width: 50vw;
-    height: auto;
+    width: 100vw;
+    height: 100%;
     display: flex;
     justify-content: center;
-
-    @media screen and (max-width:768px){
-        width: 80vw;
-    }
-
-    @media screen and (max-width:468px){
-        width: 50vh;
-    }
+    top: 5vh;
+   
 `

@@ -25,33 +25,50 @@ const Navbar = () => {
         </NavLogo>
         <Bars />
         <NavMenu>
-          <NavLink to='/story'>
+          <NavLink 
+          to='story'
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={0}
+          >
             STORY
           </NavLink>
-          <NavLink to='/roadmap'>
+          <NavLink to='roadmap'
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={0}>
             ROADMAP
           </NavLink>
-          <NavLink to='/rarity'>
+          <NavLink to='rarity'
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={0}>
             RARITY
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>
+          <NavBtnLink to='/'>
             <SocialImg src={twitter}>
             </SocialImg>
            </NavBtnLink>
          
-          <NavBtnLink to='/signin'>
+          <NavBtnLink to='/'>
             <SocialImg src={discord}>
             </SocialImg>
            </NavBtnLink>
          
-          <NavBtnLink to='/signin'>
+          <NavBtnLink to='/'>
             <SocialImg src={OpenSea}>
             </SocialImg>
            </NavBtnLink>
          
-          <NavBtnLink to='/signin'>
+          <NavBtnLink to='/'>
             <SocialImg src={instagram}>
             </SocialImg>
            </NavBtnLink>

@@ -44,7 +44,7 @@ export const MintafterContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
+    top: 5vh;
 
     @media screen and (max-width:468px){
         padding: 0vh;
@@ -91,6 +91,22 @@ export const MintafterH1 = styled.h1`
     color: white;
     text-transform: uppercase;
     padding-bottom: 5vh;
+
+    @media screen and (max-width:1366px){
+        font-size: 4vw;
+    }
+
+    @media screen and (max-width:1024px){
+        font-size: 4vw;
+    }
+
+    @media screen and (max-width:768px){
+        font-size: 6vw;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 6vw;
+    }
 `
 
 export const ColumnContent = styled.div`

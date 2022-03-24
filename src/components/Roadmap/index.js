@@ -6,7 +6,7 @@ import img from '../../image/roadmap.jpg'
 
 const Roadmap = () => {
   return (
-    <RoadmapContainer>
+    <RoadmapContainer id='roadmap'>
       <RoadmapBg>
 
       </RoadmapBg>
