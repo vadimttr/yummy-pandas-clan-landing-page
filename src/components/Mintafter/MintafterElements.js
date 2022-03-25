@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
+import league from '../../font/LeagueSpartan-Bold.otf'
 
 export const MintafterContainer = styled.div`
     background: #1b1919;
@@ -13,8 +14,8 @@ export const MintafterContainer = styled.div`
     align-items: center;
 
     @font-face {
-        font-family: orbitron;
-        src: url(${orbitron});
+        font-family: league;
+        src: url(${league});
     }
 
     @font-face {
@@ -86,7 +87,7 @@ export const FlexboxMintafterContainer = styled.div`
 
 export const MintafterH1 = styled.h1`
     text-align: center;
-    font-family: roboto;
+    font-family: league;
     font-size: 2vw;
     color: white;
     text-transform: uppercase;
@@ -118,7 +119,7 @@ export const ColumnContent = styled.div`
 
 export const MintAfterH2 = styled.h1`
    
-    font-family: roboto;
+    font-family: league;
     font-size: 4vh;
     color: #f7d020;
     text-align: center;
