@@ -3,7 +3,7 @@ import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 
 export const RoadmapContainer = styled.div`
-    background: #1b1919;
+    background: #fff;
     display: flex;
     justify-content: center;
     padding: 0 0px;
@@ -59,23 +59,27 @@ export const RoadmapColumn = styled.div`
 `
 
 export const FlexboxRoadmapContainer = styled.div`
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
     padding: 5vh;
+    left: 15vh;
+
+    @media screen and (max-width:468px){
+        left: 5vh;
+    }
 `
 
 export const ColumnContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5vh;
-    width: 30vw;
 
-    @media screen and (max-width:468px){
-        width: 50vw;
-    }
+    width: 40vh;
+
+    
 `
 
 export const ColumnContent2 = styled.div`
@@ -92,7 +96,7 @@ export const ColumnContent2 = styled.div`
 
 export const RoadmapH1 = styled.h1`
     font-size: 5vh;
-    color: white;
+    color: #000;
     font-family: league;
     padding: 5vh;
 `

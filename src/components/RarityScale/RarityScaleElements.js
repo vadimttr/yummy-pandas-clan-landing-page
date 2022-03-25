@@ -56,7 +56,6 @@ export const RarityScaleContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding-bottom: 0;
     @media screen and (max-width:468px){
         padding: 0vh;
@@ -84,7 +83,7 @@ export const FlexboxRarityScaleContainer = styled.div`
 
 export const ColumnContent = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: auto;
     margin-bottom: 1vh;
@@ -101,6 +100,8 @@ export const RarityScaleH1 = styled.h1`
         font-size: 1.5vh;
     }
 `
+
+
 
 export const RarityFlexContainer = styled.div`
     display: flex;

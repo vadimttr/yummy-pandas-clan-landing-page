@@ -1,7 +1,8 @@
 import React from 'react'
 import { TeamContainer, TeamBg, TeamContent,
     TeamRow, TeamColumn, FlexboxTeamContainer,
-    ColumnContent, Img, TeamH1, TeamH2, TeamP } from './TeamElements'
+    ColumnContent, Img, TeamH1, TeamH2, TeamP,
+    TeamName } from './TeamElements'
 import img from '../../image/elite.JPG'
 const Team = () => {
   return (
@@ -13,9 +14,11 @@ const Team = () => {
         <TeamContent>
             <TeamRow>
                 <TeamColumn>
+                    <TeamName>TEAM</TeamName>
                     <FlexboxTeamContainer>
-                        
+                    
                         <ColumnContent>
+                           
                         
                             <div className="container">
                                 <div className="tilt-box-wrap">

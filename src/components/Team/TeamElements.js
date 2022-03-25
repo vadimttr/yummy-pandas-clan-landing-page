@@ -82,6 +82,14 @@ export const ColumnContent = styled.div`
     height: auto;
 `
 
+export const TeamName = styled.h1`
+    font-family: league;
+    font-size: 6vh;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+`
+
 export const TeamH1 = styled.h1`
     font-family: league;
     font-size: 3vh;

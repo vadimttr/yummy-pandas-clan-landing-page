@@ -123,3 +123,21 @@ export const FooterH1 = styled.h1`
     align-items: center;
     padding: 1vh;
 `
+
+export const ImgLogo = styled.img`
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border-radius: 50%;
+
+    @media screen and (max-width:468px){
+        height: 20vh;
+    }
+`

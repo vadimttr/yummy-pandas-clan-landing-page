@@ -64,7 +64,6 @@ export const IntroContent = styled.div`
 export const IntroRow = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
 `
 
 export const IntroColumn = styled.div`
@@ -96,8 +95,8 @@ export const FlexboxIntroContainer = styled.div`
 
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+
     width: 80vh;
     padding: 4vh;
 
@@ -120,7 +119,7 @@ export const ColumnContent = styled.div`
 
 export const ColumnContent2 = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0vh;
 `
 
@@ -134,16 +133,17 @@ export const IntroH1 = styled.h1`
     margin-bottom: 4vh;
     z-index: 1;
     text-transform: uppercase;
+    text-align: left;
 
     @media screen and (max-width:1024px){
-        text-align: center;
-        justify-content: center;
-        font-size: 4vh;
+        text-align: left;
+        justify-content: flex-start;
+        font-size: 3vh;
     }
 
     @media screen and (max-width:768px){
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: flex-start;
     }
 `
 export const IntroP = styled.p`
@@ -155,16 +155,17 @@ export const IntroP = styled.p`
     letter-spacing: .2vh;
     line-height: 2.5vh;
     text-shadow: 1px 1px 8px #000;
+    text-align: left;
 
     @media screen and (max-width:1024px){
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: flex-start;
         font-size: 2vh;
     }
 
     @media screen and (max-width:768px){
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: flex-start;
     }
 `
 

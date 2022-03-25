@@ -2,7 +2,7 @@ import React from 'react'
 import { RoadmapContainer, RoadmapBg, RoadmapContent,
   RoadmapRow, RoadmapColumn, FlexboxRoadmapContainer,
   ColumnContent, ColumnContent2, RoadmapH1, Img} from './RoadmapElements'
-import img from '../../image/roadmap.jpg'
+import img from '../../image/roadmap.png'
 
 const Roadmap = () => {
   return (

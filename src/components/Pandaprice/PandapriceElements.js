@@ -74,7 +74,7 @@ export const FlexboxPandaContainer = styled.div`
     @media screen and (max-width:1366px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+    
         align-content: space-between;
         padding: 5vh;
         padding-right: 5vh;
@@ -86,7 +86,7 @@ export const FlexboxPandaContainer = styled.div`
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+
         align-content: space-between;
         padding: 5vh;
         padding-right: 5vh;
@@ -97,7 +97,7 @@ export const FlexboxPandaContainer = styled.div`
     @media screen and (max-width:768px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+
         align-content: space-between;
         
         padding: 5vh;
@@ -109,7 +109,7 @@ export const FlexboxPandaContainer = styled.div`
     @media screen and (max-width:468px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+
         align-content: space-between;
         
         padding: 5vh;
@@ -128,6 +128,7 @@ export const ColumnContent = styled.div`
    
     width: 50%;
     padding: 5vh;
+    padding-bottom: 0;
 
     @media screen and (max-width:1024px){
         width: 100%;
