@@ -16,14 +16,18 @@ import discord from '../../image/discordCircle.png'
 import OpenSea from '../../image/opensea.png'
 import instagram from '../../image/instagramCircle.png'
 import imglogo from '../../image/logopanda.png'
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavLogo to='/'>
           <ImgLogo src={imglogo} /> Yummy Panda's Clan
         </NavLogo>
-        <Bars />
+
+
+        <Bars onClick={toggle}/>
+
+
         <NavMenu>
           <NavLink 
           to='story'

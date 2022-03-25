@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
 import Timer from '../components/Timer'
 import Introduction from '../components/Introduction'
@@ -9,12 +9,18 @@ import Mintafter from '../components/Mintafter'
 import Rarity from '../components/Rarity'
 import Team from '../components/Team'
 import RarityScale from '../components/RarityScale'
+import Sidebar from '../components/Sidebar'
 
 
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <div>
-        <Navbar />
+        <Sidebar toggle={toggle} isOpen={isOpen}/>
+        <Navbar toggle={toggle} />
         <Timer />
         <Introduction/>
         <Roadmap />

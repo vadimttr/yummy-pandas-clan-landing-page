@@ -13,13 +13,17 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1400px) / 2);
   z-index: 999;
-
+  margin-top: 2vh;
   /* Third Nav */
   /* justify-content: flex-start; */
 
   @font-face {
     font-family: league;
     src: url(${league});
+  }
+
+  @media screen and (max-width:468px){
+    
   }
 `;
 
@@ -66,13 +70,13 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
+    transform: translate(-50%, 30%);
+    font-size: 5vh;
     cursor: pointer;
   }
 `;
@@ -92,6 +96,7 @@ export const NavMenu = styled.div`
 
   @media screen and (max-width: 1024px) {
     margin-right: 0vh;
+    display: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -107,6 +112,9 @@ export const NavBtn = styled.nav`
   /* Third Nav */
   /* justify-content: flex-end;
   width: 100vw; */
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
