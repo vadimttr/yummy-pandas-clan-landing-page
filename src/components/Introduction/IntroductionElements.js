@@ -47,7 +47,6 @@ export const IntroContent = styled.div`
     max-width: 1200px;
     position: relative;
     padding: 2vh;
-  
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
@@ -133,6 +132,7 @@ export const IntroH1 = styled.h1`
     margin-bottom: 4vh;
     z-index: 1;
     text-transform: uppercase;
+    text-shadow: 1px 1px 8px #000;
     text-align: left;
 
     @media screen and (max-width:1024px){
@@ -154,7 +154,7 @@ export const IntroP = styled.p`
     font-size: 2vh;
     letter-spacing: .2vh;
     line-height: 2.5vh;
-    text-shadow: 1px 1px 8px #000;
+    text-shadow: 2px 2px 8px #000;
     text-align: left;
 
     @media screen and (max-width:1024px){

@@ -46,7 +46,7 @@ export const TimerBg = styled.div`
 
     @media screen and (max-width:1024px){
         width: auto;
-        height: auto;
+        height: 102%;
     }
 `
 

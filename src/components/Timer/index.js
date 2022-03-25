@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useRef} from 'react'
 import { TimerContainer, TimerBg, TimerContent,
   TimerRow, TimerColumn, Img, ImgBg } from './TimerElements'
-import img from '../../image/coolimage.JPG'
+import img from '../../image/coolimage1.JPG'
 const Timer = () => {
   
 

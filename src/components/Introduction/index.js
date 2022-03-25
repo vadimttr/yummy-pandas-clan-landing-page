@@ -6,7 +6,7 @@ from './IntroductionElements'
 import img from '../../image/yummyabout.png'
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
-import bg from '../../image/bgAbout.JPG'
+import bg from '../../image/coolimage2.JPG'
 
 const Introduction = () => {
   return (
