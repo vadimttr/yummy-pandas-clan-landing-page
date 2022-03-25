@@ -26,7 +26,7 @@ const Introduction = () => {
                             </ColumnContent2>
                         </Bounce>
                         
-                        <Fade>
+                        <Bounce>
 
                         <ColumnContent>
                             <IntroH1>
@@ -37,7 +37,7 @@ const Introduction = () => {
                              </IntroP>
                         </ColumnContent>
 
-                        </Fade>
+                        </Bounce>
                     </FlexboxIntroContainer>
                 </IntroColumn>
             </IntroRow>
