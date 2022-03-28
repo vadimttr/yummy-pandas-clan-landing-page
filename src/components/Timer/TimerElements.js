@@ -12,7 +12,7 @@ export const TimerContainer = styled.div`
     position: relative;
     z-index: 1;
    
-
+    border-bottom: 1vh solid #2be793;
     @font-face {
         font-family: orbitron;
         src: url(${orbitron});
@@ -40,7 +40,7 @@ export const TimerBg = styled.div`
     right: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100.1%;
     overflow: hidden;
     z-index: 0;
 

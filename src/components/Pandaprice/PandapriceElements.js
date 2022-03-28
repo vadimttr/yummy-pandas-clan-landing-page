@@ -10,9 +10,7 @@ export const PandaContainer = styled.div`
     height: auto;
     position: relative;
     z-index: 1;
-    align-items: center;
 
-    
 
     @font-face {
         font-family: roboto;
@@ -23,6 +21,9 @@ export const PandaContainer = styled.div`
         font-family: league;
         src: url(${league});
     }
+
+
+    
 `
 
 export const PandaBg = styled.div`
@@ -45,14 +46,14 @@ export const PandaContent = styled.div`
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
-    align-items: center;
+
     justify-content: center;
     
 `
 
 export const PandaRow = styled.div`
     display: flex;
-    align-items: center;
+  
     justify-content: center;
 `
 
@@ -164,9 +165,34 @@ export const ColumnContent2 = styled.div`
 
 export const PandaH1 = styled.h1`
     font-family: league;
-    font-size: 2vw;
+    font-size: 3vw;
     color: #534741;
     padding-bottom: 2vh;
+    text-transform: uppercase   ;
+
+    @media screen and (max-width:1024px){
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width:768px){
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 5vw;
+    }
+
+
+`
+
+
+export const PandaH1v2 = styled.h1`
+    font-family: league;
+    font-size: 3vw;
+    color: #534741;
+    padding-bottom: 2vh;
+    text-transform: uppercase;
+    text-align: right;
 
     @media screen and (max-width:1024px){
         font-size: 3vw;
@@ -191,8 +217,8 @@ export const MintH1 = styled.h1`
 `
 
 export const MintDetails = styled.h1`
-    font-family: league;
-    font-size: 2.5vh;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,sans-serif;
+    font-size: 3vh;
     color: #fff;
    
     text-align: center;
@@ -200,43 +226,69 @@ export const MintDetails = styled.h1`
 
 export const PandaP = styled.p`
     font-family: roboto;
-    font-size: 2vh;
+    font-size: 3vh;
     color: #534741;
+
+    @media screen and (max-width:768px){
+        font-size: 2vh;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 2vh;
+    }
+`
+
+export const PandaP2 = styled.p`
+    font-family: roboto;
+    font-size: 3vh;
+    color: #534741;
+    text-align: right;
+
+    @media screen and (max-width:768px){
+        font-size: 2vh;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 2vh;
+    }
 `
 
 export const PandaFlexContainer = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     align-content: space-between;
+    
+
+    
 `
 
 export const PandaColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    
 `
 
 export const Img = styled.img`
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
-
+    
     
 `
 
 export const PandaPFlexContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    align-items: center;
+ 
     align-content: space-between;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+        
         align-content: space-between;
         
     }
@@ -244,14 +296,14 @@ export const PandaPFlexContainer = styled.div`
     @media screen and (max-width:768px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+        
         align-content: space-between;
     }
 
     @media screen and (max-width:468px){
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+        
         align-content: space-between;
     }
 `
@@ -259,9 +311,42 @@ export const PandaPFlexContainer = styled.div`
 export const PandaPContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    
     background-color: #534741;
     padding: 2vh;
     border-radius: 10px;
     margin: 1vh;
+`
+
+
+export const Img1 = styled.img`
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 15vw;
+    width: auto;
+   
+    
+
+    @media screen and (max-width:1629px){
+        height: 20vw;
+    }
+
+    @media screen and (max-width:1366px){
+        height: 15vw;
+        
+    }
+
+    @media screen and (max-width:1024px){
+        height: 40vw;
+    }
+
+    @media screen and (max-width:768px){
+        height: 50vw;
+    }
+
+    @media screen and (max-width:468px){
+        height: 60vw;
+    }
 `

@@ -57,7 +57,13 @@ const Navbar = ({toggle}) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
+
           <NavBtnLink to='/'>
+            <SocialImg src={OpenSea}>
+            </SocialImg>
+          </NavBtnLink>
+
+          <NavBtnLink to='/https://twitter.com/YummyPandas' target="_blank" rel="noopener">
             <SocialImg src={twitter}>
             </SocialImg>
            </NavBtnLink>
@@ -67,12 +73,7 @@ const Navbar = ({toggle}) => {
             </SocialImg>
            </NavBtnLink>
          
-          <NavBtnLink to='/'>
-            <SocialImg src={OpenSea}>
-            </SocialImg>
-           </NavBtnLink>
-         
-          <NavBtnLink to='/'>
+          <NavBtnLink to='/https://www.instagram.com/yummy_pandas_nft/' target="_blank" rel="noopener">
             <SocialImg src={instagram}>
             </SocialImg>
            </NavBtnLink>

@@ -1,5 +1,5 @@
 import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
+import { NavLink as LinkR } from 'react-router-dom';
 import { Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
 import league from '../../font/LeagueSpartan-Bold.otf'
@@ -28,7 +28,7 @@ export const Nav = styled.nav`
 `;
 
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
@@ -121,7 +121,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(Link)`
+export const NavBtnLink = styled.a`
   
 
   

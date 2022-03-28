@@ -20,11 +20,7 @@ const Introduction = () => {
                 <IntroColumn>
                     <FlexboxIntroContainer>
                         
-                        <Bounce>
-                            <ColumnContent2>
-                                <Img src={img} className="img"></Img>
-                            </ColumnContent2>
-                        </Bounce>
+                      
                         
                         <Bounce>
 

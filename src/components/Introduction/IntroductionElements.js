@@ -96,7 +96,6 @@ export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
 
-    width: 80vh;
     padding: 4vh;
 
     @media screen and (max-width:1366px){
@@ -127,13 +126,13 @@ export const IntroH1 = styled.h1`
     color: #fff;
     display: flex;
     justify-content: flex-start;
-    font-size: 5vh;
+    font-size: 6vh;
     letter-spacing: .2vh;
     margin-bottom: 4vh;
     z-index: 1;
     text-transform: uppercase;
     text-shadow: 1px 1px 8px #000;
-    text-align: left;
+    text-align: center;
 
     @media screen and (max-width:1024px){
         text-align: left;
@@ -151,9 +150,9 @@ export const IntroP = styled.p`
     color: #fff;
     display: flex;
     justify-content: flex-start;
-    font-size: 2vh;
+    font-size: 3vh;
     letter-spacing: .2vh;
-    line-height: 2.5vh;
+    line-height: 3.5vh;
     text-shadow: 2px 2px 8px #000;
     text-align: left;
 

@@ -119,6 +119,4 @@ export const Img = styled.img`
     height: 100%;
     display: flex;
     justify-content: center;
-    top: 5vh;
-   
 `

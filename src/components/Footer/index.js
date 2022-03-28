@@ -43,22 +43,22 @@ const Footer = () => {
                             <FlexboxContent>
                                 <Socials>
                                 
-                                <SocialLinks href="/"  rel="noopener">
+                                <SocialLinks href="/">
                                     <SocialImg src={OpenSea} />
                                 </SocialLinks>
                                 
                                 
-                                <SocialLinks href="/"  rel="noopener">
+                                <SocialLinks href="/https://twitter.com/YummyPandas"  target="_blank" rel="noopener">
                                     <SocialImg src={twitter} />
                                 </SocialLinks>
                                 
                                 
-                                <SocialLinks href="/"  rel="noopener">
+                                <SocialLinks>
                                     <SocialImg src={discord} />
                                 </SocialLinks>
                                 
                                 
-                                <SocialLinks href="/"  rel="noopener">
+                                <SocialLinks href="/https://www.instagram.com/yummy_pandas_nft/"  target="_blank" rel="noopener">
                                     <SocialImg src={instagram} />
                                 </SocialLinks>
                                 
