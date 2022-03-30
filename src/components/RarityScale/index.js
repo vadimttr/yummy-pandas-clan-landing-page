@@ -120,11 +120,7 @@ const RarityScale = () => {
                         
                     </FlexboxRarityScaleContainer>
 
-                    <RarityFlexContainer>
-                        <RarityColumnContent>
-                            <Img src={img}/>
-                        </RarityColumnContent>
-                    </RarityFlexContainer>
+                  
                 </RarityScaleColumn>
             </RarityScaleRow>
         </RarityScaleContent>
