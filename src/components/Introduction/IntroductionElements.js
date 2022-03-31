@@ -3,7 +3,7 @@ import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import bg from '../../image/coolimage2.JPG'
-
+import bgHouse from '../../image/house.jpg'
 export const IntroductionContainer = styled.div`
     background: white;
     display: flex;
@@ -44,15 +44,29 @@ export const IntroBg = styled.div`
     background-size: cover;
 
     @media screen and (max-width:1024px){
-        background-position: 85%;
+     
+        background-image: url(${bgHouse});
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (max-width:980px){
+       
+        background-image: url(${bgHouse});
+        background-size: cover;
+        background-position: center;
     }
     
     @media screen and (max-width:768px){
-        background-position: 80%;
+        background-image: url(${bgHouse});
+        background-size: cover;
+        background-position: center;
     }
 
     @media screen and (max-width:468px){
-        background-position: 80%;
+        background-image: url(${bgHouse});
+        background-size: cover;
+        background-position: center;
     }
 `
 
@@ -111,22 +125,38 @@ export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 45vw;
+    position: relative;
+    top: 15vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
   
 
     @media screen and (max-width:1366px){
         width: 60vw;
+        top: 0vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
     }
 
     @media screen and (max-width:1024px){
         width: 70vw;
+        top: 0vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
     }
    
     @media screen and (max-width:768px){
         width: 70vw;
+        top: 0vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
     }
     
     @media screen and (max-width:468px){
         width: 80vw;
+        top: 0vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
     }
 `
 
@@ -151,14 +181,14 @@ export const IntroH1 = styled.h1`
     text-align: center;
 
     @media screen and (max-width:1024px){
-        text-align: left;
-        justify-content: flex-start;
+        text-align: center;
+        justify-content: center;
         font-size: 3vh;
     }
 
     @media screen and (max-width:768px){
-        text-align: left;
-        justify-content: flex-start;
+        text-align: center;
+        justify-content: center;
     }
 `
 export const IntroP = styled.p`
