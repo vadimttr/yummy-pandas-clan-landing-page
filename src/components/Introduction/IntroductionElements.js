@@ -2,7 +2,7 @@ import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
-
+import bg from '../../image/coolimage2.JPG'
 
 export const IntroductionContainer = styled.div`
     background: white;
@@ -40,6 +40,20 @@ export const IntroBg = styled.div`
     height: 110%;
     overflow: hidden;
     z-index: 0;
+    background-image: url(${bg});
+    background-size: cover;
+
+    @media screen and (max-width:1024px){
+        background-position: 85%;
+    }
+    
+    @media screen and (max-width:768px){
+        background-position: 80%;
+    }
+
+    @media screen and (max-width:468px){
+        background-position: 80%;
+    }
 `
 
 export const IntroContent = styled.div`
@@ -74,6 +88,7 @@ export const FlexboxIntroContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
+    width: 100vw;
     
 
     @media screen and (max-width:1024px){
@@ -95,11 +110,11 @@ export const FlexboxIntroContainer = styled.div`
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
-
-    padding: 4vh;
+    width: 45vw;
+  
 
     @media screen and (max-width:1366px){
-        width: 45vw;
+        width: 60vw;
     }
 
     @media screen and (max-width:1024px){
@@ -118,7 +133,8 @@ export const ColumnContent = styled.div`
 export const ColumnContent2 = styled.div`
     display: flex;
     justify-content: flex-start;
-    padding: 0vh;
+    visibility: hidden;
+   
 `
 
 export const IntroH1 = styled.h1`

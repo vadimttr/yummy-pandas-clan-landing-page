@@ -12,16 +12,17 @@ const Introduction = () => {
   return (
     <IntroductionContainer id='story'>
         <IntroBg >
-        <ImgBg src={bg}/>
+            
         </IntroBg>.
 
         <IntroContent >
             <IntroRow>
                 <IntroColumn>
                     <FlexboxIntroContainer>
-                        
-                      
-                        
+                        <ColumnContent2>
+                            <Img src={img}/>
+                        </ColumnContent2>
+
                         <Bounce>
 
                         <ColumnContent>
@@ -34,6 +35,7 @@ const Introduction = () => {
                         </ColumnContent>
 
                         </Bounce>
+
                     </FlexboxIntroContainer>
                 </IntroColumn>
             </IntroRow>

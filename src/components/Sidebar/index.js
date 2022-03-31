@@ -59,13 +59,15 @@ const Sidebar = ({isOpen, toggle}) => {
 
         <Container>
           <Socials>
-              <SocialBorder href="/"  rel="noopener">
-                <SocialImg src={twitter} >
-                </SocialImg>
-              </SocialBorder>
+             
 
               <SocialBorder href="/"  rel="noopener">
                 <SocialImg src={opensea}>
+                </SocialImg>
+              </SocialBorder>
+
+              <SocialBorder href='https://twitter.com/YummyPandas' target="_blank" rel="noopener">
+                <SocialImg src={twitter} >
                 </SocialImg>
               </SocialBorder>
 
@@ -74,7 +76,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 </SocialImg>
               </SocialBorder>
 
-              <SocialBorder href="/"  rel="noopener">
+              <SocialBorder href="https://www.instagram.com/yummy_pandas_nft/"  target="_blank"  rel="noopener">
                 <SocialImg src={instagram}>
                 </SocialImg>
               </SocialBorder>

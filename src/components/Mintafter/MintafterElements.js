@@ -45,7 +45,7 @@ export const MintafterContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 5vh;
+
 
     @media screen and (max-width:468px){
         padding: 0vh;

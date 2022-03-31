@@ -1,13 +1,18 @@
-import React from 'react'
+import React, {useRef, useEffect, useState} from 'react'
+import { useInView } from 'react-intersection-observer'
 import { RarityScaleContainer, RarityScaleBg, RarityScaleContent, RarityScaleRow,
         RarityScaleColumn, ColumnContent, RarityScaleH1, FlexboxRarityScaleContainer,
-        Progress, ProgressValue, RarityFlexContainer, RarityColumnContent, Img } from './RarityScaleElements'
-
-import img from '../../image/acquirepanda3.PNG'
-
+        Progress, ProgressCool, ProgressCooler, ProgressWild, ProgressExotic, ProgressEpic, 
+        ProgressElite, ProgressLegendary, ProgressBamboozled} from './RarityScaleElements'
+import '../styles/animation.scss';
+import styles from '../styles/animation.scss'
 const RarityScale = () => {
+
+    const { ref, inView } = useInView({
+		rootMargin: '-100px',
+	});
   return (
-    <RarityScaleContainer>
+    <RarityScaleContainer ref={ref}>
         <RarityScaleBg>
 
         </RarityScaleBg>
@@ -21,98 +26,125 @@ const RarityScale = () => {
                             <RarityScaleH1>
                                 Cool
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value"></div>
-                            </div>
+                            <Progress>
+                                <ProgressCool className={inView ? 'animation' : ''}>
+                               
+                                </ProgressCool>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 2400 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+
                         <ColumnContent>
                             <RarityScaleH1>
                                 Cooler
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value2"></div>
-                            </div>
+                            <Progress>
+                                <ProgressCooler className={inView ? 'animation' : ''}>
+                               
+                                </ProgressCooler>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 2000 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+
                         <ColumnContent>
                             <RarityScaleH1>
                                 Wild
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value3"></div>
-                            </div>
+                            <Progress>
+                                <ProgressWild className={inView ? 'animation' : ''}>
+                               
+                                </ProgressWild>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 1700 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+
                         <ColumnContent>
                             <RarityScaleH1>
                                 Exotic
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value4"></div>
-                            </div>
+                            <Progress>
+                                <ProgressExotic className={inView ? 'animation' : ''}>
+                               
+                                </ProgressExotic>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 1400 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+
                         <ColumnContent>
                             <RarityScaleH1>
                                 Epic
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value5"></div>
-                            </div>
+                            <Progress>
+                                <ProgressEpic className={inView ? 'animation' : ''}>
+                               
+                                </ProgressEpic>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 1100 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+
                         <ColumnContent>
                             <RarityScaleH1>
                                 Elite
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value6"></div>
-                            </div>
+                            <Progress>
+                                <ProgressElite className={inView ? 'animation' : ''}>
+                               
+                                </ProgressElite>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 800 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
 
                         <ColumnContent>
                             <RarityScaleH1>
                                 Legendary
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value7"></div>
-                            </div>
+                            <Progress>
+                                <ProgressLegendary className={inView ? 'animation' : ''}>
+                               
+                                </ProgressLegendary>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 500 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
-                        
+                  
                         <ColumnContent>
                             <RarityScaleH1>
-                                Pandas
+                                Bamboozled
                             </RarityScaleH1>
-                            <div className="progress">
-                            <div className="progress-value8"></div>
-                            </div>
+                            <Progress>
+                                <ProgressBamboozled className={inView ? 'animation' : ''}>
+                               
+                                </ProgressBamboozled>
+                            </Progress>
+                          
                             <RarityScaleH1>
                                 100 Pandas
                             </RarityScaleH1>
                         </ColumnContent>
+
+                        
+                        
+                   
                         
                         
 

@@ -23,6 +23,8 @@ export const PandaContainer = styled.div`
     }
 
 
+  
+
     
 `
 
@@ -42,9 +44,6 @@ export const PandaContent = styled.div`
     max-width: 1200px;
     position: relative;
     padding: 0vh;
-    padding-top: 5vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
     display: flex;
 
     justify-content: center;
@@ -58,8 +57,7 @@ export const PandaRow = styled.div`
 `
 
 export const PandaColumn = styled.div`
-    padding-right: 5vh;
-    padding-left: 5vh;
+    
 `
 
 export const FlexboxPandaContainer = styled.div`
@@ -67,7 +65,7 @@ export const FlexboxPandaContainer = styled.div`
     justify-content: space-around;
     
     align-content: space-between;
-    padding: 5vh;
+
     padding-right: 25vh;
     padding-left: 25vh;
     width: 100vw;
@@ -77,7 +75,7 @@ export const FlexboxPandaContainer = styled.div`
         justify-content: space-around;
     
         align-content: space-between;
-        padding: 5vh;
+        
         padding-right: 5vh;
         padding-left: 5vh;
         
@@ -89,7 +87,7 @@ export const FlexboxPandaContainer = styled.div`
         justify-content: space-around;
 
         align-content: space-between;
-        padding: 5vh;
+       
         padding-right: 5vh;
         padding-left: 5vh;
         
@@ -101,7 +99,7 @@ export const FlexboxPandaContainer = styled.div`
 
         align-content: space-between;
         
-        padding: 5vh;
+ 
         padding-right: 5vh;
         padding-left: 5vh;
    
@@ -113,7 +111,7 @@ export const FlexboxPandaContainer = styled.div`
 
         align-content: space-between;
         
-        padding: 5vh;
+
         padding-right: 0vh;
         padding-left: 0vh;
    
@@ -126,9 +124,10 @@ export const FlexboxPandaContainer = styled.div`
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-   
     width: 50%;
-    padding: 5vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     padding-bottom: 0;
 
     @media screen and (max-width:1024px){
@@ -149,7 +148,9 @@ export const ColumnContent2 = styled.div`
     justify-content: center;
    
     width: 50%;
-    padding: 5vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     @media screen and (max-width:1024px){
         width: 100%;
     }
@@ -168,10 +169,11 @@ export const PandaH1 = styled.h1`
     font-size: 3vw;
     color: #534741;
     padding-bottom: 2vh;
-    text-transform: uppercase   ;
+    text-transform: uppercase;
 
     @media screen and (max-width:1024px){
         font-size: 3vw;
+        text-align: center;
     }
 
     @media screen and (max-width:768px){
@@ -196,6 +198,7 @@ export const PandaH1v2 = styled.h1`
 
     @media screen and (max-width:1024px){
         font-size: 3vw;
+        text-align: center;
     }
 
     @media screen and (max-width:768px){
@@ -220,7 +223,6 @@ export const MintDetails = styled.h1`
     font-family: system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,sans-serif;
     font-size: 3vh;
     color: #fff;
-   
     text-align: center;
 `
 
@@ -231,6 +233,7 @@ export const PandaP = styled.p`
 
     @media screen and (max-width:768px){
         font-size: 2vh;
+        text-align: center;
     }
 
     @media screen and (max-width:468px){
@@ -244,8 +247,14 @@ export const PandaP2 = styled.p`
     color: #534741;
     text-align: right;
 
+    @media screen and (max-width:1024px){
+     
+        text-align: center;
+    }
+
     @media screen and (max-width:768px){
         font-size: 2vh;
+        text-align: center;
     }
 
     @media screen and (max-width:468px){
@@ -256,11 +265,6 @@ export const PandaP2 = styled.p`
 export const PandaFlexContainer = styled.div`
     display: flex;
     justify-content: center;
-    
-    align-content: space-between;
-    
-
-    
 `
 
 export const PandaColumnContent = styled.div`
@@ -275,21 +279,26 @@ export const Img = styled.img`
     height: auto;
     display: flex;
     justify-content: center;
-    
-    
 `
 
 export const PandaPFlexContainer = styled.div`
     display: flex;
     justify-content: space-around;
- 
     align-content: space-between;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
         justify-content: space-around;
-        
         align-content: space-between;
+        
+    }
+
+    @media screen and (max-width:895px){
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+
         
     }
     
@@ -298,12 +307,12 @@ export const PandaPFlexContainer = styled.div`
         justify-content: space-around;
         
         align-content: space-between;
+        
     }
 
     @media screen and (max-width:468px){
         flex-wrap: wrap;
         justify-content: space-around;
-        
         align-content: space-between;
     }
 `

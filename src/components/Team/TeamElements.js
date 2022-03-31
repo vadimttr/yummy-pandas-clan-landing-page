@@ -74,8 +74,13 @@ export const FlexboxTeamContainer = styled.div`
     }
 
     @media screen and (max-width:768px){
-        width: auto;
+        width: 90vw;
     }
+
+    @media screen and (max-width:468px){
+        width: 120vw;
+    }
+    
 `
 
 export const ColumnContent = styled.div`
@@ -95,21 +100,34 @@ export const TeamH1 = styled.h1`
     font-size: 3vh;
     text-align: center;
     color: white;
+    padding-left: 1vh;
+    padding-right: 1vh;
     text-transform: uppercase;
+    @media screen and (max-width:468px){
+        font-size: 2.8vh;
+    }
+    
 `
 export const TeamH2 = styled.h1`
     font-family: league;
     font-size: 1.8vh;
     text-align: center;
     color: gray;
+
+    @media screen and (max-width:468px){
+        font-size: 1.5vh;
+    }
 `
 
 export const TeamP = styled.p`
     font-family: roboto;
     font-size: 1.5vh;
     text-align: center;
-
     color: gray;
+
+    @media screen and (max-width:468px){
+        
+    }
 `
 
 export const Img = styled.img`
@@ -124,10 +142,10 @@ export const Img = styled.img`
     -webkit-clip-path: circle(50% at 50% 50%);
 
     @media screen and (max-width:768px){
-        width: 40vw;
+        width: 12vh;
     }
 
     @media screen and (max-width:468px){
-        width: 70vw;
+        width: 12vh;
     }
 `

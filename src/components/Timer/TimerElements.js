@@ -11,8 +11,6 @@ export const TimerContainer = styled.div`
     height: 100vh;
     position: relative;
     z-index: 1;
-   
-    border-bottom: 1vh solid #2be793;
     @font-face {
         font-family: orbitron;
         src: url(${orbitron});

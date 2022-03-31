@@ -13,6 +13,7 @@ export const RarityScaleContainer = styled.div`
     position: relative;
     z-index: 999;
     align-items: center;
+    padding-bottom: 20vh;
 
     @font-face {
         font-family: orbitron;
@@ -119,4 +120,156 @@ export const Img = styled.img`
     height: 100%;
     display: flex;
     justify-content: center;
+`
+
+export const Progress = styled.div`
+    background: lightgray;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 0px;
+    display: flex;
+    height: 30px;
+    width: 50vw;
+
+    @media screen and (max-width:1024px){
+        width: 30vw;
+    }
+
+    @media screen and (max-width:768px){
+        width: 30vw;
+    }
+    
+    @media screen and (max-width:468px){
+        width: 40vw;
+    }
+`
+
+export const ProgressCool = styled.div`
+    border-radius: 100px;
+    background: #f1d3b1;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:cool 2s normal forwards;
+    }
+
+    @keyframes cool {
+        0% { width: 0; }
+        100% { width: 96%; }
+    }
+`
+
+
+export const ProgressCooler = styled.div`
+    border-radius: 100px;
+    background: #49e3ff;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:cooler 2s normal forwards;
+    }
+
+    @keyframes cooler {
+        0% { width: 0; }
+        100% { width: 80%; }
+    }
+`
+
+export const ProgressWild = styled.div`
+    border-radius: 100px;
+    background: #d6ffa3;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:wild 2s normal forwards;
+    }
+
+    @keyframes wild {
+        0% { width: 0; }
+        100% { width: 68%; }
+    }
+`
+
+export const ProgressExotic = styled.div`
+    border-radius: 100px;
+    background: #ff9742;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:exotic 2s normal forwards;
+    }
+
+    @keyframes exotic {
+        0% { width: 0; }
+        100% { width: 56%; }
+    }
+`
+
+export const ProgressEpic = styled.div`
+    border-radius: 100px;
+    background: #fba8dc;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:epic 2s normal forwards;
+    }
+
+    @keyframes epic {
+        0% { width: 0; }
+        100% { width: 44%; }
+    }
+`
+
+export const ProgressElite = styled.div`
+    border-radius: 100px;
+    background: #ff66ce;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:elite 2s normal forwards;
+    }
+
+    @keyframes elite {
+        0% { width: 0; }
+        100% { width: 32%; }
+    }
+`
+
+export const ProgressLegendary = styled.div`
+    border-radius: 100px;
+    background: #5c427f;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:legendary 2s normal forwards;
+    }
+
+    @keyframes legendary {
+        0% { width: 0; }
+        100% { width: 20%; }
+    }
+`
+export const ProgressBamboozled = styled.div`
+    border-radius: 100px;
+    background: #f5d52c;
+    height: 30px;
+    width: 0;
+    
+    &.animation{
+        animation:bamboozled 2s normal forwards;
+    }
+
+    @keyframes bamboozled {
+        0% { width: 0; }
+        100% { width: 4%; }
+    }
 `
