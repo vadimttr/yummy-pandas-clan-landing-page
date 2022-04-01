@@ -14,7 +14,7 @@ const Team = () => {
         <TeamContent>
             <TeamRow>
                 <TeamColumn>
-                    <TeamName>TEAM</TeamName>
+                    <TeamName>THE HUMANS BEHIND THE PANDAS</TeamName>
                     <FlexboxTeamContainer>
                     
                         <ColumnContent>

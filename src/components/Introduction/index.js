@@ -27,11 +27,30 @@ const Introduction = () => {
 
                         <ColumnContent>
                             <IntroH1>
-                            What are Cool Pandas?
+                            WHAT ARE YUMMY PANDAS?
                             </IntroH1>
+
                             <IntroP>
-                            Cool Pandas is a collection of 5,000 randomly generated NFTs on the Ethereum Blockchain, assembled from over 150 unique hand-drawn traits. All the Pandas have a variety of outfits, faces, hats, and colors. Cool Pandas gives the holders the power to stake to earn tokens and to enjoy the extremely fun and interactive Panda NFT Game.
-                             </IntroP>
+                            The Yummy Panda Collection is a clan of 10,000 randomly-generated NFTs, assembled from over 150 hand-drawn traits, secured on the Ethereum Blockchain. YPC pays homage to the Giant Panda Bear, currently endangered in this world.
+                                </IntroP>
+
+                            <IntroP>
+                            For 10,000 years, the prestigious Yummy Pandas explored the multiverse, teaming up with each other, warring against each other, and causing cosmic mayhem. In their intergalactic adventures and quests, each Yummy Panda developed a combination of distinctive traits - outfits, faces, hats, and colors - that tell their own peculiar story.
+                            </IntroP>
+
+                            <IntroP>
+                            In the year ✖²ቢ, the pandas were cryogenically sealed to cross into our dimension for unfreezing in 2022 Earth-time. This prestigious clan has taken a journey across thousands of years and billions of space miles to get here for minting day when they’ll be immortalized as NFTs.
+                            </IntroP>
+
+                            <IntroP>
+                            Although the Yummy Pandas have evolved over millennia, they’re still lazy, stubborn, and stuck in their old ways. Bamboo munching, bambooze sipping, and metaverse lounging all day! After all, the Yummy Panda doesn’t take too many things seriously.
+                            </IntroP>
+
+                            <IntroP>
+                            But DEAD SET they are on equipping their new NFT forms with advanced staking and gaming utilities. It’s official - the Yummy Pandas are ready to roll.
+                            </IntroP>
+
+                          
                         </ColumnContent>
 
                         </Bounce>

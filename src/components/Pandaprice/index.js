@@ -21,13 +21,15 @@ const Pandaprice = () => {
                     <FlexboxPandaContainer>
                         <ColumnContent>
                             <PandaH1>
-                                Why should you acquire panda?
+                                WHY YUMMY PANDAS?
                             </PandaH1>
 
                            
 
                             <PandaP>
-                            Cool Panda is a fun and interactive Community focused NFT project which gets you a bamboo load of perks and benefits like an awesome profile pic, participation in community events, and exclusive access to breeding and raising Baby Cool Pandas through an interactive experience – where you determine the final outcome of your NFT. Staking a Panda will earn $PND based on its rarity.
+                            Yummy Panda NFTs are the basis - and entry token - for the YPC community. Members participate in community events and get an awesome, totally unique profile pic alike image.
+                            The YPC is also utility-packed. Stake your Yummy Panda to earn BMB tokens based on rarity. Raise your Yummy Panda in our game to transform your NFT, and breed two together to create a totally new Yummy Panda. Be warned - to protect the value of YPC NFTs, you could lose a Yummy Panda when breeding.
+
                             </PandaP>
                         </ColumnContent>
 
@@ -40,10 +42,10 @@ const Pandaprice = () => {
 
                     <Container>
                             <PandaH1v2>
-                            What’s in it for me to buy a Cool Panda?
+                            What’s in it for me to buy a Yummy Panda?
                             </PandaH1v2>
                             <PandaP2>
-                            Cool Monkes are priced to help make minting fun and accessible to everyone. Two Cool Monkes are required to participate in breeding, which will take place shortly after minting.
+                            Yummy Panda's are priced to help make minting fun and accessible to everyone. Two Yummy Panda's are required to participate in breeding, which will take place shortly after minting.
                             </PandaP2>
                             
                     </Container>

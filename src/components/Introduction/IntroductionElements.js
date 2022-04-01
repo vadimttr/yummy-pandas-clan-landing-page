@@ -74,7 +74,7 @@ export const IntroContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-    padding: 2vh;
+
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
@@ -94,7 +94,7 @@ export const IntroRow = styled.div`
 `
 
 export const IntroColumn = styled.div`
-    padding: 5vh;
+    padding: 0vh;
 `
 
 export const FlexboxIntroContainer = styled.div`
@@ -171,8 +171,8 @@ export const IntroH1 = styled.h1`
     font-family: league;
     color: #fff;
     display: flex;
-    justify-content: flex-start;
-    font-size: 6vh;
+    justify-content: center;
+    font-size: 2vh;
     letter-spacing: .2vh;
     margin-bottom: 4vh;
     z-index: 1;
@@ -183,7 +183,7 @@ export const IntroH1 = styled.h1`
     @media screen and (max-width:1024px){
         text-align: center;
         justify-content: center;
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
     @media screen and (max-width:768px){
@@ -196,16 +196,17 @@ export const IntroP = styled.p`
     color: #fff;
     display: flex;
     justify-content: flex-start;
-    font-size: 3vh;
+    font-size: 1.5vh;
     letter-spacing: .2vh;
-    line-height: 3.5vh;
+    line-height: 1.8vh;
     text-shadow: 2px 2px 8px #000;
     text-align: left;
+    margin-bottom: 1vh;
 
     @media screen and (max-width:1024px){
         text-align: left;
         justify-content: flex-start;
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
 
     @media screen and (max-width:768px){
@@ -232,7 +233,7 @@ export const Img = styled.img`
     }
 
     @media screen and (max-width:1024px){
-        height: 40vw;
+        height: 31vw;
     }
 
     @media screen and (max-width:768px){

@@ -14,7 +14,7 @@ const Mintafter = () => {
             <MintafterRow>
                 <MintafterColumn>
                     <MintafterH1>
-                        WHAT's next after Yummy Panda's Clan are sold out?
+                        WHAT’S NEXT?
                     </MintafterH1>
                     <FlexboxMintafterContainer>
                         <ColumnContent>
@@ -23,8 +23,7 @@ const Mintafter = () => {
                             </MintAfterH2>
 
                             <MintAfterP>
-                            Send your Cool Pandas to work and earn $PND, the Metaverse’s most delicious token. It can be used in breeding, raising Baby Cool Pandas, and buying exclusive real-world merch.
-                            </MintAfterP>
+                            Send your Yummy Pandas to work and earn BMB for their intergalactic missions. BMB can be used for breeding, raising new Yummy Pandas, and buying exclusive real-world merch.                            </MintAfterP>
                         </ColumnContent>
 
                         <ColumnContent>
@@ -33,8 +32,7 @@ const Mintafter = () => {
                             </MintAfterH2>
 
                             <MintAfterP>
-                            Panda is an NFT game that allows the user to experience fun and excitement by socializing with others through an expandable metaverse experience. Explore the unlimited possibilities by acquiring Cool Panda and join the fun now!
-                            </MintAfterP>
+                            Jump into the exciting YPC game and see your NFT come to life. Rear your Yummy Pandas, watch them transform with in-game items, and upgrade your Yummy Panda for higher staking returns.                            </MintAfterP>
                         </ColumnContent>
                         
                         <ColumnContent>
@@ -43,8 +41,7 @@ const Mintafter = () => {
                             </MintAfterH2>
 
                             <MintAfterP>
-                            Holders with two or more Cool Pandas can breed and create a new Generation 2 Baby Cool Panda. Baby Cool Pandas can be raised into kids or adults using the interactive PVE experience.
-                            </MintAfterP>
+                            YPC members can breed 2 Yummy Pandas together to create a new Generation 2 Yummy Panda. But beware - you could lose one of the parents in any breed. Raise your newborn in the YPC game, taking them through cubhood to fully-fledged panda independence.                          </MintAfterP>
                         </ColumnContent>
                     </FlexboxMintafterContainer>
                 </MintafterColumn>

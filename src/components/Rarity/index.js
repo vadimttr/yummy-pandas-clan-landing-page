@@ -26,14 +26,21 @@ const Rarity = () => {
             <RarityRow>
                 <RarityColumn>
                         <RarityH1>
-                            How Cool is my Panda?
+                            HOW COOL IS MY YUMMY PANDA?
                         </RarityH1>
                     <FlexboxRarityContainer>
                         <ColumnContent> 
 
                             
                             <RarityP>
-                            All Pandas are hand-drawn with love and care, and all are cool, but some are cooler than others….and some are just bamboo. Each Panda can have up to 4 traits, from 8 different rarities. Common items like a tank top or sunglasses are less rare, while a UFO or dinosaur outfit is rarer. The rarity of a Panda determines how many $PND it can earn through staking.
+                            Every Yummy Panda has a few things in common. All hand-drawn with love, all on Ethereum, all cool.
+
+                            But some are cooler than others… and others are downright legendary!
+
+                            Each Yummy Panda has up to 4 traits. Some are common, like a tank top or sunglasses. Other traits, like a UFO or dinosaur outfit, don’t come around so often - our Yummy Pandas have searched the multiverse to find them and now hold them with pride.
+
+                            This unique combination of traits creates 8 different rarity levels. The rarer your Yummy Panda is, the more BMB you can earn through staking.
+
                             </RarityP>
                         </ColumnContent>
                             
