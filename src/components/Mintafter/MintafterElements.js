@@ -11,7 +11,7 @@ export const MintafterContainer = styled.div`
     height: auto;
     position: relative;
     z-index: 1;
-    align-items: center;
+   
 
     @font-face {
         font-family: league;
@@ -43,7 +43,7 @@ export const MintafterContent = styled.div`
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
-    align-items: center;
+  
     justify-content: center;
 
 
@@ -54,7 +54,7 @@ export const MintafterContent = styled.div`
 
 export const MintafterRow = styled.div`
     display: flex;
-    align-items: center;
+   
     justify-content: center;
 `
 
@@ -65,7 +65,7 @@ export const MintafterColumn = styled.div`
 export const FlexboxMintafterContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    align-items: center;
+  
     align-content: space-between;
     width: 80vw;
 
@@ -113,7 +113,7 @@ export const MintafterH1 = styled.h1`
 export const ColumnContent = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+ 
     padding: 2vh;
 `
 

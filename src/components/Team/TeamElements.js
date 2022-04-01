@@ -93,6 +93,18 @@ export const TeamName = styled.h1`
     text-align: center;
     color: white;
     text-transform: uppercase;
+
+    @media screen and (max-width:1024px){
+        font-size: 3vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+
+    @media screen and (max-width:468px){
+        padding-left: 1vh;
+        padding-right: 1vh;
+        font-size: 2vh;
+    }
 `
 
 export const TeamH1 = styled.h1`
