@@ -3,6 +3,7 @@ import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 import indigo from '../../font/IndigoRegular.otf'
 import league from '../../font/LeagueSpartan-Bold.otf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const RarityContainer = styled.div`
     background: #fff;
@@ -30,8 +31,8 @@ export const RarityContainer = styled.div`
     }
 
     @font-face {
-        font-family: league;
-        src: url(${league});
+        font-family: panda;
+        src: url(${BabyPanda});
     }
 `
 
@@ -114,13 +115,13 @@ export const ColumnContent2 = styled.div`
     padding: 0vh;
 `
 export const RarityH1 = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 3vw;
     color: #000;
     margin-bottom: 2vh;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2vh;
+    letter-spacing: 0.4vh;
     @media screen and (max-width:1024px){
         font-size: 4vw;
     }

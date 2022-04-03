@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const RoadmapContainer = styled.div`
     background: #fff;
@@ -15,7 +16,7 @@ export const RoadmapContainer = styled.div`
 
     @font-face {
         font-family: orbitron;
-        src: url(${orbitron});
+        src: url(${BabyPanda});
     }
 
     @font-face {
@@ -97,7 +98,7 @@ export const ColumnContent2 = styled.div`
 export const RoadmapH1 = styled.h1`
     font-size: 5vh;
     color: #000;
-    font-family: league;
+    font-family: orbitron;
     padding: 5vh;
 `
 

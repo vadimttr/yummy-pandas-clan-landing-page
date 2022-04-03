@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
-
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const TeamContainer = styled.div`
     background: #1b1919;
@@ -88,10 +88,11 @@ export const ColumnContent = styled.div`
 `
 
 export const TeamName = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 6vh;
     text-align: center;
     color: white;
+    letter-spacing: 0.3vh;
     text-transform: uppercase;
 
     @media screen and (max-width:1024px){

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import roboto from '../../font/Roboto-Light.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const PandaContainer = styled.div`
     background: #faffd7;
@@ -18,8 +19,8 @@ export const PandaContainer = styled.div`
     }
 
     @font-face {
-        font-family: league;
-        src: url(${league});
+        font-family: panda;
+        src: url(${BabyPanda});
     }
 
 
@@ -164,7 +165,7 @@ export const ColumnContent2 = styled.div`
 `
 
 export const PandaH1 = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 3vw;
     color: #534741;
     padding-bottom: 2vh;
@@ -228,7 +229,7 @@ export const Container = styled.div`
 
 
 export const PandaH1v2 = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 3vw;
     color: #534741;
     padding-bottom: 2vh;
@@ -252,7 +253,7 @@ export const PandaH1v2 = styled.h1`
 `
 
 export const MintH1 = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 2vh;
     color: #fff;
     text-align: center;
@@ -277,6 +278,7 @@ export const PandaP = styled.p`
     font-family: roboto;
     font-size: 3vh;
     color: #534741;
+
 
     @media screen and (max-width:768px){
         font-size: 2vh;

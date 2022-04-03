@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as LinkR } from 'react-router-dom';
 import { Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
-import league from '../../font/LeagueSpartan-Bold.otf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const Nav = styled.nav`
   position: absolute;
@@ -18,8 +18,8 @@ export const Nav = styled.nav`
   /* justify-content: flex-start; */
 
   @font-face {
-    font-family: league;
-    src: url(${league});
+    font-family: panda;
+    src: url(${BabyPanda});
   }
 
   @media screen and (max-width:468px){
@@ -34,11 +34,16 @@ export const NavLogo = styled(LinkR)`
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-family: league;
+    font-family: panda;
+    font-size: 2vh;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 0.2vh;
+    letter-spacing: 0.3vh;
+
+    @media screen and (max-width:1024px){
+      font-size: 3vw;
+    }
 `;
 
 export const ImgLogo = styled.img`
@@ -53,13 +58,14 @@ export const ImgLogo = styled.img`
 export const NavLink = styled(LinkS)`
   color: #fff;
   display: flex;
-  font-family: league;
+  font-family: panda;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  text-shadow: 1px 1px 8px #000;
+
+  letter-spacing: 0.1vh;
 
   &.active {
     color: #15cdfc;

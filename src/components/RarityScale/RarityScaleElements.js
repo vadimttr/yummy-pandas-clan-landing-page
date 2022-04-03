@@ -3,6 +3,7 @@ import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 import indigo from '../../font/IndigoRegular.otf'
 import league from '../../font/LeagueSpartan-Bold.otf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 
 export const RarityScaleContainer = styled.div`
     background: #fff;
@@ -31,8 +32,8 @@ export const RarityScaleContainer = styled.div`
     }
 
     @font-face {
-        font-family: league;
-        src: url(${league});
+        font-family: panda;
+        src: url(${BabyPanda});
     }
 `
 

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
-import league from '../../font/LeagueSpartan-Bold.otf'
+import BabyPanda from '../../font/BabyPanda.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
 export const IntroductionContainer = styled.div`
@@ -25,8 +25,8 @@ export const IntroductionContainer = styled.div`
     }
 
     @font-face {
-        font-family: league;
-        src: url(${league});
+        font-family: panda;
+        src: url(${BabyPanda});
     }
     
 `
@@ -168,7 +168,7 @@ export const ColumnContent2 = styled.div`
 `
 
 export const IntroH1 = styled.h1`
-    font-family: league;
+    font-family: panda;
     color: #fff;
     display: flex;
     justify-content: center;

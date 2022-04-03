@@ -28,6 +28,11 @@ const Pandaprice = () => {
 
                             <PandaP>
                             Yummy Panda NFTs are the basis - and entry token - for the YPC community. Members participate in community events and get an awesome, totally unique profile pic alike image.
+                            
+                           
+                            </PandaP>
+                            <br></br>
+                            <PandaP>
                             The YPC is also utility-packed. Stake your Yummy Panda to earn BMB tokens based on rarity. Raise your Yummy Panda in our game to transform your NFT, and breed two together to create a totally new Yummy Panda. Be warned - to protect the value of YPC NFTs, you could lose a Yummy Panda when breeding.
 
                             </PandaP>
