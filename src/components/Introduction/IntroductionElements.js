@@ -4,6 +4,7 @@ import roboto from '../../font/Roboto-Light.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
+import bgHouse468 from '../../image/house468.jpg'
 export const IntroductionContainer = styled.div`
     background: white;
     display: flex;
@@ -13,6 +14,7 @@ export const IntroductionContainer = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    background: #ffedbf;
 
     @font-face {
         font-family: orbitron;
@@ -64,9 +66,10 @@ export const IntroBg = styled.div`
     }
 
     @media screen and (max-width:468px){
-        background-image: url(${bgHouse});
-        background-size: cover;
+        background-image: url(${bgHouse468});
+        background-size: auto;
         background-position: center;
+        background-repeat: no-repeat;
     }
 `
 
@@ -241,7 +244,7 @@ export const Img = styled.img`
     }
 
     @media screen and (max-width:468px){
-        height: 60vw;
+        height: 50vw;
     }
 `
 
