@@ -3,7 +3,19 @@ import { TeamContainer, TeamBg, TeamContent,
     TeamRow, TeamColumn, FlexboxTeamContainer,
     ColumnContent, Img, TeamH1, TeamH2, TeamP,
     TeamName, TeamInfoContainer } from './TeamElements'
-import img from '../../image/elite.JPG'
+
+import FOUNDER from '../../image/team/Founder.jpeg'
+import SMM from '../../image/team/Bot.jpeg'
+import DISCORDEXPERT from '../../image/team/DiscordExpert.jpeg'
+import DESIGNER from '../../image/team/Designer.jpeg'
+import CMO from '../../image/team/CMO.jpeg'
+import DEVELOPER from '../../image/team/Developer.jpeg'
+import COMMUNITYB from '../../image/team/CommunityBuilder.jpeg'
+import ADMIN from '../../image/team/Admin.jpeg'
+import COPYWRITER from '../../image/team/Copywriter.jpeg'
+
+
+
 const Team = () => {
   return (
     <TeamContainer>
@@ -33,7 +45,7 @@ const Team = () => {
                                     <span className='t_over'></span>
                                     <div className="tilt-box">
                                         
-                                        <Img src={img} className="teamImg" />
+                                        <Img src={FOUNDER} className="teamImg" />
                                         
                                     </div>
                                     
@@ -71,7 +83,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={SMM} className="teamImg" />
                                        
                                    </div>
                                    
@@ -107,7 +119,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={DISCORDEXPERT} className="teamImg" />
                                        
                                    </div>
                                    
@@ -143,7 +155,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={DESIGNER} className="teamImg" />
                                        
                                    </div>
                                    
@@ -181,7 +193,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={CMO} className="teamImg" />
                                        
                                    </div>
                                    
@@ -218,7 +230,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={DEVELOPER} className="teamImg" />
                                        
                                    </div>
                                    
@@ -255,7 +267,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={COMMUNITYB} className="teamImg" />
                                        
                                    </div>
                                    
@@ -290,7 +302,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={ADMIN} className="teamImg" />
                                        
                                    </div>
                                    
@@ -325,7 +337,7 @@ const Team = () => {
                                    <span className='t_over'></span>
                                    <div className="tilt-box">
                                        
-                                       <Img src={img} className="teamImg" />
+                                       <Img src={COPYWRITER} className="teamImg" />
                                        
                                    </div>
                                    
