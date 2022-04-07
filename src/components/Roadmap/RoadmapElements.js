@@ -8,12 +8,12 @@ export const RoadmapContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: 100vh;
+    height: auto;
     position: relative;
     z-index: 1;
     align-items: center;
     overflow-x: scroll;
-
+    padding: 5vh 0vh;
     @font-face {
         font-family: orbitron;
         src: url(${BabyPanda});
@@ -40,8 +40,8 @@ export const RoadmapContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-    padding: 2vh;
-    padding-top: 5vh;
+
+    
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
@@ -56,30 +56,24 @@ export const RoadmapRow = styled.div`
 `
 
 export const RoadmapColumn = styled.div`
-    padding: 5vh;
+    padding: 0vh;
 `
 
 export const FlexboxRoadmapContainer = styled.div`
     position: relative;
-    display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     align-content: space-between;
-    padding: 5vh;
-    left: 15vh;
+    padding: 0vh;
+    left: 0vh;
 
-    @media screen and (max-width:468px){
-        left: 5vh;
-    }
 `
 
 export const ColumnContent = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    width: 40vh;
-
+    height: auto;
     
 `
 
@@ -88,7 +82,7 @@ export const ColumnContent2 = styled.div`
     align-items: center;
     padding: 0vh;
     width: 70vw;
-    height: 5vw;
+
 
     @media screen and (max-width:468px){
         width: 30vw;
@@ -99,7 +93,7 @@ export const RoadmapH1 = styled.h1`
     font-size: 5vh;
     color: #000;
     font-family: orbitron;
-    padding: 5vh;
+  
 `
 
 

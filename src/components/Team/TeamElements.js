@@ -7,11 +7,17 @@ export const TeamContainer = styled.div`
     background: #1b1919;
     display: flex;
     justify-content: center;
-    padding: 0 0px;
+    padding: 5vh 0vh;
     height: auto;
     position: relative;
     z-index: 1;
     align-items: center;
+
+    @font-face {
+        font-family: panda;
+        src: url(${BabyPanda});
+    }
+
 
     @font-face {
         font-family: orbitron;
@@ -66,27 +72,54 @@ export const FlexboxTeamContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90vw;
-    padding: 5vh;
+    width: 100vw;
+    padding: 2vh;
 
     @media screen and (max-width:1024px){
-        width: auto;
+        width: 100vw;
     }
 
     @media screen and (max-width:768px){
-        width: 90vw;
+        width: 100vw;
+        padding: 2vh
     }
 
     @media screen and (max-width:468px){
-        width: 120vw;
+        width: 100vw;
     }
     
 `
 
 export const ColumnContent = styled.div`
     height: auto;
-`
+    width: 25%;
 
+    @media screen and (max-width:1024px){
+        width: 50%;
+    }
+
+    @media screen and (max-width:768px){
+        width: 50%;
+    }
+
+    @media screen and (max-width:468px){
+        width: 50%;
+    }
+`
+export const TeamInfoContainer = styled.div`
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0vh 5vh;
+
+    @media screen and (max-width:1024px){
+        padding:0vh 5vh;
+    }
+
+    @media screen and (max-width:468px){
+        padding:0vh 3vh;
+    }
+
+`
 export const TeamName = styled.h1`
     font-family: panda;
     font-size: 6vh;
@@ -109,23 +142,30 @@ export const TeamName = styled.h1`
 `
 
 export const TeamH1 = styled.h1`
-    font-family: league;
+    font-family: panda;
     font-size: 3vh;
+    letter-spacing: 0.4vh;
     text-align: center;
     color: white;
     padding-left: 1vh;
     padding-right: 1vh;
     text-transform: uppercase;
+    @media screen and (max-width:768px){
+        font-size: 3vw;
+    }
     @media screen and (max-width:468px){
-        font-size: 2.8vh;
+        font-size: 3vw;
     }
     
 `
 export const TeamH2 = styled.h1`
-    font-family: league;
-    font-size: 1.8vh;
+    font-family: roboto;
+    font-size: 1.5vh;
     text-align: center;
     color: gray;
+    text-transform: uppercase;
+    padding-top: 1vh;
+    letter-spacing: 0.1vh;
 
     @media screen and (max-width:468px){
         font-size: 1.5vh;
@@ -137,6 +177,9 @@ export const TeamP = styled.p`
     font-size: 1.5vh;
     text-align: center;
     color: gray;
+
+    display: flex;
+    justify-content: center;
 
     @media screen and (max-width:468px){
         
@@ -155,10 +198,10 @@ export const Img = styled.img`
     -webkit-clip-path: circle(50% at 50% 50%);
 
     @media screen and (max-width:768px){
-        width: 12vh;
+        width: 30vw;
     }
 
     @media screen and (max-width:468px){
-        width: 12vh;
+        width: 30vw;
     }
 `
