@@ -14,6 +14,10 @@ export const SideBarContainer = styled.aside`
     align-items: center;
     top: 0;
     left: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    height: 100%;
+
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     left: ${({ isOpen }) => (isOpen ? '0' : '-100%')};  
@@ -22,6 +26,7 @@ export const SideBarContainer = styled.aside`
         font-family: Orbitron;
         src: url(${Orbitron});
     }
+    
 
 `
 
