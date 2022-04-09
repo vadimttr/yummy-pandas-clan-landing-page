@@ -14,6 +14,12 @@ export const RoadmapContainer = styled.div`
     align-items: center;
     overflow-x: scroll;
     padding: 5vh 0vh;
+
+    @font-face {
+        font-family: panda;
+        src: url(${BabyPanda});
+    }
+
     @font-face {
         font-family: orbitron;
         src: url(${BabyPanda});
@@ -92,7 +98,8 @@ export const ColumnContent2 = styled.div`
 export const RoadmapH1 = styled.h1`
     font-size: 5vh;
     color: #000;
-    font-family: orbitron;
+    font-family: panda;
+    letter-spacing: 0.3vh;
   
 `
 

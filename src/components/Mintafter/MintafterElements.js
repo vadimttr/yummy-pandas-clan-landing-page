@@ -127,7 +127,7 @@ export const MintAfterH2 = styled.h1`
     letter-spacing: 0.4vh;
     font-family: panda;
     font-size: 4vh;
-    color: #f7d020;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 2vh;

@@ -162,7 +162,7 @@ export const TeamH2 = styled.h1`
     font-family: roboto;
     font-size: 1.5vh;
     text-align: center;
-    color: gray;
+    color: #fff;
     text-transform: uppercase;
     padding-top: 1vh;
     letter-spacing: 0.1vh;
@@ -176,7 +176,7 @@ export const TeamP = styled.p`
     font-family: roboto;
     font-size: 1.5vh;
     text-align: center;
-    color: gray;
+    color: #fff;
 
     display: flex;
     justify-content: center;

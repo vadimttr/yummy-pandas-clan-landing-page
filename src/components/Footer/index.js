@@ -48,7 +48,7 @@ const Footer = () => {
                                 </SocialLinks>
                                 
                                 
-                                <SocialLinks href="/https://twitter.com/YummyPandas"  target="_blank" rel="noopener">
+                                <SocialLinks href="https://twitter.com/YummyPandas"  target="_blank" rel="noopener">
                                     <SocialImg src={twitter} />
                                 </SocialLinks>
                                 
@@ -58,7 +58,7 @@ const Footer = () => {
                                 </SocialLinks>
                                 
                                 
-                                <SocialLinks href="/https://www.instagram.com/yummy_pandas_nft/"  target="_blank" rel="noopener">
+                                <SocialLinks href="https://www.instagram.com/yummy_pandas_nft/"  target="_blank" rel="noopener">
                                     <SocialImg src={instagram} />
                                 </SocialLinks>
                                 

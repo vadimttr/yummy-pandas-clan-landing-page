@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 0;
-    height: 30vh;
+    height: 50vh;
     width: auto;
     position: relative;
     top:0vh;
