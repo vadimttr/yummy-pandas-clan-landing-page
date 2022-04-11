@@ -35,6 +35,7 @@ export const NavLogo = styled(LinkR)`
     display: flex;
     align-items: center;
     font-family: panda;
+    width: 20%;
     font-size: 2vh;
     font-weight: bold;
     text-decoration: none;
@@ -69,6 +70,11 @@ export const NavLink = styled(LinkS)`
 
   &.active {
     color: #15cdfc;
+  }
+
+  &:hover{
+    color: #15cdfc;
+    transition: all .5s ease-in;
   }
 `;
 

@@ -4,7 +4,6 @@ import roboto from '../../font/Roboto-Light.ttf'
 
 
 export const TimerContainer = styled.div`
-    background: red;
     display: flex;
     justify-content: center;
     padding: 0 0px;
