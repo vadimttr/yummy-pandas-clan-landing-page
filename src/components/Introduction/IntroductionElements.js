@@ -4,7 +4,8 @@ import Montserrat from '../../font/Montserrat.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
-import bgHouse468 from '../../image/house468.jpg'
+import bgHouse468 from '../../image/houseMobile.PNG'
+
 export const IntroductionContainer = styled.div`
     background: white;
     display: flex;
