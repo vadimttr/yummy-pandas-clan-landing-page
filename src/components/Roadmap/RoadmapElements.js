@@ -79,6 +79,30 @@ export const Tree = styled.img`
     }
 `
 
+export const PNB = styled.img`
+    position: absolute;
+    bottom: 0;
+    left: 230vh;
+    width: 20vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width:1024px){
+        width: 30vw;
+        left: 220vh;
+    }
+
+    @media screen and (max-width:768px){
+        left: 200vh;
+        width: 40vw;
+    }
+
+    @media screen and (max-width:468px){
+        width: 60vw;
+    }
+`
+
 export const RoadmapRow = styled.div`
     display: flex;
     align-items: center;
