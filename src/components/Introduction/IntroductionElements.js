@@ -50,7 +50,7 @@ export const IntroBg = styled.div`
     height: 110%;
     overflow: hidden;
     z-index: 0;
-    background-image: url(${bg});
+    background-image: url(${bgHouse468});
     background-size: cover;
 
     @media screen and (max-width:1024px){
@@ -101,6 +101,44 @@ export const HouseBg = styled.img`
         display: flex;
         bottom: -10vh;
         width: 150vw;
+    }
+`
+
+export const Branch = styled.img`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width:1366px){
+        display: none;
+    }
+
+    @media screen and (max-width:1024px){
+        display: none;
+    }
+`
+
+export const HousePC = styled.img`
+    position: absolute;
+    bottom: -5vh;
+    right: 5vh;
+    width: 55vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width:1366px){
+        bottom: 0;
+        right: 0;
+        width: 70vw;
+    }
+
+    @media screen and (max-width:1024px){
+        display: none;
     }
 `
 
@@ -169,9 +207,9 @@ export const ColumnContent = styled.div`
 
     @media screen and (max-width:1366px){
         width: 60vw;
-        top: 0vh;
-        padding-left: 0vh;
-        padding-right: 0vh;
+        top: 10vh;
+        padding-left: 10vh;
+        padding-right: 20vh;
     }
 
     @media screen and (max-width:1024px){

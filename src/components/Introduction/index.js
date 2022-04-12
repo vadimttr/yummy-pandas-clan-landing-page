@@ -1,12 +1,14 @@
 import React from 'react'
 import { IntroductionContainer, IntroBg, 
     IntroContent, IntroRow, IntroColumn, FlexboxIntroContainer, ColumnContent,
-    ColumnContent2, IntroH1, IntroP, Img, ImgBg, HouseBg}
+    ColumnContent2, IntroH1, IntroP, Img, ImgBg, HouseBg, Branch, HousePC}
 from './IntroductionElements'
 import img from '../../image/yummyabout.png'
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 import bg from '../../image/houseMobile.PNG'
+import branch from '../../image/branch.PNG'
+import housePC from '../../image/housePC.PNG'
 
 const Introduction = () => {
   return (
@@ -14,6 +16,10 @@ const Introduction = () => {
         <IntroBg >
             
         </IntroBg>
+        
+        <Branch src={branch}/>
+
+        <HousePC src={housePC}/>
 
         <HouseBg src={bg}/>
 
@@ -24,6 +30,8 @@ const Introduction = () => {
                         <ColumnContent2>
                             <Img src={img}/>
                         </ColumnContent2>
+
+
 
                         <Bounce>
 
