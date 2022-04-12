@@ -42,17 +42,7 @@ export const RoadmapBg = styled.div`
     overflow: hidden;
     z-index: 0;
 
-    background-image: url(${bg});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    @media screen and (max-width:1024px){
-        background-image: url(${bg});
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left;
-    }
+   
 `
 
 export const RoadmapContent = styled.div`

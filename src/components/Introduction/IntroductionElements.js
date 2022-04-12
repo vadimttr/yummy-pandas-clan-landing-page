@@ -61,8 +61,9 @@ export const IntroBg = styled.div`
     }
     
     @media screen and (max-width:768px){
-        background-image: url(${bgHouse});
+        background-image: url(${bgHouse468});
         background-size: cover;
+        background-size: 100vh;
         background-position: center;
     }
 
@@ -152,7 +153,7 @@ export const ColumnContent = styled.div`
     }
    
     @media screen and (max-width:768px){
-        width: 80vw;
+        width: 68vw;
         top: 5vh;
         padding-left: 0vh;
         padding-right: 0vh;
