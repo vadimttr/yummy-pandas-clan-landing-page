@@ -2,7 +2,7 @@ import styled from "styled-components"
 import roboto from '../../font/Montserrat.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import BabyPanda from '../../font/BabyPanda.ttf'
-import bg from '../../image/pandapricebg.JPG'
+import bg from '../../image/ufoBg.JPG'
 export const PandaContainer = styled.div`
     background: #faffd7;
     display: flex;
