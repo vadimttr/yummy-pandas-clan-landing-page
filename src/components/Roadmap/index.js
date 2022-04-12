@@ -1,16 +1,16 @@
 import React from 'react'
 import { RoadmapContainer, RoadmapBg, RoadmapContent,
   RoadmapRow, RoadmapColumn, FlexboxRoadmapContainer,
-  ColumnContent, ColumnContent2, RoadmapH1, Img} from './RoadmapElements'
+  ColumnContent, ColumnContent2, RoadmapH1, Img, ImgBg} from './RoadmapElements'
 import img from '../../image/roadmap.png'
-import bg from '../../image/pandatreeroadmap.PNG'
+import picture from '../../image/pandatreeroadmap.PNG'
 
 
 const Roadmap = () => {
   return (
     <RoadmapContainer id='roadmap'>
-      <RoadmapBg src={bg}>
-
+      <RoadmapBg>
+        <ImgBg src={picture}/>
       </RoadmapBg>
       <RoadmapContent>
         <RoadmapRow>

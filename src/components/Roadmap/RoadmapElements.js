@@ -55,6 +55,10 @@ export const RoadmapContent = styled.div`
     align-items: center;
     justify-content: center;
 `
+export const ImgBg = styled.div`
+    height: 10vh;
+    width: auto;
+`
 
 export const RoadmapRow = styled.div`
     display: flex;

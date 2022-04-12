@@ -48,7 +48,7 @@ export const PandaContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-    padding: 0vh;
+    padding:10vh 0vh;
     display: flex;
 
     justify-content: center;
@@ -152,7 +152,7 @@ export const ColumnContent2 = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 25vh;
+    padding-top: 15vh;
     padding-left: 5vh;
     padding-right: 5vh;
     @media screen and (max-width:1024px){
