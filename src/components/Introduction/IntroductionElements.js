@@ -68,7 +68,7 @@ export const IntroBg = styled.div`
 
     @media screen and (max-width:468px){
         background-image: url(${bgHouse468});
-        background-size: auto;
+        background-size: 85vh;
         background-position: center;
         background-repeat: no-repeat;
     }
