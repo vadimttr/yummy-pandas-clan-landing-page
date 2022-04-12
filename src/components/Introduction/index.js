@@ -1,19 +1,21 @@
 import React from 'react'
 import { IntroductionContainer, IntroBg, 
     IntroContent, IntroRow, IntroColumn, FlexboxIntroContainer, ColumnContent,
-    ColumnContent2, IntroH1, IntroP, Img, ImgBg}
+    ColumnContent2, IntroH1, IntroP, Img, ImgBg, HouseBg}
 from './IntroductionElements'
 import img from '../../image/yummyabout.png'
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
-import bg from '../../image/coolimage2.JPG'
+import bg from '../../image/houseMobile.PNG'
 
 const Introduction = () => {
   return (
     <IntroductionContainer id='story'>
         <IntroBg >
             
-        </IntroBg>.
+        </IntroBg>
+
+        <HouseBg src={bg}/>
 
         <IntroContent >
             <IntroRow>
@@ -32,7 +34,7 @@ const Introduction = () => {
 
                             <IntroP>
                             The Yummy Panda Collection is a clan of 10,000 randomly-generated NFTs, assembled from over 150 hand-drawn traits, secured on the Ethereum Blockchain. YPC pays homage to the Giant Panda Bear, currently endangered in this world.
-                                </IntroP>
+                            </IntroP>
 
                             <IntroP>
                             For 10,000 years, the prestigious Yummy Pandas explored the multiverse, teaming up with each other, warring against each other, and causing cosmic mayhem. In their intergalactic adventures and quests, each Yummy Panda developed a combination of distinctive traits - outfits, faces, hats, and colors - that tell their own peculiar story.

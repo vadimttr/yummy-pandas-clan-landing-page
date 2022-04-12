@@ -4,7 +4,7 @@ import Montserrat from '../../font/Montserrat.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
-import bgHouse468 from '../../image/houseMobile.PNG'
+import bgHouse468 from '../../image/introBG.JPG'
 
 export const IntroductionContainer = styled.div`
     background: white;
@@ -30,6 +30,10 @@ export const IntroductionContainer = styled.div`
     @font-face {
         font-family: panda;
         src: url(${BabyPanda});
+    }
+
+    @media screen and (max-width:468px){
+        height: auto;
     }
     
 `
@@ -63,15 +67,37 @@ export const IntroBg = styled.div`
     @media screen and (max-width:768px){
         background-image: url(${bgHouse468});
         background-size: cover;
-        background-size: 100vh;
         background-position: center;
     }
 
     @media screen and (max-width:468px){
         background-image: url(${bgHouse468});
-        background-size: 85vh;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+`
+
+export const HouseBg = styled.img`
+    position: absolute;
+    
+    right: 8;
+    
+    width: 30vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+    display: none;
+
+    @media screen and (max-width:768px){
+        display: flex;
+        width: 120vw;
+    }
+
+    @media screen and (max-width:468px){
+        display: flex;
+        bottom: -10vh;
+        width: 150vw;
     }
 `
 
@@ -90,7 +116,7 @@ export const IntroContent = styled.div`
     }
 
     @media screen and (max-width:468px){
-        padding: 0vh;
+        padding:5vh 0vh;
     }
     
 `
@@ -162,8 +188,8 @@ export const ColumnContent = styled.div`
     @media screen and (max-width:468px){
         width: 90vw;
         top: 0vh;
-        padding-left: 0vh;
-        padding-right: 0vh;
+        padding-left: 4vh;
+        padding-right: 4vh;
     }
 `
 
@@ -223,6 +249,10 @@ export const IntroP = styled.p`
     @media screen and (max-width:768px){
         text-align: left;
         justify-content: flex-start;
+    }
+    
+    @media screen and (max-width:468px){
+        text-shadow: 2px 2px #000;   
     }
 `
 

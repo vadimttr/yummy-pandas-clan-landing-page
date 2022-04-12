@@ -1,18 +1,19 @@
 import React from 'react'
 import { RoadmapContainer, RoadmapBg, RoadmapContent,
   RoadmapRow, RoadmapColumn, FlexboxRoadmapContainer,
-  ColumnContent, ColumnContent2, RoadmapH1, Img, ImgBg} from './RoadmapElements'
+  ColumnContent, ColumnContent2, RoadmapH1, Img, Tree} from './RoadmapElements'
 import img from '../../image/roadmap.png'
 import picture from '../../image/pandatreeroadmap.PNG'
 
 
-const Roadmap = () => {
+const Roadmap = () => { 
   return (
     <RoadmapContainer id='roadmap'>
       <RoadmapBg>
       
       </RoadmapBg>
-      <ImgBg src={picture}/>
+
+      <Tree src={picture}></Tree>
       <RoadmapContent>
         <RoadmapRow>
           <RoadmapColumn>

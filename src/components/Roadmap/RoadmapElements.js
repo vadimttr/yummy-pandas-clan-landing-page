@@ -56,27 +56,27 @@ export const RoadmapContent = styled.div`
     align-items: center;
     justify-content: center;
 `
-export const ImgBg = styled.div`
- 
+export const Tree = styled.img`
     position: absolute;
-
-    right: 0;
     bottom: 0;
+    right: 0;
     left: 0;
-    width: 150vh;
-    height: 100vh;
+    width: 50vw;
+    height: auto;
     overflow: hidden;
-    background-image: url(${bg});
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
-    
+    z-index: 0;
+
     @media screen and (max-width:1024px){
-        height: 100vh;
-        background-image: url(${bg});
-        background-repeat: no-repeat;
-        background-position: 0% 100%;
+        width: 70vw;
     }
 
+    @media screen and (max-width:1024px){
+        width: 100vw;
+    }
+
+    @media screen and (max-width:468px){
+        width: 120vw;
+    }
 `
 
 export const RoadmapRow = styled.div`
@@ -113,6 +113,7 @@ export const ColumnContent2 = styled.div`
     padding: 0vh;
     width: 70vw;
 
+  
 
     @media screen and (max-width:468px){
         width: 30vw;
@@ -121,7 +122,7 @@ export const ColumnContent2 = styled.div`
 
 export const RoadmapH1 = styled.h1`
     font-size: 4vw;
-    color: #fff;
+    color: #000;
     font-family: panda;
     letter-spacing: 0.3vh;
     text-shadow: 2px 2px #000;
