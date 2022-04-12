@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import roboto from '../../font/Roboto-Light.ttf'
+import roboto from '../../font/Montserrat.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 
