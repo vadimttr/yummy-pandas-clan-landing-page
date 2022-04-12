@@ -44,6 +44,28 @@ export const PandaBg = styled.div`
     background-position: center;
 `
 
+export const EarthImg = styled.img`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+`
+
+export const AstroPanda = styled.img`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+`
+
 export const PandaContent = styled.div`
     z-index: 0;
     max-width: 1200px;
