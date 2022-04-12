@@ -10,8 +10,9 @@ const Roadmap = () => {
   return (
     <RoadmapContainer id='roadmap'>
       <RoadmapBg>
-        <ImgBg src={picture}/>
+      
       </RoadmapBg>
+      <ImgBg src={picture}/>
       <RoadmapContent>
         <RoadmapRow>
           <RoadmapColumn>

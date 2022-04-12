@@ -15,6 +15,7 @@ export const RoadmapContainer = styled.div`
     align-items: center;
     overflow-x: scroll;
     padding: 5vh 0vh;
+    overflow-y: hidden;
 
     @font-face {
         font-family: panda;
@@ -56,8 +57,26 @@ export const RoadmapContent = styled.div`
     justify-content: center;
 `
 export const ImgBg = styled.div`
-    height: 10vh;
-    width: auto;
+ 
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 150vh;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(${bg});
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    
+    @media screen and (max-width:1024px){
+        height: 100vh;
+        background-image: url(${bg});
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+    }
+
 `
 
 export const RoadmapRow = styled.div`
@@ -102,9 +121,10 @@ export const ColumnContent2 = styled.div`
 
 export const RoadmapH1 = styled.h1`
     font-size: 4vw;
-    color: #000;
+    color: #fff;
     font-family: panda;
     letter-spacing: 0.3vh;
+    text-shadow: 2px 2px #000;
 
     @media screen and (max-width:1024px){
         font-size: 6vh;
