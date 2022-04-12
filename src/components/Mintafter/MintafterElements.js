@@ -60,7 +60,7 @@ export const MintafterRow = styled.div`
 `
 
 export const MintafterColumn = styled.div`
-    padding: 5vh;
+    padding: 0vh;
 `
 
 export const FlexboxMintafterContainer = styled.div`

@@ -31,6 +31,9 @@ export const IntroductionContainer = styled.div`
         font-family: panda;
         src: url(${BabyPanda});
     }
+    @media screen and (max-width:1024px){
+        height: 120vh;
+    }
 
     @media screen and (max-width:468px){
         height: auto;

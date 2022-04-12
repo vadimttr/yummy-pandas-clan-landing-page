@@ -45,13 +45,13 @@ export const TeamContent = styled.div`
     max-width: 1200px;
     position: relative;
     padding: 2vh;
-    padding-top: 5vh;
+    padding-top: 0vh;
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4vh;
+    top: 0vh;
 
     @media screen and (max-width:468px){
         padding: 0vh;

@@ -65,6 +65,14 @@ export const AstroPanda = styled.img`
     padding-left: 5vh;
     overflow: hidden;
     z-index: 1;
+
+    @media screen and (max-width:1024px){
+        height: 25vw;
+    }
+
+    @media screen and (max-width:768px){
+        height: 35vw;
+    }
 `
 
 export const Milky = styled.img`
@@ -266,6 +274,7 @@ export const PandaH1 = styled.h1`
     font-size: 3vw;
     color: #fff;
     padding-bottom: 2vh;
+    letter-spacing: 0.4vh;
     text-transform: uppercase;
 
     @media screen and (max-width:1024px){
@@ -324,6 +333,7 @@ export const PandaH1v2 = styled.h1`
     font-size: 3vw;
     color: #fff;
     padding-bottom: 2vh;
+    letter-spacing: 0.4vh;
     text-transform: uppercase;
     text-align: center;
 
