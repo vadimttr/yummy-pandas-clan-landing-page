@@ -51,6 +51,11 @@ export const NavLogo = styled(LinkR)`
       font-size: 3vw;
       width: 40%;
     }
+
+    @media screen and (max-width:468px){
+      font-size: 3vw;
+      width: 40%;
+    }
     
 `;
 
