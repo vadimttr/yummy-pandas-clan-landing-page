@@ -50,7 +50,7 @@ export const EarthImg = styled.img`
     right: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     z-index: 0;
 `
@@ -61,10 +61,35 @@ export const AstroPanda = styled.img`
     right: 0;
     left: 0;
     width: auto;
-    height: 100vh;
+    height: 15vw;
+    padding-left: 5vh;
     overflow: hidden;
     z-index: 1;
 `
+
+export const Milky = styled.img`
+    position: absolute;
+    bottom: 5.8vh;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    padding-left: 0vh;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width:1024px){
+        bottom: 3vh;
+    }
+    @media screen and (max-width:768px){
+        bottom: 2.4vh;
+    }
+    @media screen and (max-width:468px){
+        bottom: 1.5vh;
+    }
+`
+
+
 
 export const PandaContent = styled.div`
     z-index: 0;
