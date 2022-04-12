@@ -2,13 +2,14 @@ import styled from "styled-components";
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import roboto from '../../font/Roboto-Light.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
+import bg from '../../image/pandatreeroadmap.PNG'
 
 export const RoadmapContainer = styled.div`
     background: #fff;
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: auto;
+    height: 100vh;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -40,6 +41,18 @@ export const RoadmapBg = styled.div`
     height: 100%;
     overflow: hidden;
     z-index: 0;
+
+    background-image: url(${bg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media screen and (max-width:1024px){
+        background-image: url(${bg});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
 `
 
 export const RoadmapContent = styled.div`

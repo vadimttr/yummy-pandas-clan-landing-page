@@ -2,7 +2,7 @@ import styled from "styled-components"
 import roboto from '../../font/Montserrat.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import BabyPanda from '../../font/BabyPanda.ttf'
-
+import bg from '../../image/pandapricebg.JPG'
 export const PandaContainer = styled.div`
     background: #faffd7;
     display: flex;
@@ -38,6 +38,10 @@ export const PandaBg = styled.div`
     height: 100%;
     overflow: hidden;
     z-index: 0;
+    background-image: url(${bg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 `
 
 export const PandaContent = styled.div`
@@ -167,23 +171,17 @@ export const ColumnContent2 = styled.div`
 
 export const PandaH1 = styled.h1`
     font-family: panda;
-    font-size: 5vw;
-    color: #534741;
+    font-size: 3vw;
+    color: #fff;
     padding-bottom: 2vh;
     text-transform: uppercase;
 
     @media screen and (max-width:1024px){
-        font-size: 3vw;
+        font-size: 5vh;
         text-align: center;
     }
 
-    @media screen and (max-width:768px){
-        font-size: 3vw;
-    }
 
-    @media screen and (max-width:468px){
-        font-size: 5vw;
-    }
 
 
 `
@@ -232,23 +230,16 @@ export const Container = styled.div`
 export const PandaH1v2 = styled.h1`
     font-family: panda;
     font-size: 3vw;
-    color: #534741;
+    color: #fff;
     padding-bottom: 2vh;
     text-transform: uppercase;
     text-align: center;
 
     @media screen and (max-width:1024px){
-        font-size: 3vw;
+        font-size: 5vh;
         text-align: center;
     }
-
-    @media screen and (max-width:768px){
-        font-size: 3vw;
-    }
-
-    @media screen and (max-width:468px){
-        font-size: 5vw;
-    }
+ 
 
 
 `
@@ -278,7 +269,7 @@ export const MintDetails = styled.h1`
 export const PandaP = styled.p`
     font-family: roboto;
     font-size: 3vh;
-    color: #534741;
+    color: #fff;
 
 
     @media screen and (max-width:768px){
@@ -294,7 +285,7 @@ export const PandaP = styled.p`
 export const PandaP2 = styled.p`
     font-family: roboto;
     font-size: 3vh;
-    color: #534741;
+    color: #fff;
     text-align: center;
 
     @media screen and (max-width:1024px){
@@ -371,8 +362,8 @@ export const PandaPFlexContainer = styled.div`
         align-content: space-between;
         width: auto;
         top: 0vh;
-        padding-left: 0vh;
-        padding-right: 0vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
     }
 
     @media screen and (max-width:468px){
@@ -381,8 +372,8 @@ export const PandaPFlexContainer = styled.div`
         align-content: space-between;
         width: auto;
         top: 0vh;
-        padding-left: 10vh;
-        padding-right: 10vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
     }
 `
 

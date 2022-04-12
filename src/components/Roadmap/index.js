@@ -4,6 +4,7 @@ import { RoadmapContainer, RoadmapBg, RoadmapContent,
   ColumnContent, ColumnContent2, RoadmapH1, Img} from './RoadmapElements'
 import img from '../../image/roadmap.png'
 
+
 const Roadmap = () => {
   return (
     <RoadmapContainer id='roadmap'>

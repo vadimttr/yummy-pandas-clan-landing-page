@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import orbitron from '../../font/Orbitron-Regular.ttf'
-import roboto from '../../font/Roboto-Light.ttf'
+import roboto from '../../font/Montserrat.ttf'
 import indigo from '../../font/IndigoRegular.otf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import BabyPanda from '../../font/BabyPanda.ttf'
@@ -123,7 +123,7 @@ export const RarityH1 = styled.h1`
     text-transform: uppercase;
     letter-spacing: 0.4vh;
     @media screen and (max-width:1024px){
-        font-size: 4vw;
+        font-size: 5vh;
     }
 `
 

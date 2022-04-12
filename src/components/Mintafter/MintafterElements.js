@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
-import roboto from '../../font/Roboto-Light.ttf'
+import roboto from '../../font/Montserrat.ttf'
 import league from '../../font/LeagueSpartan-Bold.otf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 
@@ -89,27 +89,17 @@ export const FlexboxMintafterContainer = styled.div`
 export const MintafterH1 = styled.h1`
     text-align: center;
     font-family: panda;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
     letter-spacing: 0.4vh;
     text-transform: uppercase;
     padding-bottom: 5vh;
 
     @media screen and (max-width:1366px){
-        font-size: 4vw;
+        font-size: 5vh;
     }
 
-    @media screen and (max-width:1024px){
-        font-size: 4vw;
-    }
-
-    @media screen and (max-width:768px){
-        font-size: 6vw;
-    }
-
-    @media screen and (max-width:468px){
-        font-size: 6vw;
-    }
+   
 `
 
 export const ColumnContent = styled.div`
@@ -127,7 +117,7 @@ export const MintAfterH2 = styled.h1`
     letter-spacing: 0.4vh;
     font-family: panda;
     font-size: 4vh;
-    color: #fff;
+    color: #f7d020;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 2vh;
