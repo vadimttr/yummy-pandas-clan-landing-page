@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
-import roboto from '../../font/Roboto-Light.ttf'
+import Montserrat from '../../font/Montserrat.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
@@ -22,8 +22,8 @@ export const IntroductionContainer = styled.div`
     }
 
     @font-face {
-        font-family: roboto;
-        src: url(${roboto});
+        font-family: Montserrat;
+        src: url(${Montserrat});
     }
 
     @font-face {
@@ -77,13 +77,15 @@ export const IntroContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width:1024px){
+        padding: 0vh;
+    }
 
     @media screen and (max-width:468px){
         padding: 0vh;
@@ -142,21 +144,21 @@ export const ColumnContent = styled.div`
     }
 
     @media screen and (max-width:1024px){
-        width: 70vw;
-        top: 0vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
+        width: 60vw;
+        top: 10vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
     }
    
     @media screen and (max-width:768px){
-        width: 70vw;
-        top: 0vh;
+        width: 80vw;
+        top: 5vh;
         padding-left: 0vh;
         padding-right: 0vh;
     }
     
     @media screen and (max-width:468px){
-        width: 80vw;
+        width: 90vw;
         top: 0vh;
         padding-left: 0vh;
         padding-right: 0vh;
@@ -167,6 +169,9 @@ export const ColumnContent2 = styled.div`
     display: flex;
     justify-content: flex-start;
     visibility: hidden;
+    @media screen and (max-width:1024px){
+        display: none;
+    }
    
 `
 
@@ -175,7 +180,7 @@ export const IntroH1 = styled.h1`
     color: #fff;
     display: flex;
     justify-content: center;
-    font-size: 2vh;
+    font-size: 3vw;
     letter-spacing: .2vh;
     margin-bottom: 4vh;
     z-index: 1;
@@ -186,7 +191,8 @@ export const IntroH1 = styled.h1`
     @media screen and (max-width:1024px){
         text-align: center;
         justify-content: center;
-        font-size: 2vh;
+        font-size: 5vh;
+    
     }
 
     @media screen and (max-width:768px){
@@ -195,7 +201,7 @@ export const IntroH1 = styled.h1`
     }
 `
 export const IntroP = styled.p`
-    font-family: roboto;
+    font-family: Montserrat;
     color: #fff;
     display: flex;
     justify-content: flex-start;

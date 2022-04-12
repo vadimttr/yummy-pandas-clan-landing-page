@@ -46,8 +46,6 @@ export const RoadmapContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-
-    
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
@@ -96,10 +94,14 @@ export const ColumnContent2 = styled.div`
 `
 
 export const RoadmapH1 = styled.h1`
-    font-size: 5vh;
+    font-size: 4vw;
     color: #000;
     font-family: panda;
     letter-spacing: 0.3vh;
+
+    @media screen and (max-width:1024px){
+        font-size: 6vh;
+    }
   
 `
 
