@@ -52,7 +52,7 @@ export const EarthImg = styled.img`
     width: 100vw;
     height: auto;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
 `
 
 export const AstroPanda = styled.img`
@@ -89,10 +89,55 @@ export const Milky = styled.img`
     }
 `
 
+export const Plate = styled.img`
+    position: absolute;
+    bottom: 45.5vh;
+    left: 20vh;
+    width: 20vw;
+    height: auto;
+    padding-left: 0vh;
+    overflow: hidden;
+    z-index: 1;
+
+    @media screen and (max-width:1024px){
+        bottom: 20vh;
+        left: 20vh;
+    }
+    @media screen and (max-width:768px){
+        
+    }
+    @media screen and (max-width:468px){
+        
+    }
+`
+
+export const Blot = styled.img`
+    position: absolute;
+    bottom: 12vh;
+    left: 20vh;
+    width: 30vw;
+    height: auto;
+    padding-left: 0vh;
+    overflow: hidden;
+    z-index: 0;
+
+    @media screen and (max-width:1024px){
+        bottom: 6vh;
+        left: 20vh;
+    }
+    @media screen and (max-width:768px){
+        bottom: 0vh;
+        left: 20vh;
+    }
+    @media screen and (max-width:468px){
+        
+    }
+`
+
 
 
 export const PandaContent = styled.div`
-    z-index: 0;
+    z-index: 5;
     max-width: 1200px;
     position: relative;
     padding:10vh 0vh;

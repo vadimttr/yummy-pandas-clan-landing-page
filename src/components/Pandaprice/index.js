@@ -3,13 +3,15 @@ import { PandaContainer, PandaBg, PandaContent, PandaRow,
     PandaColumn, FlexboxPandaContainer, ColumnContent, ColumnContent2,
     PandaH1, PandaH1v2, PandaP,PandaP2, PandaFlexContainer,PandaColumnContent, Img, Img1,
     PandaPFlexContainer, PandaPContent, MintH1, MintDetails, Container,
-    EarthImg, AstroPanda, Milky} from './PandapriceElements'
+    EarthImg, AstroPanda, Milky, Plate, Blot} from './PandapriceElements'
 import img from '../../image/acquirepanda3.PNG'
 import img1 from '../../image/yummyabout.png'
 import Bounce from 'react-reveal/Bounce';
 import earth from '../../image/pandaprice/Earth.PNG'
 import panda from '../../image/pandaprice/Panda.PNG'
 import milky from '../../image/pandaprice/MilkyWay.PNG'
+import plate from '../../image/pandaprice/Plate.PNG'
+import blot from '../../image/pandaprice/Blot.PNG'
 
 const Pandaprice = () => {
   return (
@@ -23,6 +25,8 @@ const Pandaprice = () => {
         <AstroPanda src={panda}/>
 
         <Milky src={milky}/>
+
+        <Blot src={blot}/>
 
 
         <PandaContent>
