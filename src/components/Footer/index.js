@@ -22,14 +22,6 @@ const Footer = () => {
                     <FooterColumn>
                         <FlexboxContainer>
 
-                            <FlexboxContent2>
-
-
-                                <ImgLogo src={logo}/>
-                             
-                            
-                          
-                            </FlexboxContent2>
 
                             <FlexboxContent2>
 
