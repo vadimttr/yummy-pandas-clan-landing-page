@@ -52,8 +52,8 @@ const Pandaprice = () => {
                             <PandaP2>
                             Yummy Panda's are priced to help make minting fun and accessible to everyone. Two Yummy Panda's are required to participate in breeding, which will take place shortly after minting.
                             </PandaP2>
-                            
                     </Container>
+              
 
                     <PandaFlexContainer>
                         <PandaColumnContent>
@@ -78,10 +78,10 @@ const Pandaprice = () => {
                                     <MintDetails>0.00 ETH Ξ</MintDetails>
                                 </PandaPContent>
                             </PandaPFlexContainer>
-                            <Img src={img}/>
+                           
                         </PandaColumnContent>
                     </PandaFlexContainer>
-
+                  
                     
                 </PandaColumn>
             </PandaRow>

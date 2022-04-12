@@ -147,12 +147,13 @@ export const ColumnContent = styled.div`
 export const ColumnContent2 = styled.div`
     flex-wrap: wrap;
     justify-content: center;
-
-    padding-top: 10vh;
+    align-items: center;
+    padding-top: 25vh;
     padding-left: 5vh;
     padding-right: 5vh;
     @media screen and (max-width:1024px){
         width: 100%;
+        padding:5vh 0vh;
     }
 
     @media screen and (max-width:768px){
@@ -166,7 +167,7 @@ export const ColumnContent2 = styled.div`
 
 export const PandaH1 = styled.h1`
     font-family: panda;
-    font-size: 3vw;
+    font-size: 5vw;
     color: #534741;
     padding-bottom: 2vh;
     text-transform: uppercase;
@@ -193,37 +194,37 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     width: auto;
-    margin-top: 10vh;
-    margin-bottom: 0vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     margin-left: 35vh;
     margin-right: 35vh;
 
     @media screen and (max-width:1224px){
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-bottom: 0vh;
         margin-left: 15vh;
         margin-right: 15vh;
     }
 
     @media screen and (max-width:1024px){
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-bottom: 0vh;
         margin-left: 15vh;
         margin-right: 15vh;
     }
 
     @media screen and (max-width:768px){
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-bottom: 0vh;
         margin-left: 5vh;
         margin-right: 5vh;
     }
 
     @media screen and (max-width:468px){
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-bottom: 0vh;
-        margin-left: 5vh;
-        margin-right: 5vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
     }
 `
 
@@ -314,6 +315,7 @@ export const PandaP2 = styled.p`
 export const PandaFlexContainer = styled.div`
     display: flex;
     justify-content: center;
+    width: 100vw;
 `
 
 export const PandaColumnContent = styled.div`
@@ -340,16 +342,17 @@ export const PandaPFlexContainer = styled.div`
     align-content: space-between;
     width: auto;
     position: relative;
-    top: 15vh;
+    top: 0vh;
     width: auto;
     z-index: 2;
+    padding-bottom: 5vh;
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
         justify-content: center;
         align-content: space-between;
         width: auto;  
-        top: 10vh;
+        top: 0vh;
     }
     
     @media screen and (max-width:768px){
@@ -357,7 +360,7 @@ export const PandaPFlexContainer = styled.div`
         justify-content: space-around;
         align-content: space-between;
         width: auto;
-        top: 10vh;
+        top: 0vh;
         padding-left: 5vh;
         padding-right: 5vh;
     }
@@ -367,7 +370,7 @@ export const PandaPFlexContainer = styled.div`
         justify-content: space-around;
         align-content: space-between;
         width: auto;
-        top: 5vh;
+        top: 0vh;
         padding-left: 0vh;
         padding-right: 0vh;
     }
@@ -377,7 +380,7 @@ export const PandaPFlexContainer = styled.div`
         justify-content: space-around;
         align-content: space-between;
         width: auto;
-        top: 5vh;
+        top: 0vh;
         padding-left: 10vh;
         padding-right: 10vh;
     }
