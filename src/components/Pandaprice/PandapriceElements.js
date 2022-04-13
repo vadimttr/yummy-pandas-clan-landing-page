@@ -121,9 +121,9 @@ export const Plate = styled.img`
 
 export const Blot = styled.img`
     position: absolute;
-    bottom: 12vh;
-    left: 20vh;
-    width: 30vw;
+    bottom: 8vh;
+    right: 10vh;
+    width: 40vw;
     height: auto;
     padding-left: 0vh;
     overflow: hidden;
