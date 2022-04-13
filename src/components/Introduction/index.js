@@ -19,7 +19,7 @@ const Introduction = () => {
         
         <Branch src={branch}/>
 
-        <HousePC src={housePC}/>
+       
 
         <HouseBg src={bg}/>
 

@@ -84,16 +84,22 @@ export const IntroBg = styled.div`
 export const HouseBg = styled.img`
     position: absolute;
     
-    right: 8;
+    right: 20vh;
     
-    width: 30vw;
+    width: 40vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
-    display: none;
+    @media screen and (max-width:1024px){
+        display: flex;
+        left: -10vh;
+        width: 120vw;
+        display: none;
+    }
 
     @media screen and (max-width:768px){
         display: flex;
+        left: -10vh;
         width: 120vw;
     }
 
@@ -200,9 +206,9 @@ export const ColumnContent = styled.div`
     justify-content: flex-start;
     width: 45vw;
     position: relative;
-    top: 15vh;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    top: 0vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
   
 
     @media screen and (max-width:1366px){
