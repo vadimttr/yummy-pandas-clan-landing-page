@@ -94,13 +94,16 @@ export const HouseBg = styled.img`
 
     @media screen and (max-width:768px){
         display: flex;
-        width: 120vw;
+        width: 50vw;
+        bottom: 0;
+        right: 0;
     }
 
     @media screen and (max-width:468px){
         display: flex;
-        bottom: -10vh;
-        width: 150vw;
+        bottom: 0;
+        right: 0;
+        width: 80vw;
     }
 `
 

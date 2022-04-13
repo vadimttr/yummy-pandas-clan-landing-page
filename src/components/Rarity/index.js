@@ -36,7 +36,7 @@ const Rarity = () => {
                             Every Yummy Panda has a few things in common. All hand-drawn with love, all on Ethereum, all cool.
 
                             But some are cooler than others… and others are downright legendary!
-
+            
                             Each Yummy Panda has up to 4 traits. Some are common, like a tank top or sunglasses. Other traits, like a UFO or dinosaur outfit, don’t come around so often - our Yummy Pandas have searched the multiverse to find them and now hold them with pride.
 
                             This unique combination of traits creates 8 different rarity levels. The rarer your Yummy Panda is, the more BMB you can earn through staking.

@@ -52,12 +52,11 @@ export const RarityContent = styled.div`
     position: relative;
     padding: 2vh;
     padding-top: 5vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 4vh;
 
     @media screen and (max-width:468px){
         padding: 0vh;
@@ -125,6 +124,7 @@ export const RarityH1 = styled.h1`
     @media screen and (max-width:1024px){
         font-size: 5vh;
     }
+    
 `
 
 export const RarityP = styled.p`
@@ -132,9 +132,13 @@ export const RarityP = styled.p`
     color: #000;
     display: flex;
     justify-content: flex-start;
-    font-size: 2.5vh;
+    font-size: 1vw;
     letter-spacing: .2vh;
     line-height: 3vh;
+
+    @media screen and (max-width:1024px){
+        font-size: 5vw;
+    }
 `
 export const FlexContainer = styled.div`
     display: flex;
