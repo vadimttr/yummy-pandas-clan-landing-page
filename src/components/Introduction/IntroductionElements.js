@@ -84,22 +84,16 @@ export const IntroBg = styled.div`
 export const HouseBg = styled.img`
     position: absolute;
     
-    right: 20vh;
+    right: 8;
     
-    width: 40vw;
+    width: 30vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
-    @media screen and (max-width:1024px){
-        display: flex;
-        left: -10vh;
-        width: 120vw;
-        display: none;
-    }
+    display: none;
 
     @media screen and (max-width:768px){
         display: flex;
-        left: -10vh;
         width: 120vw;
     }
 
@@ -131,8 +125,8 @@ export const Branch = styled.img`
 export const HousePC = styled.img`
     position: absolute;
     bottom: -5vh;
-    right: 5vh;
-    width: 55vw;
+    right: 0vh;
+    width: 40vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
@@ -207,8 +201,8 @@ export const ColumnContent = styled.div`
     width: 45vw;
     position: relative;
     top: 0vh;
-    padding-left: 15vh;
-    padding-right: 15vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
   
 
     @media screen and (max-width:1366px){
@@ -260,7 +254,7 @@ export const IntroH1 = styled.h1`
     margin-bottom: 4vh;
     z-index: 1;
     text-transform: uppercase;
-    text-shadow: 1px 1px 8px #000;
+    text-shadow: 2px 2px 0px #000;
     text-align: center;
 
     @media screen and (max-width:1024px){
@@ -283,9 +277,10 @@ export const IntroP = styled.p`
     font-size: 1.5vh;
     letter-spacing: .2vh;
     line-height: 1.8vh;
-    text-shadow: 2px 2px 8px #000;
+    text-shadow: 2px 2px 0px #000;
     text-align: left;
     margin-bottom: 1vh;
+    font-weight: bold;
 
     @media screen and (max-width:1024px){
         text-align: left;

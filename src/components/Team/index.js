@@ -5,7 +5,7 @@ import { TeamContainer, TeamBg, TeamContent,
     TeamName, TeamInfoContainer } from './TeamElements'
 
 import FOUNDER from '../../image/team/Founder.jpeg'
-import SMM from '../../image/team/Bot.jpeg'
+import SMM from '../../image/team/SMM.jpeg'
 import DISCORDEXPERT from '../../image/team/DiscordExpert.jpeg'
 import DESIGNER from '../../image/team/Designer.jpeg'
 import CMO from '../../image/team/CMO.jpeg'
