@@ -124,7 +124,15 @@ export const RarityH1 = styled.h1`
     @media screen and (max-width:1024px){
         font-size: 5vh;
     }
+
+    @media screen and (max-width:768px){
+        font-size: 5vh;
+    }
     
+
+    @media screen and (max-width:468px){
+        font-size: 5vh;
+    }
 `
 
 export const RarityP = styled.p`
@@ -137,7 +145,15 @@ export const RarityP = styled.p`
     line-height: 3vh;
 
     @media screen and (max-width:1024px){
-        font-size: 5vw;
+        font-size: 2vh;
+    }
+    
+    @media screen and (max-width:768px){
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width:468px){
+        font-size: 4vw; 
     }
 `
 export const FlexContainer = styled.div`
