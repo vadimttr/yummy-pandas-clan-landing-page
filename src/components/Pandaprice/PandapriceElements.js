@@ -73,6 +73,12 @@ export const AstroPanda = styled.img`
     @media screen and (max-width:768px){
         height: 35vw;
     }
+    
+    @media screen and (max-width:468px){
+        height: 55vw;
+    }
+
+    
 `
 
 export const Milky = styled.img`
@@ -138,7 +144,10 @@ export const Blot = styled.img`
         left: 20vh;
     }
     @media screen and (max-width:468px){
-        
+        bottom: 0vh;
+        width: 140vh;
+        right: 0;
+        left: -45vh;
     }
 `
 
@@ -336,6 +345,7 @@ export const PandaH1v2 = styled.h1`
     letter-spacing: 0.4vh;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 2px 2px 0px #000;
 
     @media screen and (max-width:1024px){
         font-size: 5vh;
@@ -402,6 +412,7 @@ export const PandaP2 = styled.p`
 
     @media screen and (max-width:468px){
         font-size: 2vh;
+        text-shadow: 2px 2px 0px #000;
     }
 `
 
@@ -442,7 +453,7 @@ export const PandaPFlexContainer = styled.div`
 
     @media screen and (max-width:1024px){
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-end;
         align-content: space-between;
         width: auto;  
         top: 0vh;
@@ -450,32 +461,27 @@ export const PandaPFlexContainer = styled.div`
     
     @media screen and (max-width:768px){
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-content: space-between;
         width: auto;
         top: 0vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
+        left: 10vh;
+        padding-left: 10vh;
+        padding-right: 0vh;
+        width:30vh;
     }
 
-    @media screen and (max-width:553px){
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-between;
-        width: auto;
-        top: 0vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
-    }
 
     @media screen and (max-width:468px){
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-content: space-between;
         width: auto;
         top: 0vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
+        left: 5vh;
+        padding-left: 10vh;
+        padding-right: 0vh;
+        width: 30vh;
     }
 `
 
