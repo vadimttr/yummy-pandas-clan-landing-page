@@ -420,6 +420,14 @@ export const PandaFlexContainer = styled.div`
     display: flex;
     justify-content: center;
     width: 100vw;
+
+    @media screen and (max-width:768px){
+        width: 100vw;
+    }
+
+    @media screen and (max-width:468px){
+        width: 80vw;
+    }
 `
 
 export const PandaColumnContent = styled.div`
@@ -465,10 +473,15 @@ export const PandaPFlexContainer = styled.div`
         align-content: space-between;
         width: auto;
         top: 0vh;
+<<<<<<< HEAD
         left: 10vh;
         padding-left: 10vh;
         padding-right: 0vh;
         width:30vh;
+=======
+        padding-left: 10vh;
+        padding-right: 10vh;
+>>>>>>> 30119fc34e71db2e78307f9330f6c5445e2e5714
     }
 
 
@@ -478,10 +491,15 @@ export const PandaPFlexContainer = styled.div`
         align-content: space-between;
         width: auto;
         top: 0vh;
+<<<<<<< HEAD
         left: 5vh;
         padding-left: 10vh;
         padding-right: 0vh;
         width: 30vh;
+=======
+        padding-left: 10vh;
+        padding-right: 0vh;
+>>>>>>> 30119fc34e71db2e78307f9330f6c5445e2e5714
     }
 `
 
