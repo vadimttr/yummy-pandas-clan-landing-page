@@ -18,6 +18,7 @@ export const RoadmapContainer = styled.div`
     /*padding: 5vh 0vh;*/
     overflow-y: hidden;
     background-image: url("${newBg}");
+    white-space: nowrap;
 
     @font-face {
         font-family: panda;
