@@ -53,6 +53,10 @@ export const TeamContent = styled.div`
     justify-content: center;
     top: 0vh;
 
+    @media screen and (max-width:1024px){
+        padding: 0vh;
+    }
+
     @media screen and (max-width:468px){
         padding: 0vh;
     }
