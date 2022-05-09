@@ -70,6 +70,10 @@ export const TeamRow = styled.div`
 
 export const TeamColumn = styled.div`
     padding: 5vh;
+
+    @media screen and (max-width:820px){
+        padding: 0;
+    }
 `
 
 export const FlexboxTeamContainer = styled.div`

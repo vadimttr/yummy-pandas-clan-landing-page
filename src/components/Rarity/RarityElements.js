@@ -71,6 +71,10 @@ export const RarityRow = styled.div`
 
 export const RarityColumn = styled.div`
     padding: 5vh;
+
+    @media screen and (max-width:820px){
+        padding: 0;
+    }
 `
 
 export const FlexboxRarityContainer = styled.div`
@@ -162,15 +166,24 @@ export const FlexContainer = styled.div`
     flex-wrap: wrap;
     width: 90vw;
     padding: 0;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin:auto;
+    
 
     @media screen and (max-width:1024px){
         width: auto;
     }
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:820px){
         width: auto;
+        
+        > * {
+            margin: 15px;
+        }
+
+        img {
+            padding: 0;
+            height: 25vh;
+        }
     }
 
     @media screen and (max-width:468px){
@@ -181,7 +194,8 @@ export const FlexContainer = styled.div`
             display: flex;
             padding: 0;
             padding-bottom: 20px;
-            width:50%;
+            width: 50%;
+            margin: auto;
         }
 
         > div > div {
