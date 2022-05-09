@@ -161,7 +161,9 @@ export const FlexContainer = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     width: 90vw;
-    padding: 5vh;
+    padding: 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
 
     @media screen and (max-width:1024px){
         width: auto;
@@ -170,6 +172,30 @@ export const FlexContainer = styled.div`
     @media screen and (max-width:768px){
         width: auto;
     }
+
+    @media screen and (max-width:468px){
+        padding-left: 20px;
+        padding-right: 20px; 
+
+        > * {
+            display: flex;
+            padding: 0;
+            padding-bottom: 20px;
+            width:50%;
+        }
+
+        > div > div {
+            margin: auto;
+        }
+
+        img {
+            width: 45vw;
+            padding: 0;
+            height: auto;
+        }
+    }
+
+    
 `
 
 

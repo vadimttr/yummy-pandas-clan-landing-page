@@ -18,6 +18,8 @@ export const RoadmapContainer = styled.div`
     /*padding: 5vh 0vh;*/
     overflow-y: hidden;
     background-image: url("${newBg}");
+    width: auto;
+    white-space: nowrap;
 
     @font-face {
         font-family: panda;
@@ -327,7 +329,7 @@ export const Floor7 = styled.img`
 
     @media screen and (max-width:468px){
         width: 135%;
-        left: 75vw;
+        left: 90vw;
     }
 `
 
@@ -440,8 +442,8 @@ export const SGN2 = styled.img`
 
 export const SGN2TXT = styled.h1`
 position: absolute;
-left: 140.5vw;
-bottom: 12vh;    
+left: 143vw;
+bottom: 23.5vh;    
 color: white;
     font-size: 40px;
     font-family: orbitron;
@@ -455,8 +457,8 @@ color: white;
 
 export const SGN1TXT = styled.h1`
 position: absolute;
-left: 8vw;
-bottom: 13.5vh;    
+left: 8.5vw;
+bottom: 26vh;    
 color: white;
     font-size: 40px;
     font-family: orbitron;
@@ -859,7 +861,7 @@ export const STP12 = styled.img`
 export const PNB = styled.img`
     position: absolute;
     bottom: 0;
-    left: 576vh;
+    left: 565vh;
     width: 17vw;
     height: auto;
     overflow: hidden;
@@ -886,7 +888,7 @@ export const PNB = styled.img`
 export const PNB4 = styled.img`
 position: absolute;
 bottom: 0;
-left: 557.5vh;
+left: 540vh;
 width: 12vw;
 height: auto;
 overflow: hidden;
@@ -912,8 +914,8 @@ z-index: 0;
 export const GZB = styled.img`
     position: absolute;
     bottom: 0vh;
-    left: 487vh;
-    width: 65vw;
+    left: 470vh;
+    width: 55vw;
     height: auto;
     overflow: hidden;
     z-index: 0;

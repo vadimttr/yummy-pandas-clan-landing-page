@@ -33,7 +33,7 @@ import pnb4 from '../../image/roadmap/IMG_3539 1.png'
 const Roadmap = () => { 
   return (
     <RoadmapContainer id='roadmap'>
-      <NewBg src={rmbg}></NewBg>
+      
       <Cloud8 src={cloud3}></Cloud8>
       <Cloud9 src={cloud3}></Cloud9>
       <Mountain2 src={mt2}></Mountain2>
