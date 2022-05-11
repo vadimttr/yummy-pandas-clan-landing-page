@@ -44,6 +44,11 @@ export const FloorBg = styled.img`
     bottom: 0px;
     min-height: 0px;
 
+    @media screen and (max-width:820px){
+        height: 8vh;
+        width: 966vw;
+    }
+
     @media screen and (max-width:468px){
         height: 6.5vh;
         width: 350vw;
@@ -60,6 +65,11 @@ export const Mountain1 = styled.img`
         width: 80%;
     }
 
+    @media screen and (max-width:820px){
+        display: flex;
+        width: 120vw;
+    }
+
     @media screen and (max-width:468px){
         width: 150vw;
         bottom: 6vh;
@@ -70,6 +80,13 @@ export const Mountain2 = styled.img`
     bottom: 0vh;
     left: 33vw;
     width: 84%;
+
+    @media screen and (max-width:820px){
+        display: flex;
+        left: 105vw;
+        width: 200vw;
+        bottom: 3vh;
+    }
 
     @media screen and (max-width:468px){
         width: 165vw;
@@ -83,6 +100,13 @@ export const Mountain3 = styled.img`
     bottom: 0vh;
     left: 116vw;
     width: 84%;
+
+    @media screen and (max-width:820px){
+        display: flex;
+        left: 300vw;
+        width: 200vw;
+        bottom: 3vh;
+    }
 
     @media screen and (max-width:468px){
         display: none;
@@ -106,6 +130,13 @@ export const Mountain5 = styled.img`
     left: 234vw;
     width: 85%;
 
+    @media screen and (max-width:820px){
+        display: flex;
+        left: 333vw;
+        width: 200vw;
+        bottom: 3vh;
+    }
+    
     @media screen and (max-width:468px){
         display: none;
     }
@@ -142,6 +173,10 @@ export const Cloud3 = styled.img`
     left: 0vw;
     width: 82%;
 
+    @media screen and (max-width:820px){
+        display: flex;
+    }
+
     @media screen and (max-width:468px){
         display: none;
     }
@@ -168,6 +203,10 @@ export const Cloud5 = styled.img`
     left: 190vw;
     opacity: 0.5;
 
+    @media screen and (max-width:820px){
+        display: flex;
+    }
+
     @media screen and (max-width:468px){
         display: none;
     }
@@ -180,6 +219,10 @@ export const Cloud6 = styled.img`
     opacity: 0.5;
     transform: scaleX(-1);
 
+    @media screen and (max-width:820px){
+        display: flex;
+    }
+
     @media screen and (max-width:468px){
         display: none;
     }
@@ -190,6 +233,10 @@ export const Cloud7 = styled.img`
     bottom: 6vh;
     left: 227vw;
     width: 92%;
+
+    @media screen and (max-width:820px){
+        display: flex;
+    }
 
     @media screen and (max-width:468px){
         display: none;
@@ -203,6 +250,10 @@ export const Cloud8 = styled.img`
     width: 82%;
     transform: scaleX(-1);
 
+    @media screen and (max-width:820px){
+        display: flex;
+    }
+
     @media screen and (max-width:468px){
         display: none;
     }
@@ -214,6 +265,13 @@ export const Cloud9 = styled.img`
     left: 154.26vw;
     width: 82%;
     transform: scaleX(0.781);
+
+    @media screen and (max-width:820px){
+        display: flex;
+        left: 400vw;
+        bottom: 20vh;
+        width: 200vw;
+    }
 
     @media screen and (max-width:468px){
         display: none;
@@ -327,6 +385,10 @@ export const Floor7 = styled.img`
         left: 485vw;
     }
 
+    @media screen and (max-width:820px){
+        left: 428vw;
+    }
+
     @media screen and (max-width:468px){
         width: 135%;
         left: 90vw;
@@ -381,7 +443,7 @@ export const Tree = styled.img`
         width: 70vw;
     }
 
-    @media screen and (max-width:1024px){
+    @media screen and (max-width:820px){
         width: 100vw;
     }
 
@@ -401,12 +463,12 @@ export const SGN1 = styled.img`
 
     @media screen and (max-width:1024px){
         width: 30vw;
-        left: 220vh;
+        left: 220vw;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 0;
+        width: 80vw;
     }
 
     @media screen and (max-width:468px){
@@ -429,9 +491,9 @@ export const SGN2 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 0;
+        width: 110vw;
     }
 
     @media screen and (max-width:468px){
@@ -441,12 +503,17 @@ export const SGN2 = styled.img`
 `
 
 export const SGN2TXT = styled.h1`
-position: absolute;
-left: 143vw;
-bottom: 23.5vh;    
-color: white;
+    position: absolute;
+    left: 143vw;
+    bottom: 23.5vh;    
+    color: white;
     font-size: 40px;
     font-family: orbitron;
+
+    @media screen and (max-width:820px){
+        bottom: 19vh;
+        left: 210vw;
+    }
 
     @media screen and (max-width:468px){
         left: 125vw;
@@ -456,12 +523,17 @@ color: white;
 `
 
 export const SGN1TXT = styled.h1`
-position: absolute;
-left: 8.5vw;
-bottom: 26vh;    
-color: white;
+    position: absolute;
+    left: 8.5vw;
+    bottom: 26vh;    
+    color: white;
     font-size: 40px;
     font-family: orbitron;
+
+    @media screen and (max-width:820px){
+        bottom: 19vh;
+        left: 15vw;
+    }
 
     @media screen and (max-width:468px){
         left: 18vw;
@@ -484,8 +556,8 @@ export const PNB2 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
+    @media screen and (max-width:820px){
+        left: 40vw;
         width: 40vw;
     }
 
@@ -509,9 +581,10 @@ export const STP1 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 40vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -535,9 +608,10 @@ export const STP2 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 90vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -561,9 +635,10 @@ export const STP3 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 140vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -587,9 +662,10 @@ export const STP4 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 52vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -613,9 +689,10 @@ export const STP5 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 102vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -639,9 +716,10 @@ export const STP6 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 152vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -665,9 +743,9 @@ export const SGN3 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 115vw;
+        width: 200vw;
     }
 
     @media screen and (max-width:468px){
@@ -690,9 +768,9 @@ export const PNB3 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 200vw;
+        width: 65vw;
     }
 
     @media screen and (max-width:468px){
@@ -716,9 +794,10 @@ export const STP7 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 240vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -742,9 +821,10 @@ export const STP8 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 290vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -768,9 +848,10 @@ export const STP9 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+   @media screen and (max-width:820px){
+        left: 340vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
@@ -794,9 +875,10 @@ export const STP10 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 252vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -820,9 +902,10 @@ export const STP11 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 302vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -846,9 +929,10 @@ export const STP12 = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        left: 352vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
@@ -872,8 +956,8 @@ export const PNB = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
+    @media screen and (max-width:820px){
+        left: 490vw;
         width: 40vw;
     }
 
@@ -886,29 +970,29 @@ export const PNB = styled.img`
 `
 
 export const PNB4 = styled.img`
-position: absolute;
-bottom: 0;
-left: 540vh;
-width: 12vw;
-height: auto;
-overflow: hidden;
-z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 540vh;
+    width: 12vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
 
-@media screen and (max-width:1024px){
-    width: 30vw;
-    left: 220vh;
-}
+    @media screen and (max-width:1024px){
+        width: 30vw;
+        left: 220vh;
+    }
 
-@media screen and (max-width:768px){
-    left: 200vh;
-    width: 40vw;
-}
+    @media screen and (max-width:820px){
+        left: 462vw;
+        width: 25vw;
+    }
 
-@media screen and (max-width:468px){
-    width: 28vw;
-    left: 185vw;
-    bottom: 1vh;
-}
+    @media screen and (max-width:468px){
+        width: 28vw;
+        left: 185vw;
+        bottom: 1vh;
+    }
 `
 
 export const GZB = styled.img`
@@ -925,9 +1009,10 @@ export const GZB = styled.img`
         left: 220vh;
     }
 
-    @media screen and (max-width:768px){
-        left: 200vh;
-        width: 40vw;
+    @media screen and (max-width:820px){
+        display: flex;
+        left: 385vw;
+        width: 115vw;
     }
 
     @media screen and (max-width:468px){
