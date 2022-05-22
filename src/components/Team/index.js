@@ -56,9 +56,7 @@ const Team = () => {
                             </div>
                             <TeamInfoContainer>
                             <TeamH1>FOUNDER</TeamH1>
-                            <TeamP>Panda The Founder is a gray man of the YPC. WooDie 
-                                has a rare mind. His ideas will blow your brain.
-                                And the results will amaze you 
+                            <TeamP>The Founder Panda is a famous hero of the YPC. WooDie has a rare mind. His ideas will blow your brain and the results will amaze you. 
                                 <br></br></TeamP>
                                 <TeamH2>Superpower: Intuition</TeamH2>
                                 
@@ -93,10 +91,10 @@ const Team = () => {
                                
                            </div>
                            <TeamInfoContainer>
-                           <TeamH1>SMM</TeamH1>
-                            <TeamP>The SMM Panda perfectly builds strategies and implements them just as quickly. LIS knows all the memes by heart and how to choose the best angle for photos
+                           <TeamH1>Content & Social Media Manager</TeamH1>
+                            <TeamP>The Social Panda builds and implements killer strategies. Lis is getting amped for the next YPC party.
                             </TeamP>
-                               <TeamH2>Superpower: Can see the future</TeamH2>
+                               <TeamH2>Superpower: Telepathy</TeamH2>
                                
                            </TeamInfoContainer>
                            
@@ -130,9 +128,9 @@ const Team = () => {
                            </div>
                            <TeamInfoContainer>
                            <TeamH1>Discord Expert</TeamH1>
-                           <TeamP>The Discord Panda can build the best platform for communication. Lazare knows how to manage better than Elon Musk
+                           <TeamP>The Discord Panda is building the ultimate communication eco-system for the YPC. Lazare’s management skills rival Elon Musk’s.
                                 </TeamP>
-                               <TeamH2>Superpower: Mind control</TeamH2>
+                               <TeamH2>Superpower: Mind Control</TeamH2>
                                
                            </TeamInfoContainer>
                            
@@ -165,12 +163,12 @@ const Team = () => {
                                
                            </div>
                            <TeamInfoContainer>
-                           <TeamH1>DESIGNER</TeamH1>
-                           <TeamP>The Designer Panda can draw all our pandas with closed eyes. Our cute pandas were created by her paws 
+                           <TeamH1>COPYWRITER</TeamH1>
+                           <TeamP>The Copywriter Panda translates what the Yummy Pandas say into English - minus the swear words. 
                                   
                                    
                                </TeamP>
-                               <TeamH2>Superpower: Telepathy</TeamH2>
+                               <TeamH2>Superpower: Teleportation</TeamH2>
                                
                            </TeamInfoContainer>
                            
@@ -203,11 +201,9 @@ const Team = () => {
                                
                            </div>
                            <TeamInfoContainer>
-                           <TeamH1>CMO</TeamH1>
-                           <TeamP>Panda The Founder is a gray man of the YPC. WooDie 
-                               has a rare mind. His ideas will blow your brain.
-                               And the results will amaze you Superpower: Intuition</TeamP>
-                               <TeamH2>Superpower: Hypnosis</TeamH2>
+                           <TeamH1>DESIGNER</TeamH1>
+                           <TeamP>The Designer Panda can draw masterpieces with her eyes closed. Our cute pandas are proudly paw-drawn!</TeamP>
+                               <TeamH2>Superpower: Telekinesis</TeamH2>
                                
                            </TeamInfoContainer>
                            
@@ -240,12 +236,12 @@ const Team = () => {
                                
                            </div>
                            <TeamInfoContainer>
-                           <TeamH1>Developer</TeamH1>
+                           <TeamH1>CMO</TeamH1>
                             
                              
 
-                               <TeamP>The Developer Panda spends his days crafting NFTs from rare DeFi dust. His magical utilities will change this world.</TeamP>
-                               <TeamH2>Superpower: Spell Casting</TeamH2>
+                               <TeamP>The CMO Panda launches ad campaigns to get the word out there about the YPC. One of the eldest, his charisma is legendary among the clan.</TeamP>
+                               <TeamH2>Superpower: Hypnosis</TeamH2>
                            </TeamInfoContainer>
                            
                           
@@ -279,7 +275,7 @@ const Team = () => {
                            <TeamInfoContainer>
                            <TeamH1>Community Builder</TeamH1>
                             
-                               <TeamP>The Community Panda is the laziest panda in the metaverse. He spends his days scrolling through Twitter and chatting on Discord.</TeamP>
+                               <TeamP>The Community Panda is the laziest panda in the metaverse. He spends his days chatting on Discord.</TeamP>
                                <TeamH2>Superpower: Psychic</TeamH2>
                            </TeamInfoContainer>
                            
@@ -347,13 +343,48 @@ const Team = () => {
                                
                            </div>
                            <TeamInfoContainer>
-                           <TeamH1>Copywriter</TeamH1>
+                           <TeamH1>Discord Game-Fi Expert</TeamH1>
                             
                                
 
-                               <TeamP>The Copywriter Panda translates what the Yummy Pandas say into English - minus the swear words.</TeamP>
-                               <TeamH2>Copywriter: Teleportation</TeamH2>
+                               <TeamP></TeamP>
+                               <TeamH2>Superpower: </TeamH2>
                           </TeamInfoContainer>
+                           
+                          
+                       </ColumnContent>
+
+                       <ColumnContent>
+                           
+                        
+                           <div className="container">
+                               <div className="tilt-box-wrap">
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <span className='t_over'></span>
+                                   <div className="tilt-box">
+                                       
+                                       <Img src={ADMIN} className="teamImg" />
+                                       
+                                   </div>
+                                   
+                                   
+                               </div> 
+                             
+                               
+                           </div>
+                           <TeamInfoContainer>
+                           <TeamH1>Marketing Expert</TeamH1>
+                            
+                               <TeamP> </TeamP>
+                               <TeamH2>Superpower: </TeamH2>
+                           </TeamInfoContainer>
                            
                           
                        </ColumnContent>

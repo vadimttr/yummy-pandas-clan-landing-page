@@ -24,7 +24,18 @@ import floorBg from '../../image/roadmap/Rectangle 20.png'
 import sgn1 from '../../image/roadmap/Table 2 1.png'
 import sgn2 from '../../image/roadmap/Table 1 1.png'
 import pnb2 from '../../image/roadmap/Panda with a map  2.png'
-import stp1 from '../../image/roadmap/Слой 2 1.png'
+import stp1 from '../../image/roadmap/rd1.png'
+import stp2 from '../../image/roadmap/rd2.png'
+import stp3 from '../../image/roadmap/rd3.png'
+import stp4 from '../../image/roadmap/rd4.png'
+import stp5 from '../../image/roadmap/rd5.png'
+import stp6 from '../../image/roadmap/rd6.png'
+import stp7 from '../../image/roadmap/rd7.png'
+import stp8 from '../../image/roadmap/rd8.png'
+import stp9 from '../../image/roadmap/rd9.png'
+import stp10 from '../../image/roadmap/rd10.png'
+import stp11 from '../../image/roadmap/rd11.png'
+import stp12 from '../../image/roadmap/rd12.png'
 import sgn3 from '../../image/roadmap/Table 1 2.png'
 import pnb3 from '../../image/roadmap/fire-pand 1.png'
 import gzb from '../../image/roadmap/IMG_3540 1.png'
@@ -61,20 +72,20 @@ const Roadmap = () => {
       <SGN1 src={sgn1}></SGN1>
       <PNB2 src={pnb2}></PNB2>
       <STP1 src={stp1}></STP1>
-      <STP2 src={stp1}></STP2>
-      <STP3 src={stp1}></STP3>
-      <STP4 src={stp1}></STP4>
-      <STP5 src={stp1}></STP5>
-      <STP6 src={stp1}></STP6>
+      <STP2 src={stp2}></STP2>
+      <STP3 src={stp3}></STP3>
+      <STP4 src={stp4}></STP4>
+      <STP5 src={stp5}></STP5>
+      <STP6 src={stp6}></STP6>
       <SGN3 src={sgn3}></SGN3>
       <PNB3 src={pnb3}></PNB3>
-      <STP7 src={stp1}></STP7>
-      <STP8 src={stp1}></STP8>
-      <STP9 src={stp1}></STP9>
-      <STP10 src={stp1}></STP10>
-      <STP11 src={stp1}></STP11>
-      <STP12 src={stp1}></STP12>
-      <PNB src={pnb}></PNB>
+      <STP7 src={stp7}></STP7>
+      <STP8 src={stp8}></STP8>
+      <STP9 src={stp9}></STP9>
+      <STP10 src={stp10}></STP10>
+      <STP11 src={stp11}></STP11>
+      <STP12 src={stp12}></STP12>
+      
       <GZB src={gzb}></GZB>
       <PNB4 src={pnb4}></PNB4>
       <SGN1TXT>V1</SGN1TXT>

@@ -10,7 +10,7 @@ export const RoadmapContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: 1080px;
+    height: 100vh;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -21,81 +21,91 @@ export const RoadmapContainer = styled.div`
     width: auto;
     white-space: nowrap;
 
-    @media screen and (max-width:468px){
-        height: 850px;
+    @font-face {
+        font-family: panda;
+        src: url(${BabyPanda});
+    }
+
+    @font-face {
+        font-family: orbitron;
+        src: url(${BabyPanda});
+    }
+
+    @font-face {
+        font-family: roboto;
+        src: url(${roboto});
     }
 `
 
 export const FloorBg = styled.img`
-    width: 10323.8px;
-    height: 115.2px;
+    width: 537.7vw;
+    height: 6vw;
     position: absolute;
     bottom: 0px;
     min-height: 0px;
 
-    @media screen and (max-width:821px){
-        height: 94.4px;
-        width: 7921.2px;
+    @media screen and (max-width:820px){
+        height: 8vh;
+        width: 966vw;
     }
 
     @media screen and (max-width:468px){
-        height: 54.9px;
-        width: 2106px;
+        height: 6.5vh;
+        width: 540vw;
     }
 `
 
 export const Mountain1 = styled.img`
     position: absolute;
-    bottom: 75.6px;
+    bottom: 7vh;
     left: 0px;
-    width: 1152.0px;
+    width: 60%;
 
     @media screen and (max-width:1024px){
-        width: 1536.0px;
+        width: 80%;
     }
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        width: 984.0px;
+        width: 120vw;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        bottom: 50.6px;
+        width: 150vw;
+        bottom: 6vh;
     }
 `
-
 export const Mountain2 = styled.img`
     position: absolute;
-    bottom: 0.0px;
-    left: 633.6px;
-    width: 1612.8px;
+    bottom: 0vh;
+    left: 33vw;
+    width: 84%;
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        left: 861.0px;
-        width: 1640.0px;
-        bottom: 35.4px;
+        left: 105vw;
+        width: 200vw;
+        bottom: 3vh;
     }
 
     @media screen and (max-width:468px){
-        width: 643.5px;
-        bottom: 50.6px;
-        left: 234.0px;
+        width: 165vw;
+        bottom: 6vh;
+        left: 60vw;
     }
 `
 
 export const Mountain3 = styled.img`
     position: absolute;
-    bottom: 0.0px;
-    left: 2227.2px;
-    width: 1612.8px;
+    bottom: 0vh;
+    left: 116vw;
+    width: 84%;
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        left: 2460.0px;
-        width: 1640.0px;
-        bottom: 35.4px;
+        left: 300vw;
+        width: 200vw;
+        bottom: 3vh;
     }
 
     @media screen and (max-width:468px){
@@ -106,12 +116,8 @@ export const Mountain3 = styled.img`
 export const Mountain4 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 3667.2px;
-    width: 1612.8px;
-
-    @media screen and (max-width:821px){
-        display: none;
-    }
+    left: 191vw;
+    width: 84%;
 
     @media screen and (max-width:468px){
         display: none;
@@ -121,107 +127,106 @@ export const Mountain4 = styled.img`
 export const Mountain5 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 4492.8px;
-    width: 1632.0px;
+    left: 234vw;
+    width: 85%;
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        left: 2730.6px;
-        width: 1640.0px;
-        bottom: 35.4px;
+        left: 333vw;
+        width: 200vw;
+        bottom: 3vh;
     }
-
+    
     @media screen and (max-width:468px){
-        left: 468.0px;
-        width: 780px;
+        left: 120vw;
     }
 `
 
 export const Cloud1 = styled.img`
     position: absolute;
-    bottom: 64.8px;
+    bottom: 6vh;
     left: 0px;
-    width: 2880.0px;
+    width: 150vw;
 
-    @media screen and (max-width:821px){
-        width: 1230.0px;
-        left: 0.0px;
+    @media screen and (max-width:820px){
+        width: 150vw;
+        left: 0vw;
     }
 
     @media screen and (max-width:468px){
-        width: 780.0px;
-        bottom: 42.2px;
+        width: 200vw;
+        bottom: 5vh;
     }
 `
 
 export const Cloud2 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 192.0px;
-    width: 1152.0px;
+    bottom: 6vh;
+    left: 10vw;
+    width: 60%;
 
-    @media screen and (max-width:821px){
-        width: 1230.0px;
-        left: 762.6px;
+    @media screen and (max-width:820px){
+        width: 150vw;
+        left: 93vw;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        bottom: 42.2px;
-        left: 292.5px;
+        width: 150vw;
+        bottom: 5vh;
+        left: 75vw;
     }
 `
 
 export const Cloud3 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 0.0px;
-    width: 1574.4px;
+    bottom: 6vh;
+    left: 0vw;
+    width: 82%;
 
-    @media screen and (max-width:821px){
-        width: 1640.0px;
-        left: 0.0px;
-        bottom: 118.0px;
+    @media screen and (max-width:820px){
+        width: 200vw;
+        left: 0vw;
+        bottom: 10vh;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        bottom: 42.2px;
-        left: 663.0px;
+        width: 150vw;
+        bottom: 5vh;
+        left: 170vw;
     }
 `
 
 export const Cloud4 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 1248.0px;
+    bottom: 6vh;
+    left: 65vw;
     opacity: 0.5;
     transform: scaleX(-1);
 
-    @media screen and (max-width:821px){
-        width: 1640.0px;
-        left: 1066.0px;
-        bottom: 70.8px;
+    @media screen and (max-width:820px){
+        width: 200vw;
+        left: 130vw;
+        bottom: 6vh;
     }
 
     @media screen and (max-width:468px){
-        bottom: 253.2px;
+        bottom: 30vh;
         transform: scaleY(-1);
-        width: 195.0px;
+        width: 50vw;
         left: 0px;
     }
 `
 
 export const Cloud5 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 3648.0px;
+    bottom: 6vh;
+    left: 190vw;
     opacity: 0.5;
 
-    @media screen and (max-width:821px){
-        width: 1640.0px;
-        left: 2706.0px;
-        bottom: 70.8px;
+    @media screen and (max-width:820px){
+        width: 200vw;
+        left: 330vw;
+        bottom: 6vh;
     }
 
     @media screen and (max-width:468px){
@@ -231,34 +236,34 @@ export const Cloud5 = styled.img`
 
 export const Cloud6 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 3715.2px;
+    bottom: 6vh;
+    left: 193.5vw;
     opacity: 0.5;
     transform: scaleX(-1);
 
-    @media screen and (max-width:821px){
-        width: 1640.0px;
-        left: 2730.6px;
-        bottom: 70.8px;
+    @media screen and (max-width:820px){
+        width: 200vw;
+        left: 333vw;
+        bottom: 6vh;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        bottom: 42.2px;
-        left: 663.0px;
+        width: 150vw;
+        bottom: 5vh;
+        left: 170vw;
     }
 `
 
 export const Cloud7 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 4358.4px;
-    width: 1766.4px;
+    bottom: 6vh;
+    left: 227vw;
+    width: 92%;
 
-    @media screen and (max-width:821px){
-        width: 1640.0px;
-        left: 1640.0px;
-        bottom: 212.4px;
+    @media screen and (max-width:820px){
+        width: 200vw;
+        left: 200vw;
+        bottom: 18vh;
     }
 
     @media screen and (max-width:468px){
@@ -269,12 +274,12 @@ export const Cloud7 = styled.img`
 export const Cloud8 = styled.img`
     display: flex;
     position: absolute;
-    bottom: 64.8px;
-    left: 1566.7px;
-    width: 1574.4px;
+    bottom: 6vh;
+    left: 81.6vw;
+    width: 82%;
     transform: scaleX(-1);
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: none;
     }
 
@@ -285,16 +290,16 @@ export const Cloud8 = styled.img`
 
 export const Cloud9 = styled.img`
     position: absolute;
-    bottom: 64.8px;
-    left: 2961.8px;
-    width: 1574.4px;
+    bottom: 6vh;
+    left: 154.26vw;
+    width: 82%;
     transform: scaleX(0.781);
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        left: 2689.6px;
-        bottom: 118.0px;
-        width: 1886.0px;
+        left: 328vw;
+        bottom: 10vh;
+        width: 230vw;
     }
 
     @media screen and (max-width:468px){
@@ -305,80 +310,61 @@ export const Cloud9 = styled.img`
 export const Floor1 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 0.0px;
-    width: 1248.0px;
-
+    left: 0vw;
+    width: 65%;
+    
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
+        width: 120%;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
+        width: 150%;
     }
 `
 
 export const Floor2 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 460.8px;
-    width: 1248.0px;
+    left: 24vw;
+    width: 65%;
 
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-        left: 864.0px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
-        left: 370px;
+        width: 120%;
+        left: 45vw;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        left: 214.5px;
+        width: 150%;
+        left: 55vw;
     }
 `
 
 export const Floor3 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 1363.2px;
-    width: 1248.0px;
+    left: 71vw;
+    width: 65%;
 
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-        left: 2553.6px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
-        left: 1080px;
+        width: 120%;
+        left: 133vw;
     }
 
     @media screen and (max-width:468px){
-        width: 585.0px;
-        left: 448.5px;
+        width: 150%;
+        left: 115vw;
     }
 `
 
 export const Floor4 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 2265.6px;
-    width: 1248.0px;
+    left: 118vw;
+    width: 65%;
 
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-        left: 4243.2px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
-        left: 1790px;
+        width: 120%;
+        left: 221vw;
     }
 
     @media screen and (max-width:468px){
@@ -389,17 +375,12 @@ export const Floor4 = styled.img`
 export const Floor5 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 3168.0px;
-    width: 1248.0px;
+    left: 165vw;
+    width: 65%;
 
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-        left: 5932.8px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
-        left: 2500px;
+        width: 120%;
+        left: 309vw;
     }
 
     @media screen and (max-width:468px){
@@ -410,17 +391,12 @@ export const Floor5 = styled.img`
 export const Floor6 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 4070.4px;
-    width: 1248.0px;
+    left: 212vw;
+    width: 65%;
 
     @media screen and (max-width:1024px){
-        width: 2304.0px;
-        left: 7622.4px;
-    }
-
-    @media screen and (max-width:821px){
-        width: 975px;
-        left: 3210px;
+        width: 120%;
+        left: 397vw;
     }
 
     @media screen and (max-width:468px){
@@ -431,22 +407,21 @@ export const Floor6 = styled.img`
 export const Floor7 = styled.img`
     position: absolute;
     bottom: 0px;
-    left: 4992.0px;
-    width: 1128.0px;
+    left: 260vw;
+    width: 58.75%;
 
     @media screen and (max-width:1024px){
-        width: 2016.0px;
-        left: 9312.0px;
+        width: 105%;
+        left: 485vw;
     }
 
-    @media screen and (max-width:821px){
-        width: 864px;
-        left: 3507px;
+    @media screen and (max-width:820px){
+        left: 428vw;
     }
 
     @media screen and (max-width:468px){
-        width: 526.5px;
-        left: 721.5px;
+        width: 135%;
+        left: 185vw;
     }
 `
 
@@ -478,57 +453,56 @@ export const RoadmapContent = styled.div`
     z-index: 0;
     max-width: 1200px;
     position: relative;
-    padding-left: 54.0px;
-    padding-right: 54.0px;
+    padding-left: 5vh;
+    padding-right: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 `
-
 export const Tree = styled.img`
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    width: 960.0px;
+    width: 50vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 1344.0px;
+        width: 70vw;
     }
 
-    @media screen and (max-width:821px){
-        width: 821.0px;
+    @media screen and (max-width:820px){
+        width: 100vw;
     }
 
     @media screen and (max-width:468px){
-        width: 468.0px;
+        width: 120vw;
     }
 `
 
 export const SGN1 = styled.img`
     position: absolute;
     bottom: 2px;
-    left: 10.8px;
-    width: 806.4px;
+    left: 1vh;
+    width: 42vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 4224.0px;
+        width: 30vw;
+        left: 220vw;
     }
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         left: 0;
-        width: 656.0px;
+        width: 80vw;
     }
 
     @media screen and (max-width:468px){
-        width: 390.0px;
+        width: 100vw;
         left: 0px;
     }
 `
@@ -536,64 +510,64 @@ export const SGN1 = styled.img`
 export const SGN2 = styled.img`
     position: absolute;
     bottom: 2px;
-    left: 16.2px;
-    width: 1056.0px;
+    left: 1.5vh;
+    width: 55vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         left: 0;
-        width: 902.0px;
+        width: 110vw;
     }
 
     @media screen and (max-width:468px){
-        width: 526.5px;
-        left: 0.0px;
+        width: 135vw;
+        left: 0vw;
     }
 `
 
 export const SGN2TXT = styled.h1`
     position: absolute;
-    left: 2745.6px;
-    bottom: 253.8px;
+    left: 143vw;
+    bottom: 23.5vh;    
     color: white;
     font-size: 40px;
     font-family: orbitron;
 
-    @media screen and (max-width:821px){
-        bottom: 224.2px;
-        left: 1722.0px;
+    @media screen and (max-width:820px){
+        bottom: 19vh;
+        left: 210vw;
     }
 
     @media screen and (max-width:468px){
-        left: 643.5px;
-        bottom: 101.3px;
+        left: 165vw;
+        bottom: 12vh;
         font-size: 25px;
     }
 `
 
 export const SGN1TXT = styled.h1`
     position: absolute;
-    left: 163.2px;
-    bottom: 280.8px;
+    left: 8.5vw;
+    bottom: 26vh;    
     color: white;
     font-size: 40px;
     font-family: orbitron;
 
-    @media screen and (max-width:821px){
-        bottom: 224.2px;
-        left: 123.0px;
+    @media screen and (max-width:820px){
+        bottom: 19vh;
+        left: 15vw;
     }
 
     @media screen and (max-width:468px){
-        left: 70.2px;
-        bottom: 129.1px;
+        left: 18vw;
+        bottom: 15.3vh;
         font-size: 25px;
     }
 `
@@ -601,426 +575,426 @@ export const SGN1TXT = styled.h1`
 export const PNB2 = styled.img`
     position: absolute;
     bottom: 2px;
-    left: 475.2px;
-    width: 403.2px;
+    left: 44vh;
+    width: 21vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 328.0px;
-        width: 328.0px;
+    @media screen and (max-width:820px){
+        left: 40vw;
+        width: 40vw;
     }
 
     @media screen and (max-width:468px){
-        width: 195.0px;
-        left: 156.0px;
+        width: 50vw;
+        left: 40vw;
     }
 `
 
 export const STP1 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 993.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 92vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 328.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+    @media screen and (max-width:820px){
+        left: 40vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 46.8px;
-        bottom: 633.0px;
+        width: 65vw;
+        left: 12vw;
+        bottom: 75vh;
     }
 `
 
 export const STP2 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 1479.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 137vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 1;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 738.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+    @media screen and (max-width:820px){
+        left: 90vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 46.8px;
-        bottom: 438.9px;
+        width: 65vw;
+        left: 12vw;
+        bottom: 52vh;
     }
 `
 
 export const STP3 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 1965.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 182vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 1148.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+    @media screen and (max-width:820px){
+        left: 140vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 46.8px;
-        bottom: 244.8px;
+        width: 65vw;
+        left: 12vw;
+        bottom: 29vh;
     }
 `
 
 export const STP4 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 1123.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 104vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 426.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 52vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 331.5px;
-        bottom: 633.0px;
+        width: 65vw;
+        left: 85vw;
+        bottom: 75vh;
     }
 `
 
 export const STP5 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 1609.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 149vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 836.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 102vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 331.5px;
-        bottom: 438.9px;
+        width: 65vw;
+        left: 85vw;
+        bottom: 52vh;
     }
 `
 
 export const STP6 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 2095.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 194vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 1246.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 152vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 331.5px;
-        bottom: 244.8px;
+        width: 65vw;
+        left: 85vw;
+        bottom: 29vh;
     }
 `
 
 export const SGN3 = styled.img`
     position: absolute;
     bottom: 2px;
-    left: 2052.0px;
-    width: 1728.0px;
+    left: 190vh;
+    width: 90vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 943.0px;
-        width: 1640.0px;
+    @media screen and (max-width:820px){
+        left: 115vw;
+        width: 200vw;
     }
 
     @media screen and (max-width:468px){
-        width: 760.5px;
-        left: 280.8px;
+        width: 195vw;
+        left: 72vw;
     }
 `
 
 export const PNB3 = styled.img`
     position: absolute;
-    bottom: 27.0px;
-    left: 2754.0px;
-    width: 672.0px;
+    bottom: 2.5vh;
+    left: 255vh;
+    width: 35vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 1640.0px;
-        width: 533.0px;
+    @media screen and (max-width:820px){
+        left: 200vw;
+        width: 65vw;
     }
 
     @media screen and (max-width:468px){
-        width: 300.3px;
-        left: 585.0px;
-        bottom: 16.9px;
+        width: 77vw;
+        left: 150vw;
+        bottom: 2vh;
     }
 `
 
 export const STP7 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 3585.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 332vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 1968.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+    @media screen and (max-width:820px){
+        left: 240vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 690.3px;
-        bottom: 633.0px;
+        width: 65vw;
+        left: 177vw;
+        bottom: 75vh;
     }
 `
 
 export const STP8 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 4071.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 377vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 2378.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+    @media screen and (max-width:820px){
+        left: 290vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 690.3px;
-        bottom: 438.9px;
+        width: 65vw;
+        left: 177vw;
+        bottom: 52vh;
     }
 `
 
 export const STP9 = styled.img`
     position: absolute;
-    bottom: 648.0px;
-    left: 4557.6px;
-    width: 422.4px;
+    bottom: 60vh;
+    left: 422vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 2788.0px;
-        width: 369.0px;
-        bottom: 767.0px;
+   @media screen and (max-width:820px){
+        left: 340vw;
+        width: 45vw;
+        bottom: 65vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 690.3px;
-        bottom: 244.8px;
+        width: 65vw;
+        left: 177vw;
+        bottom: 29vh;
     }
 `
 
 export const STP10 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 3715.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 344vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 2066.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 252vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 975.0px;
-        bottom: 633.0px;
+        width: 65vw;
+        left: 250vw;
+        bottom: 75vh;
     }
 `
 
 export const STP11 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 4201.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 389vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 2476.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 302vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 975.0px;
-        bottom: 438.9px;
+        width: 65vw;
+        left: 250vw;
+        bottom: 52vh;
     }
 `
 
 export const STP12 = styled.img`
     position: absolute;
-    bottom: 270.0px;
-    left: 4687.2px;
-    width: 422.4px;
+    bottom: 25vh;
+    left: 434vh;
+    width: 22vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 2886.4px;
-        width: 369.0px;
-        bottom: 436.6px;
+    @media screen and (max-width:820px){
+        left: 352vw;
+        width: 45vw;
+        bottom: 37vh;
     }
 
     @media screen and (max-width:468px){
-        width: 253.5px;
-        left: 975.0px;
-        bottom: 244.8px;
+        width: 65vw;
+        left: 250vw;
+        bottom: 29vh;
     }
 `
 
 export const PNB = styled.img`
     position: absolute;
     bottom: 0;
-    left: 6102.0px;
-    width: 326.4px;
+    left: 565vh;
+    width: 17vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 4018.0px;
-        width: 328.0px;
+    @media screen and (max-width:820px){
+        left: 490vw;
+        width: 40vw;
     }
 
     @media screen and (max-width:468px){
-        width: 175.5px;
-        left: 690.3px;
-        bottom: 8.4px;
+        width: 45vw;
+        left: 177vw;
+        bottom: 1vh;
         display: none;
     }
 `
@@ -1028,51 +1002,51 @@ export const PNB = styled.img`
 export const PNB4 = styled.img`
     position: absolute;
     bottom: 0;
-    left: 5832.0px;
-    width: 230.4px;
+    left: 540vh;
+    width: 12vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
-        left: 3788.4px;
-        width: 205.0px;
+    @media screen and (max-width:820px){
+        left: 462vw;
+        width: 25vw;
     }
 
     @media screen and (max-width:468px){
-        width: 109.2px;
-        left: 1053.0px;
-        bottom: 8.4px;
+        width: 28vw;
+        left: 270vw;
+        bottom: 1vh;
     }
 `
 
 export const GZB = styled.img`
     position: absolute;
-    bottom: 0.0px;
-    left: 5076.0px;
-    width: 1056.0px;
+    bottom: 0vh;
+    left: 470vh;
+    width: 55vw;
     height: auto;
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1024px){
-        width: 576.0px;
-        left: 2376.0px;
+        width: 30vw;
+        left: 220vh;
     }
 
-    @media screen and (max-width:821px){
+    @media screen and (max-width:820px){
         display: flex;
-        left: 3157.0px;
-        width: 943.0px;
+        left: 385vw;
+        width: 115vw;
     }
 
     @media screen and (max-width:468px){
-        width: 234.0px;
+        width: 60vw;
         display: none;
     }
 `
@@ -1084,7 +1058,7 @@ export const RoadmapRow = styled.div`
 `
 
 export const RoadmapColumn = styled.div`
-    padding: 0.0px;
+    padding: 0vh;
 `
 
 export const FlexboxRoadmapContainer = styled.div`
@@ -1093,8 +1067,8 @@ export const FlexboxRoadmapContainer = styled.div`
     justify-content: center;
     align-items: center;
     align-content: space-between;
-    padding: 0.0px;
-    left: 0.0px;
+    padding: 0vh;
+    left: 0vh;
 
 `
 
@@ -1102,23 +1076,26 @@ export const ColumnContent = styled.div`
     display: flex;
     justify-content: center;
     height: auto;
-
+    
 `
 
 export const ColumnContent2 = styled.div`
     display: flex;
     align-items: center;
-    padding: 0.0px;
-    width: 1344.0px;
+    padding: 0vh;
+    width: 70vw;
+
+  
 
     @media screen and (max-width:468px){
-        width: 117.0px;
+        width: 30vw;
     }
 `
 
+
 export const Img = styled.img`
     position: relative;
-    height: 648.0px;
+    height: 60vh;
     width: auto;
     display: flex;
     justify-content: center;

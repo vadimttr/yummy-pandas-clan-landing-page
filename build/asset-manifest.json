@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1302b589.css",
-    "main.js": "/static/js/main.ecb3ee13.js",
+    "main.js": "/static/js/main.c33af094.js",
     "static/media/houseMobile.PNG": "/static/media/houseMobile.a74a6015572a34a85c25.PNG",
     "static/media/svganimation.GIF": "/static/media/svganimation.6ca73e0d73f11680c7ba.GIF",
     "static/media/pandatreeroadmap.PNG": "/static/media/pandatreeroadmap.081cf0ef40c0ea06b7c2.PNG",
@@ -36,12 +36,23 @@
     "static/media/MilkyWay.PNG": "/static/media/MilkyWay.765994651aa105acfe73.PNG",
     "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.03e629f6348896ffa23a.ttf",
     "static/media/IMG_3540 1.png": "/static/media/IMG_3540 1.715a6a804a8fefa97f1b.png",
+    "static/media/rd12.png": "/static/media/rd12.3fb5d372295cf878e258.png",
+    "static/media/rd11.png": "/static/media/rd11.8c368fb661c8b78aa219.png",
     "static/media/7.png": "/static/media/7.3bd5a09f32684264396f.png",
+    "static/media/rd8.png": "/static/media/rd8.5d76db258e178074f8a4.png",
+    "static/media/rd9.png": "/static/media/rd9.ac989c7352debdb89311.png",
+    "static/media/rd1.png": "/static/media/rd1.614fd105a726dcb159f5.png",
     "static/media/6.png": "/static/media/6.9c9aa54dce867c6e20db.png",
+    "static/media/rd2.png": "/static/media/rd2.c39aa1fa6216626af21e.png",
+    "static/media/rd6.png": "/static/media/rd6.c504d5bef4f2ab8238e6.png",
     "static/media/1.png": "/static/media/1.c2df0676a0439e0208bc.png",
     "static/media/ufoBg.JPG": "/static/media/ufoBg.a6edc133aa06ed1e08a4.JPG",
+    "static/media/rd3.png": "/static/media/rd3.8eadb7402abc3310dfb8.png",
     "static/media/Panda with a map  2.png": "/static/media/Panda with a map  2.9f7ec66e1077ee861314.png",
-    "static/media/Слой 2 1.png": "/static/media/Слой 2 1.75f3d52dc063ab2f4118.png",
+    "static/media/rd7.png": "/static/media/rd7.d302ec89e39fff603478.png",
+    "static/media/rd5.png": "/static/media/rd5.d227601fbe1a44166290.png",
+    "static/media/rd4.png": "/static/media/rd4.027bf47a4413a872873f.png",
+    "static/media/rd10.png": "/static/media/rd10.f8b1bb9c910a3ffbeb13.png",
     "static/media/2.png": "/static/media/2.48f9bbb13ee726792f6b.png",
     "static/media/3.png": "/static/media/3.86dfdc64dee29343a23f.png",
     "static/media/5.png": "/static/media/5.7ce68df2004ed1cb536c.png",
@@ -71,10 +82,10 @@
     "static/media/opensea.png": "/static/media/opensea.80f337d687aaa2df8077.png",
     "index.html": "/index.html",
     "main.1302b589.css.map": "/static/css/main.1302b589.css.map",
-    "main.ecb3ee13.js.map": "/static/js/main.ecb3ee13.js.map"
+    "main.c33af094.js.map": "/static/js/main.c33af094.js.map"
   },
   "entrypoints": [
     "static/css/main.1302b589.css",
-    "static/js/main.ecb3ee13.js"
+    "static/js/main.c33af094.js"
   ]
 }
