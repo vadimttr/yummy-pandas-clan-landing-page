@@ -33,7 +33,7 @@ const Introduction = () => {
 
 
 
-                        <Bounce>
+                        
 
                         <ColumnContent>
                             <IntroH1>
@@ -63,7 +63,7 @@ const Introduction = () => {
                           
                         </ColumnContent>
 
-                        </Bounce>
+                        
 
                     </FlexboxIntroContainer>
                 </IntroColumn>

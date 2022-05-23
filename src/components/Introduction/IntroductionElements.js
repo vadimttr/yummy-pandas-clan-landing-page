@@ -2,20 +2,23 @@ import styled from "styled-components"
 import orbitron from '../../font/Orbitron-Regular.ttf'
 import Montserrat from '../../font/Montserrat.ttf'
 import BabyPanda from '../../font/BabyPanda.ttf'
+import Macondo from '../../font/Macondo.ttf'
 import bg from '../../image/coolimage2.JPG'
 import bgHouse from '../../image/house.jpg'
 import bgHouse468 from '../../image/introBG.JPG'
+
 
 export const IntroductionContainer = styled.div`
     background: white;
     display: flex;
     justify-content: center;
     padding: 0 0px;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     z-index: 1;
     align-items: center;
     background: #ffedbf;
+    overflow: hidden;
 
     @font-face {
         font-family: orbitron;
@@ -28,22 +31,23 @@ export const IntroductionContainer = styled.div`
     }
 
     @font-face {
-        font-family: panda;
-        src: url(${BabyPanda});
+        font-family: Macondo;
+        src: url(${Macondo});
     }
+   
     @media screen and (max-width:1024px){
-        height: 120vh;
+        min-height: 130vh;
     }
 
     @media screen and (max-width:468px){
-        height: auto;
+        min-height: 145vh;
     }
     
 `
 
 export const IntroBg = styled.div`
     position: absolute;
-    top: 0;
+    top: -6%;
     right: 0;
     left: 0;
     width: 100%;
@@ -52,33 +56,9 @@ export const IntroBg = styled.div`
     z-index: 0;
     background-image: url(${bgHouse468});
     background-size: cover;
-
-    @media screen and (max-width:1024px){
-     
-        background-image: url(${bgHouse});
-        background-size: cover;
-        background-position: center;
-    }
-
-    @media screen and (max-width:980px){
-       
-        background-image: url(${bgHouse});
-        background-size: cover;
-        background-position: center;
-    }
     
-    @media screen and (max-width:768px){
-        background-image: url(${bgHouse468});
-        background-size: cover;
-        background-position: center;
-    }
 
-    @media screen and (max-width:468px){
-        background-image: url(${bgHouse468});
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+  
 `
 
 export const HouseBg = styled.img`
@@ -93,14 +73,14 @@ export const HouseBg = styled.img`
     display: none;
 
     @media screen and (max-width:768px){
-        display: flex;
+        
         width: 50vw;
         bottom: 0;
         right: 0;
     }
 
     @media screen and (max-width:468px){
-        display: flex;
+        
         bottom: 0;
         right: 0;
         width: 80vw;
@@ -109,19 +89,21 @@ export const HouseBg = styled.img`
 
 export const Branch = styled.img`
     position: absolute;
-    top: 0;
+    bottom:0;
     left: 0;
-    width: 40vw;
+    width: 35vw;
     height: auto;
+    
     overflow: hidden;
     z-index: 0;
 
     @media screen and (max-width:1366px){
-        display: none;
+        
+        width: 40vw; 
     }
 
-    @media screen and (max-width:1024px){
-        display: none;
+    @media screen and (max-width:468px){
+        width: 70vw;
     }
 `
 
@@ -141,7 +123,12 @@ export const HousePC = styled.img`
     }
 
     @media screen and (max-width:1024px){
-        display: none;
+        width: 50vw;
+    }
+    @media screen and (max-width:468px){
+        width: 40vw;
+        right: 3vh;
+        bottom: 7vw;
     }
 `
 
@@ -216,24 +203,23 @@ export const ColumnContent = styled.div`
     }
 
     @media screen and (max-width:1024px){
-        width: 60vw;
-        top: 10vh;
+        width: 80vw;
+        top: -25vw;
         padding-left: 0vh;
         padding-right: 0vh;
-    }
+    }   
    
-    @media screen and (max-width:768px){
-        width: 68vw;
-        top: 5vh;
-        padding-left: 0vh;
-        padding-right: 0vh;
-    }
     
-    @media screen and (max-width:468px){
+    @media screen and (max-width:640px){
         width: 90vw;
-        top: 0vh;
+        top: -17vh;
         padding-left: 4vh;
         padding-right: 4vh;
+    }
+    @media screen and (max-width:468px){
+        top: -25vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
     }
 `
 
@@ -248,7 +234,7 @@ export const ColumnContent2 = styled.div`
 `
 
 export const IntroH1 = styled.h1`
-    font-family: panda;
+    font-family: Macondo;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -288,16 +274,27 @@ export const IntroP = styled.p`
     @media screen and (max-width:1024px){
         text-align: left;
         justify-content: flex-start;
-        font-size: 1.5vh;
+        font-size: 2vh;
+        line-height: 2.5vh;
+        letter-spacing: 0vh;
+        color: #000;
+        text-shadow: 0 0 0 #000;
+        
     }
 
     @media screen and (max-width:768px){
         text-align: left;
         justify-content: flex-start;
+        font-size: 1.5vh;
+        letter-spacing: .2vh;
+        line-height: 1.8vh;
     }
     
     @media screen and (max-width:468px){
-        text-shadow: 2px 2px #000;   
+        font-size: 1.5vh;
+        letter-spacing: .2vh;
+        line-height: 1.8vh;
+           
     }
 `
 
